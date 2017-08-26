@@ -2,7 +2,7 @@
 Pypgadmin is a python web apache to monitor Postgresql.
 
 
-System Requirements: (newest version is recommanded)
+System Requirements: (all newest version install on FreeBSD OS is recommended)
 Web service: Apache 
 Database : Postgresql
 Python module: 
