@@ -1,15 +1,15 @@
 def application(environment, start_response):
-	from webob import Request, Response
-	request = Request(environment)
-	params = request.params
-	post = request.POST
-	res = Response()
-	import importlib
-	import pyad.module
-	importlib.reload(pyad.module)
-	bootstrap = pyad.module.bootstrap
-	js = pyad.module.js
-	page = """
+    from webob import Request, Response
+    request = Request(environment)
+    params = request.params
+    post = request.POST
+    res = Response()
+    import importlib
+    import pyad.module
+    importlib.reload(pyad.module)
+    bootstrap = pyad.module.bootstrap
+    js = pyad.module.js
+    page = """
 	<!doctype html>
 		<html>
 			<head>
@@ -63,11 +63,11 @@ def application(environment, start_response):
 			</div><!-- /.modal-dialog -->		
 
 		</body>
-	</html>"""%(js,bootstrap,bootstrap)
+	</html>""" % (js, bootstrap, bootstrap)
 
-	response = Response(body = page,
-	content_type = "text/html",
-	charset = "utf8",
-	status = "200 OK")
+    response = Response(body=page,
+        content_type="text/html",
+        charset="utf8",
+        status="200 OK")
 
-	return response(environment, start_response)
+    return response(environment, start_response)
