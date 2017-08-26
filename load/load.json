@@ -1,0 +1,4 @@
+{"cars":[{"id": 1, "manufacturer": 1, "year": "admin", "price": "sdfsd"}, 
+		{"id": 2, "manufacturer": 1, "year": "admin", "price": "sdfsd"},
+		{"id": 3, "manufacturer": 1, "year": "admin", "price": "sdfsd"}],
+	"sum_page":1}
