@@ -1,7 +1,7 @@
-project ="/wsgi/googleq"
-control = "/wsgi/googleq/control"
-js ="%s/js"%project
-bootstrap = "%s/bootstrap"%project  
+project ="/wsgi/pyad"
+control = "%s/control"%project
+js ="http://192.168.0.136/pyad/js"
+bootstrap = "http://192.168.0.136/pyad/bootstrap"
 load = "%s/load"%project 
 save = "%s/save"%project    
 
@@ -69,9 +69,9 @@ headlink+="""
 			});
     </script>"""
     
-import importlib,agora.conn
-importlib.reload(agora.conn)    
-from agora.conn import conn
+import importlib,pyad.conn
+importlib.reload(pyad.conn)    
+from pyad.conn import conn
 import psycopg2
 import psycopg2.extras
 import psycopg2.extensions 

@@ -1,6 +1,6 @@
 #session
-import importlib,agora.module
-importlib.reload(agora.module)
+import importlib, pyad.module
+importlib.reload(pyad.module)
 
 session_opts = {
     'session.type': 'file',
@@ -8,6 +8,6 @@ session_opts = {
 #	'session.data_dir': './data',
 	'session.data_dir': '/tmp',
 #'session.domain' = '.domain.com',
-'session.path' : '%s'%agora.module.project,	
+'session.path' : '%s'%pyad.module.project,
 	'session.auto': True    
 }

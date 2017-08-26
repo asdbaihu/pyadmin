@@ -1,8 +1,8 @@
-import importlib,agora.module
-importlib.reload(agora.module)
+import importlib,pyad.module
+importlib.reload(pyad.module)
 
-data = "%s/login_form"%agora.module.project
-again = "%s/login_form_again"%agora.module.project
+data = "%s/login_form"%pyad.module.project
+again = "%s/login_form_again"%pyad.module.project
 loginform = """<!doctype html>
 		<html>
 			<head>
