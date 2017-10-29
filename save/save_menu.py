@@ -6,8 +6,8 @@ def application(environment, start_response):
 	params = request.params
 	post = request.POST
 	res = Response()
-	import pyad.login
-	importlib.reload(pyad.login)
+	import pyadmin.login
+	importlib.reload(pyadmin.login)
 	# Get the session object from the environ
 	session = environment['beaker.session']
 
@@ -15,14 +15,14 @@ def application(environment, start_response):
 	#user = 'username' in session
 
 	if not 'username' in session:
-		page = pyad.login.loginform
+		page = pyadmin.login.loginform
 		response = Response(body = page,
 		content_type = "text/html",
 		charset = "utf8",
 		status = "200 OK")
 
 	elif not 'password' in session:
-		page = pyad.login.loginform
+		page = pyadmin.login.loginform
 		response = Response(body = page,
 		content_type = "text/html",
 		charset = "utf8",
@@ -31,10 +31,10 @@ def application(environment, start_response):
 		user = session['username']
 		passwd = session['password']
 
-		import psycopg2,pyad.conn,datetime
-		importlib.reload(pyad.conn)
+		import psycopg2,pyadmin.conn,datetime
+		importlib.reload(pyadmin.conn)
 		try:
-			con = psycopg2.connect(pyad.conn.conn)
+			con = psycopg2.connect(pyadmin.conn.conn)
 		except:
 			page ="Can not access databases"
 
@@ -42,7 +42,7 @@ def application(environment, start_response):
 		cur.execute("select username,account_password,account_level from account where username=%s and account_password=%s ",(user,passwd,))
 		ps = cur.fetchall()
 		if len(ps) == 0:
-			page = pyad.login.login_again
+			page = pyadmin.login.login_again
 			response = Response(body = page,
 			content_type = "text/html",
 			charset = "utf8",
@@ -51,7 +51,7 @@ def application(environment, start_response):
 		else:
 			if ps[0][2] == 2:
 				if not 'table' in post:
-					page = pyad.login.login_again
+					page = pyadmin.login.login_again
 					response = Response(body = page,content_type = "text/html",	charset = "utf8", status = "200 OK")
 				else:
 					table = post['table']
@@ -104,7 +104,7 @@ def application(environment, start_response):
 				charset = "utf8",
 				status = "200 OK")
 			else:
-				page = pyad.login.login_again
+				page = pyadmin.login.login_again
 				response = Response(body = page,
 				content_type = "text/html",
 				charset = "utf8",
@@ -113,8 +113,8 @@ def application(environment, start_response):
 			cur.close()
 			con.close()
 	return response(environment, start_response)
-import pyad.sess
-importlib.reload(pyad.sess)
-session_opts = pyad.sess.session_opts
+import pyadmin.sess
+importlib.reload(pyadmin.sess)
+session_opts = pyadmin.sess.session_opts
 
 application = SessionMiddleware(application, session_opts)

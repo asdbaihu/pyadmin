@@ -6,8 +6,8 @@ def application(environment, start_response):
 	params = request.params
 	post = request.POST
 	res = Response()
-	import pyad.login
-	importlib.reload(pyad.login)
+	import pyadmin.login
+	importlib.reload(pyadmin.login)
 
 	# Get the session object from the environ
 	session = environment['beaker.session']
@@ -16,21 +16,21 @@ def application(environment, start_response):
 	#user = 'username' in session
 
 	if not 'username' in session:
-		page = pyad.login.loginform
+		page = pyadmin.login.loginform
 		response = Response(body = page,content_type = "text/html",charset = "utf8", status = "200 OK")
 	elif not 'password' in session:
-		page = pyad.login.loginform
+		page = pyadmin.login.loginform
 		response = Response(body = page,content_type = "text/html",charset = "utf8", status = "200 OK")
 	else:
 		user = session['username']
 		passwd = session['password']
 
-		import psycopg2,pyad.conn
-		importlib.reload(pyad.conn)
+		import psycopg2,pyadmin.conn
+		importlib.reload(pyadmin.conn)
 
 
 		try:
-			con = psycopg2.connect(pyad.conn.conn)
+			con = psycopg2.connect(pyadmin.conn.conn)
 		except:
 			page ="Can not access databases"
 
@@ -38,7 +38,7 @@ def application(environment, start_response):
 		cur.execute("select username,account_password,account_level from account where username=%s and account_password=%s ",(user,passwd,))
 		ps = cur.fetchall()
 		if len(ps) == 0:
-			page = pyad.login.login_again
+			page = pyadmin.login.login_again
 			response = Response(body = page,content_type = "text/html",charset = "utf8", status = "200 OK")
 		else:
 			if ps[0][2] == 2:
@@ -130,6 +130,11 @@ def application(environment, start_response):
 
 				if 'table' in post:
 					if post['table'] !='':
+						if post['table'] == 'create':
+							cur.execute("select *from (select 'create successful' as status) as success")
+							rows_count=1
+							rows  = cur.fetchall()
+							
 						if len(query)> 0:
 							#try:
 							cur.execute("""select count(*) from ("""  + que + """) as jotikaandmendaka where """ +  """ and """.join(query) )
@@ -140,7 +145,7 @@ def application(environment, start_response):
 							#except:
 							#	rows_count=[0]
 							#	rows = []
-							a = """select * from ("""  + que + """) as jotikaandmendaka where """ + """ and """.join(query) + """ order by """ + """,""".join(orderby) +""" """ + by + """ limit %s offset %s """%(display,start)
+							#a = """select * from ("""  + que + """) as jotikaandmendaka where """ + """ and """.join(query) + """ order by """ + """,""".join(orderby) +""" """ + by + """ limit %s offset %s """%(display,start)
 						else:
 
 							#try:
@@ -148,7 +153,7 @@ def application(environment, start_response):
 							rows_count = cur.fetchone()
 							cur.execute("""select * from ("""  + que + """) as jotikaandmendaka  order by """ + """,""".join(orderby) +""" """ + by + """ limit %s offset %s """%(display,start))
 							rows = cur.fetchall()
-							a ="""select * from ("""  + que + """) as jotikaandmendaka  order by """ + """,""".join(orderby) +""" """ + by + """ limit %s offset %s """%(display,start)
+							#a ="""select * from ("""  + que + """) as jotikaandmendaka  order by """ + """,""".join(orderby) +""" """ + by + """ limit %s offset %s """%(display,start)
 							#except:
 							#	rows_count=[0]
 							#	rows = []
@@ -181,8 +186,8 @@ def application(environment, start_response):
 
 						#print(objects_list)
 						page += json.dumps(objects_list)
-						page +=""","sum_page":%s,"test":"%s" }"""%(int(sum_page),a)
-
+						page +=""","sum_page":%s}"""%(int(sum_page))
+				
 					else:
 						page =""
 
@@ -216,14 +221,14 @@ def application(environment, start_response):
 				charset = "utf8",
 				status = "200 OK")
 			else:
-				page = pyad.login.login_again
+				page = pyadmin.login.login_again
 				response = Response(body = page,content_type = "text/html",charset = "utf8", status = "200 OK")
 			con.commit()
 			cur.close()
 			con.close()
 	return response(environment, start_response)
-import pyad.sess
-importlib.reload(pyad.sess)
-session_opts = pyad.sess.session_opts
+import pyadmin.sess
+importlib.reload(pyadmin.sess)
+session_opts = pyadmin.sess.session_opts
 
 application = SessionMiddleware(application, session_opts)

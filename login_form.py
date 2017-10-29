@@ -5,10 +5,10 @@ def application(environment, start_response):
     post = request.POST
     res = Response()
     import importlib
-    import pyad.module
-    importlib.reload(pyad.module)
-    bootstrap = pyad.module.bootstrap
-    js = pyad.module.js
+    import pyadmin.module
+    importlib.reload(pyadmin.module)
+    bootstrap = pyadmin.module.bootstrap
+    js = pyadmin.module.js
     page = """
 	<!doctype html>
 		<html>

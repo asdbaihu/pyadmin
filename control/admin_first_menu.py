@@ -7,9 +7,9 @@ def application(environment, start_response):
 	post = request.POST
 	res = Response()
 
-	import pyad.conn,pyad.login
-	importlib.reload(pyad.conn)
-	importlib.reload(pyad.login)
+	import pyadmin.conn,pyadmin.login
+	importlib.reload(pyadmin.conn)
+	importlib.reload(pyadmin.login)
 
 	# Get the session object from the environ
 	session = environment['beaker.session']
@@ -23,16 +23,16 @@ def application(environment, start_response):
 	#user_id = 'user_id' in session
 
 	if not 'username' in session:
-		page = pyad.login.loginform
+		page = pyadmin.login.loginform
 	elif not 'password' in session:
-		page = pyad.login.loginform
+		page = pyadmin.login.loginform
 	else:
 		user = session['username']
 		passwd = session['password']
 
-		import psycopg2,psycopg2.extras,psycopg2.extensions,pyad.module
+		import psycopg2,psycopg2.extras,psycopg2.extensions,pyadmin.module
 		try:
-			con = psycopg2.connect(pyad.conn.conn)
+			con = psycopg2.connect(pyadmin.conn.conn)
 		except:
 			page ="Can not access databases"
 
@@ -40,11 +40,11 @@ def application(environment, start_response):
 		cur.execute("select username,account_password,account_level from account where username=%s and account_password=%s ",(user,passwd,))
 		ps = cur.fetchall()
 		if len(ps) == 0:
-			page = pyad.login.login_again
+			page = pyadmin.login.login_again
 		else:
 			if int(ps[0][2]) == 2:
-				importlib.reload(pyad.module)
-				from pyad.module import head,headlink,menuadmin,menuuser,load,save,menuhead,menufoot
+				importlib.reload(pyadmin.module)
+				from pyadmin.module import head,headlink,menuadmin,menuuser,load,save,menuhead,menufoot
 
 				if not 'table' in post:
 					table = 'admin_first_menu'
@@ -91,7 +91,7 @@ def application(environment, start_response):
 							<br />
 					<br />								
 									  <h2>Edit menu %s</h2> 
-						<br />
+						<br /><nav class='navbar navbar-default'>
 								<form method="post" action="">
 									<select name="table" onchange='if(this.value != 0) { this.form.submit(); }' >
 										<option value="%s">%s</option>
@@ -100,9 +100,12 @@ def application(environment, start_response):
 										<option value="first_menu">user first menu level</option>
 										<option value="second_menu">user second menu level</option>
 									</select>									
-								Row : <input class="input-mini" type="number" name ="display" value = %s />"""%(table, table, table,display)
+											<div class="btn-group col-sm-1">
+				<input class="btn-group form-control col-sm-1" type="number" name ="display" value = %s />
+				</div>"""%(table, table, table,display)
 				page += """		<input type="submit" value="Chon" />
 								</form>
+								</nav>
 
 		<p>
 		<button name="load" id="load_dog">Load</button>
@@ -318,7 +321,7 @@ def application(environment, start_response):
 		</html>
 		"""
 			else:
-				page=pyad.login.login_again
+				page=pyadmin.login.login_again
 
 		con.commit()
 		cur.close()
@@ -332,7 +335,7 @@ def application(environment, start_response):
 	return response(environment, start_response)
 
 # Configure the SessionMiddleware
-import pyad.sess
-importlib.reload(pyad.sess)
-session_opts = pyad.sess.session_opts
+import pyadmin.sess
+importlib.reload(pyadmin.sess)
+session_opts = pyadmin.sess.session_opts
 application = SessionMiddleware(application, session_opts)

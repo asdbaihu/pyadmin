@@ -7,9 +7,9 @@ def application(environ, start_response):
     # from datetime import datetime
     # request = Request(environ)
     # post = request.POST
-    import importlib, pyad.login
-    importlib.reload(pyad.login)
-    from pyad import login
+    import importlib, pyadmin.login
+    importlib.reload(pyadmin.login)
+    from pyadmin import login
 
 
     # Get the session object from the environ
@@ -24,16 +24,16 @@ def application(environ, start_response):
     # user_id = 'user_id' in session
 
     if not 'username' in session:
-        page = pyad.login.loginform
+        page = pyadmin.login.loginform
     elif not 'password' in session:
-        page = pyad.login.loginform
+        page = pyadmin.login.loginform
     else:
         user = session['username']
         passwd = session['password']
 
-        import psycopg2, hashlib, pyad.conn
-        importlib.reload(pyad.conn)
-        from pyad.conn import conn
+        import psycopg2, hashlib, pyadmin.conn
+        importlib.reload(pyadmin.conn)
+        from pyadmin.conn import conn
         try:
             con = psycopg2.connect(conn)
         except:
@@ -45,11 +45,11 @@ def application(environ, start_response):
             (user, passwd,))
         ps = cur.fetchall()
         if len(ps) == 0:
-            page = pyad.login.login_again
+            page = pyadmin.login.login_again
         else:
-            import pyad.module
-            importlib.reload(pyad.module)
-            from pyad.module import head, headlink, menuadmin, menuuser, menuhead, menufoot
+            import pyadmin.module
+            importlib.reload(pyadmin.module)
+            from pyadmin.module import head, headlink, menuadmin, menuuser, menuhead, menufoot
 
 
             page = ""
@@ -85,8 +85,8 @@ def application(environ, start_response):
     return response(environ, start_response)
 
 # Configure the SessionMiddleware
-import pyad.sess
+import pyadmin.sess
 
-importlib.reload(pyad.sess)
-session_opts = pyad.sess.session_opts
+importlib.reload(pyadmin.sess)
+session_opts = pyadmin.sess.session_opts
 application = SessionMiddleware(application, session_opts)

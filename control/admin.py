@@ -7,9 +7,9 @@ def application(environment, start_response):
 	post = request.POST
 	res = Response()
 
-	import pyad.conn,pyad.login
-	importlib.reload(pyad.conn)
-	importlib.reload(pyad.login)
+	import pyadmin.conn,pyadmin.login
+	importlib.reload(pyadmin.conn)
+	importlib.reload(pyadmin.login)
 
 	# Get the session object from the environ
 	session = environment['beaker.session']
@@ -19,16 +19,16 @@ def application(environment, start_response):
 	#user_id = 'user_id' in session
 
 	if not 'username' in session:
-		page = pyad.login.loginform
+		page = pyadmin.login.loginform
 	elif not 'password' in session:
-		page = pyad.login.loginform
+		page = pyadmin.login.loginform
 	else:
 		user = session['username']
 		passwd = session['password']
 
-		import psycopg2,pyad.module,re
+		import psycopg2,pyadmin.module,re
 		try:
-			con = psycopg2.connect(pyad.conn.conn)
+			con = psycopg2.connect(pyadmin.conn.conn)
 		except:
 			page ="Can not access databases"
 
@@ -36,11 +36,11 @@ def application(environment, start_response):
 		cur.execute("select username,account_password,account_level from account where username=%s and account_password=%s ",(user,passwd,))
 		ps = cur.fetchall()
 		if len(ps) == 0:
-			page = pyad.login.login_again
+			page = pyadmin.login.login_again
 		else:
 			if int(ps[0][2]) == 2:
-				importlib.reload(pyad.module)
-				from pyad.module import head,headlink,menuadmin,menuuser,load,save,menuhead,menufoot
+				importlib.reload(pyadmin.module)
+				from pyadmin.module import head,headlink,menuadmin,menuuser,load,save,menuhead,menufoot
 
 				from datetime import datetime,date
 				year_today = date.today().year
@@ -282,7 +282,7 @@ def application(environment, start_response):
 
 					else:
 						columns.append({})
-				saveurl ="""'%s/save_account_backup'"""%save
+				saveurl ="""'%s/save_admin'"""%save
 				loadurl = """'%s/load_admin'"""%load
 				page=""
 				page +=head
@@ -305,17 +305,18 @@ def application(environment, start_response):
 							<br />"""
 				page += """<ul class="nav nav-tabs">
 								<li class="active"><a href="%s/account_manager">%s</a></li>
-							</ul>"""%(pyad.module.control,table)
+							</ul>"""%(pyadmin.module.control,table)
 				page +="""<h2>Table  %s</h2>"""%(table)
-
 				page +=	"""Order by: %s. Sort by: %s. Hide columns: %s	| Hide filter: %s + %s  <br />
-								<form method="post" action="">
-<div class='navbar-inner'>								
-								<div class="btn-group">
-								  <input list="table" name="table" value="%s"  onchange='if(this.value != 0) { this.form.submit(); }'>
+				<nav class='navbar navbar-default'>
+								<form method="post" action="">								
+								<div class="btn-group col-sm-2">
+								<label>Table:
+								<input list="table" name="table" value="%s"  onchange='if(this.value != 0) { this.form.submit(); }'>
 								  <datalist id="table">
 									%s
 								  </datalist>
+								</label> 
 								 </div> 	
 <select id="example-single-selected">
  <option value="">test</option>
@@ -369,21 +370,22 @@ def application(environment, start_response):
 				page += hidefilter
 				page += grofil
 				page += "</div>"
-				page += """Show filter<input class="input-mini" type="checkbox" onclick="myFunction()"/>"""
+				page += """Show filter <input class="btn-group" type="checkbox" onclick="myFunction()"/>"""
 				page +="""
-				Row : <input class="input-mini" type="number" name ="display" value = %s />"""%(display)
+			<div class="btn-group col-sm-1">
+				<input class="btn-group form-control col-sm-1" type="number" name ="display" value = %s />
+				</div>
+				"""%(display)
 				page += """		<input type="submit" id ="chon" value="Chon" />
 					
 				</div>
 								</form>
+								</nav>
 
 	  <p>
 		<button name="load" id="load_dog">Load</button>
 		<button name="reset">Reset</button>
 		<label><input id="autosave" type="checkbox" name="autosave" checked="checked" autocomplete="off"> Autosave</label>
-	  </p>
-	  <p>
-		Instruction:Username must be unique, not duplicate. Should input account level column first, account level must be integer and not empty please. Do not forget input account level . Account level 2 is admin user and 1 is normal user.After insert new row, should update password last. Password always update last. No space in name column. Ex: "Ex Size" is wrong . Must be change "ExSize". Shoul be remove " in name column. Shoul be change "ExSize" to ExSize. Because it's no time to fix this.
 	  </p>
 		<div>
 	  <span id="exampleConsole" class="console">Click "Load" to load data from server </span> | 
@@ -591,7 +593,7 @@ document.getElementById("load_dog").click();
 			  $console.text('Data loaded');
 			  hot.loadData(data);
 			  
-			  $(".page2").html("<strong>Page 1/ "  + Math.round(res.sum_page)+"</strong> ::::" + res.test);
+			  $(".page2").html("<strong>Page 1/ "  + Math.round(res.sum_page)+"</strong>");
 										$('.demo2').bootpag({
 											total: res.sum_page,
 											page: 1,
@@ -672,7 +674,7 @@ document.getElementById("load_dog").click();
 """
 
 			else:
-				page=pyad.login.login_again
+				page=pyadmin.login.login_again
 
 		con.commit()
 		cur.close()
@@ -686,7 +688,7 @@ document.getElementById("load_dog").click();
 	return response(environment, start_response)
 
 # Configure the SessionMiddleware
-import pyad.sess
-importlib.reload(pyad.sess)
-session_opts = pyad.sess.session_opts
+import pyadmin.sess
+importlib.reload(pyadmin.sess)
+session_opts = pyadmin.sess.session_opts
 application = SessionMiddleware(application, session_opts)
