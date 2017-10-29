@@ -1,14 +1,14 @@
-# simplepypgadmin
-Pypgadmin is a python web apache to monitor Postgresql.
+#Pyadmin
 
+Pyadmin is a tool for managing content in Postgresql databases. Pyadmin is written in python, serving python scripts with apache mod_wsgi for managing content in Postgresql databases. System Requirements: (all newest version install on FreeBSD OS is recommended). Web service: Apache. Database : Postgresql. Python module:
 
-System Requirements: (all newest version install on FreeBSD OS is recommended)
-Web service: Apache 
-Database : Postgresql
-Python module: 
-+ Modwsgi module
-+ Psycopg2
-+ Webob
-+ beaker
+ +   Modwsgi
+  +  Psycopg2
+   + Webob
+    +beaker ... 
+    
+    +Useful resources: http://koo.fi/blog/2012/12/02/serving-python-scripts-with-apache-mod_wsgi-part-i/
 
++https://www.youtube.com/watch?v=HWpctdhd2W4
 
++http://simplepypgadmin.blogspot.com/2017/07/
