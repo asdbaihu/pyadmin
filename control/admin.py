@@ -486,6 +486,7 @@ hiddenColumns: true,
 		  minSpareCols: 0,
 		  minSpareRows: 1,
 		  contextMenu: true,
+		  
 			beforeRemoveRow: function(index, amount) {
 			var dellist=[];
 			for(var i=0; i<amount; i++){

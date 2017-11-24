@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)https://crowd-compute.appspot.com/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}</style>
+    <script src="./silhouette_files/cb=gapi.loaded_2" async=""></script><script src="./silhouette_files/cb=gapi.loaded_1" async=""></script><script src="./silhouette_files/cb=gapi.loaded_0" async=""></script><script src="./silhouette_files/csi_head.js"></script>
+    <title>Crowd Compute Worker UI</title>
+
+    <link rel="stylesheet" href="https://crowd-compute.appspot.com/css/bootstrap.css">
+    <link rel="stylesheet" href="https://crowd-compute.appspot.com/crowdcompute.css">
+    <script type="text/javascript">CLOSURE_NO_DEPS = true;</script>
+    <script src="./silhouette_files/angular.js"></script>
+    <script src="./silhouette_files/angular-resource.js"></script>
+    <script src="./silhouette_files/angular-route.js"></script>
+    <script src="./silhouette_files/ui_bootstrap_tpls.js"></script>
+    <script src="./silhouette_files/client.js" gapi_processed="true"></script>
+    <script src="./silhouette_files/api.js" gapi_processed="true"></script>
+    <script src="./silhouette_files/jsapi"></script>
+    <script src="./silhouette_files/appconfig"></script>
+    <script src="./silhouette_files/csi_tail.js"></script>
+    <script src="./silhouette_files/cc_client_external.js"></script>
+  </head>
+  <body ng-app="crowdComputeAppExternal" class="ng-scope">
+    <div class="table-layout ng-scope" ng-controller="MainCtrl as mainCtrl">
+      <div class="table-layout-row" ng-show="!mainCtrl.isTabFullScreen">
+        <div class="table-layout-cell row-fluid" style="height=60px; padding:0.2em">
+          <!-- Icon and title. -->
+          <div class="span4">
+            <img src="./silhouette_files/cc_logo.png" style="vertical-align:middle" class="logo">
+            <h3>Crowd Compute Worker UI</h3>
+          </div>
+          <!-- Login button. Only displayed when not authorized. -->
+          <div class="span8 ng-hide" style="text-align: right" ng-hide="authentication.authorized">
+            <button class="btn btn-primary" ng:click="authentication.authorize()">
+              Login
+            </button>
+          </div>
+          <!-- User email and picture. Only displayed when authorized. -->
+          <div class="span8" style="text-align: right" ng-show="authentication.authorized">
+            <div class="pull-right">
+              <img ng-src="https://lh3.googleusercontent.com/-Smk1-7ryWHY/AAAAAAAAAAI/AAAAAAAAAX8/kTjS1yKPKz0/s40/photo.jpg" class="user-profile" src="./silhouette_files/photo.jpg">
+              <button class="btn btn-danger" ng-click="authentication.logout()">
+                Logout
+              </button>
+            </div>
+            <div class="pull-right ng-binding">
+              bpo3tavannam@gmail.com<br>
+              <!-- Information about worker. -->
+              <b>language(s)</b>: en, harveynash |
+              <b>type(s)</b>: omnivore_attribute
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ngIf: authentication.authorized && !authentication.worker -->
+      <!-- ngIf: authentication.worker --><div ng-if="authentication.worker" class="table-layout-row ng-scope">
+        <!-- ngInclude: 'html/iframe_workbench.html' --><div ng-include="&#39;html/iframe_workbench.html&#39;" class="table-layout-cell ng-scope" style="width:100%; height:100%"><div class="tab-contents fill ng-scope" ng-controller="IframeWorkbenchCtrl as iframeWorkbenchCtrl">
+  <!-- The div below is always shown, but it's styling changes if we are full screen.  -->
+  <div class="table-layout well well-small fill" id="fullscreen_worker_div" ng-style="iframeWorkbenchCtrl.getFullscreenStyle()">
+    <div class="table-layout-row">
+      <div class="table-layout-cell">
+        <!-- Fullscreen button. -->
+      <div class="btn pull-left ng-scope" ng-show="iframeWorkbenchCtrl.canGoFullScreen()" ng-click="iframeWorkbenchCtrl.toggleFullScreenClick()" tooltip="Toggle Fullscreen" id="fullscreen-button">
+          <i class="icon-fullscreen"></i>
+        </div>
+        <div class="btn pull-left ng-scope" ng-show="!iframeWorkbenchCtrl.isFullscreen()" ng-click="iframeWorkbenchCtrl.toggleButtonClick()" tooltip="Toggle Fullscreen in Tab" id="fullscreen-button">
+          <i class="icon-resize-full"></i>
+        </div>
+        <!-- Reload button. -->
+        <div class="btn pull-left ng-scope" ng-click="iframeWorkbenchCtrl.reload()" tooltip="Reload">
+          <i class="icon-refresh"></i>
+        </div>
+        <!-- Additional details for plugin and question. -->
+        <div class="btn pull-left ng-scope" ng-click="iframeWorkbenchCtrl.info()" tooltip="Information">
+          <i class="icon-info-sign"></i>
+        </div>
+        <span id="skip-controls" ng-show="iframeWorkbenchCtrl.isShowingQuestion()" style="margin-left: 10px" class="">
+          <select class="pull-left ng-pristine ng-valid" style="margin-left: 10px" ng-model="iframeWorkbenchCtrl.skipPick" ng-options="skipOpt.name for skipOpt in iframeWorkbenchCtrl.skipOpts"><option value="0" selected="selected">Skip Reason</option><option value="1">Broken Question</option><option value="2">Other</option></select>
+          <span ng-show="iframeWorkbenchCtrl.skipPick.comReq" class="ng-hide">
+             <input type="text" ng-model="iframeWorkbenchCtrl.skipReason" style="margin-left: 10px" class="pull-left ng-pristine ng-invalid ng-invalid-required" required="">
+          </span>
+          <button id="skip-button" ng-click="iframeWorkbenchCtrl.skip()" class="btn pull-left" style="margin-left: 10px">
+            Skip
+          </button>
+        </span>
+        <!-- The awesome box, which shows how many questions are loaded and allows switching -->
+        <div style="margin-left: 10px" class="pull-left" id="the-awesome-box">
+          <!-- ngRepeat: (idx, frame) in iframeWorkbenchCtrl.questionGroup.getAllFrames() --><div ng-repeat="(idx, frame) in iframeWorkbenchCtrl.questionGroup.getAllFrames()" class="awesome-box ng-scope awesome-box-selected" ng-class="{&#39;awesome-box-selected&#39;: idx==iframeWorkbenchCtrl.questionGroup.getCurrentIndex(),
+                          &#39;awesome-box-answered&#39;: frame.getQInfo().answered,
+                          &#39;icon-ok&#39;: frame.getQInfo().finished,
+                          &#39;icon-remove&#39;: frame.getQInfo().failed}" ng-click="iframeWorkbenchCtrl.awesomeBoxClick(idx)">
+          </div><!-- end ngRepeat: (idx, frame) in iframeWorkbenchCtrl.questionGroup.getAllFrames() --><div ng-repeat="(idx, frame) in iframeWorkbenchCtrl.questionGroup.getAllFrames()" class="awesome-box ng-scope" ng-class="{&#39;awesome-box-selected&#39;: idx==iframeWorkbenchCtrl.questionGroup.getCurrentIndex(),
+                          &#39;awesome-box-answered&#39;: frame.getQInfo().answered,
+                          &#39;icon-ok&#39;: frame.getQInfo().finished,
+                          &#39;icon-remove&#39;: frame.getQInfo().failed}" ng-click="iframeWorkbenchCtrl.awesomeBoxClick(idx)">
+          </div><!-- end ngRepeat: (idx, frame) in iframeWorkbenchCtrl.questionGroup.getAllFrames() -->
+        </div>
+        <!-- Info when workers fail to answer a question before its expiration.
+             In this case, we stop pushing questions to workers until they
+             acknowledge not idle. -->
+        <div class="pull-left">
+          <div class="compact_warning alert ng-isolate-scope ng-hide" ng-class="type &amp;&amp; &quot;alert-&quot; + type" ng-show="iframeWorkbenchCtrl.errorMessage" close="iframeWorkbenchCtrl.errorMessage=&#39;&#39;">
+    <button ng-show="closeable" type="button" class="close" ng-click="close()">×</button>
+    <div ng-transclude=""><span class="ng-scope ng-binding">
+            
+          </span></div>
+</div>
+        </div>
+        <span ng-show="iframeWorkbenchCtrl.canGetMoreQuestion()" style="margin-left: 10px" class="ng-hide">
+          <button class="btn btn-primary" ng-click="questions.startGettingQuestions()">
+              Get more questions</button>
+        </span>
+        <!-- Time left. -->
+        <!-- ngIf: iframeWorkbenchCtrl.showTimeLeft -->
+        <!-- Answer counter. -->
+        <span id="answer-count" style="margin-right: 10px" class="pull-right ng-binding">
+             Submitted Answers: 0
+        </span>
+      </div>  <!-- End of table-layout-cell -->
+    </div>  <!-- End of table-layout-row -->
+
+    <div class="table-layout-row fill">
+      <!-- The plugin is injected as a child iframe of this div. -->
+      <div id="qframeParent" class="table-layout-cell qaFrameParent">
+        <!-- PLUGIN. -->
+      <div class="fill" style=""><iframe name="xpcpeerSEyq" id="xpcpeerSEyq" class="fill cc-iframe" src="./silhouette_files/index.html"></iframe></div><div class="fill" style="display: none;"><iframe name="xpcpeerSg9V" id="xpcpeerSg9V" class="fill cc-iframe" src="./silhouette_files/index(1).html"></iframe></div></div>
+    </div>
+  </div>  <!-- End of fullscreen_worker_div -->
+</div>  <!-- End of outer ng-controller. -->
+</div>
+      </div><!-- end ngIf: authentication.worker -->
+  
+
+</div><iframe name="oauth2relay401167554" id="oauth2relay401167554" src="./silhouette_files/postmessageRelay.html" tabindex="-1" style="width: 1px; height: 1px; position: absolute; top: -100px;"></iframe><iframe id="apiproxyfae8938b3068f4a03b6f58c9cfb1dfa55b00decb0.8434482263401151" name="apiproxyfae8938b3068f4a03b6f58c9cfb1dfa55b00decb0.8434482263401151" src="./silhouette_files/proxy.html" tabindex="-1" style="width: 1px; height: 1px; position: absolute; top: -100px;"></iframe><iframe src="./silhouette_files/auth.html" style="width: 1px; height: 1px; position: absolute; top: -100px;"></iframe></body></html>

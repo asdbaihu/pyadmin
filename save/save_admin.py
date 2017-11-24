@@ -1,5 +1,5 @@
 from beaker.middleware import SessionMiddleware
-import importlib
+import importlib,json
 def application(environment, start_response):
 	from webob import Request, Response
 	request = Request(environment)
@@ -96,7 +96,7 @@ def application(environment, start_response):
 									elif types[post['update[%s][column]'%i]]=='bigint':
 										cur.execute("update " + table + " set "+ post['update[%s][column]'%i] +""" = NULLIF(%s,'')::int, update_time = %s  where id = %s """,(post['update[%s][value]'%i], datetime.datetime.today(),post['update[%s][id]'%i]))
 									elif types[post['update[%s][column]'%i]]=='json':
-										cur.execute("update " + table + " set "+ post['update[%s][column]'%i] +""" = NULLIF(%s,'')::json, update_time = %s  where id = %s """,(post['update[%s][value]'%i], datetime.datetime.today(),post['update[%s][id]'%i]))
+										cur.execute("update " + table + " set "+ post['update[%s][column]'%i] +""" = NULLIF(%s,'')::json, update_time = %s  where id = %s """,(json.dumps(post['update[%s][value]'%i]), datetime.datetime.today(),post['update[%s][id]'%i]))
 
 
 									else:
@@ -121,7 +121,7 @@ def application(environment, start_response):
 									elif types[colname]=='bigint':
 										values +=("NULLIF('" + post['insert[%s][%s]'%(i,colname)].replace("'","''") + "','')::integer",)
 									elif types[colname]=='json':
-										values +=("NULLIF('" + post['insert[%s][%s]'%(i,colname)].replace("'","''") + "','')::json",)
+										values +=("NULLIF('" + json.dumps(post['insert[%s][%s]'%(i,colname)].replace("'","''")) + "','')::json",)
 									elif types[colname]=='timestamp without time zone':
 										values +=("NULLIF('" + post['insert[%s][%s]'%(i,colname)].replace("'","''") + "','')::timestamp",)
 									else:
