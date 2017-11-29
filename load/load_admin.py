@@ -184,9 +184,12 @@ def application(environment, start_response):
                                     d[cols[j]] = str(row[i][j])
                                 elif type(row[i][j]).__name__ == 'float':
                                     d[cols[j]] = str(round(row[i][j], 9))
+                                elif type(row[i][j]).__name__ == 'Decimal':
+                                    d[cols[j]] = str(row[i][j])
                                 elif type(row[i][j]).__name__ == 'dict' or type(row[i][j]).__name__ == 'list':
                                     d[cols[j]] = json.dumps(row[i][j], ensure_ascii=False).encode('utf8').decode(
                                         'utf-8')
+
                                 else:
                                     d[cols[j]] = row[i][j]
                             objects_list.append(d)
