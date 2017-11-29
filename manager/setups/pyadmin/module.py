@@ -1,7 +1,7 @@
 project ="/wsgi/pyadmin"
 control = "%s/control"%project
-js ="%s/js"%project
-bootstrap = "%s/bootstrap"%project  
+js ="pyadmin/js"
+bootstrap = "pyadmin/bootstrap"
 load = "%s/load"%project 
 save = "%s/save"%project    
 
