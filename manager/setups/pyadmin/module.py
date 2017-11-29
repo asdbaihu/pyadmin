@@ -1,7 +1,7 @@
 project ="/wsgi/pyadmin"
 control = "%s/control"%project
-js ="pyadmin/js"
-bootstrap = "pyadmin/bootstrap"
+js ="/pyadmin/js"
+bootstrap = "/pyadmin/bootstrap"
 load = "%s/load"%project 
 save = "%s/save"%project    
 
@@ -30,16 +30,18 @@ csscheckbox =""".multiselect-container>li>a>label {
 
 
 headlink ="""<script type="text/javascript" src="%s/jquery.min.js"></script>"""%js
+headlink+="""<script type="text/javascript" src="%s/jquery.bootpag.min.js"></script>"""%js
 headlink+="""<script type="text/javascript" src="%s/js/bootstrap.js"></script>
 <script type="text/javascript" src="%s/js/dropdowns-enhancement.js"></script>
 <script type="text/javascript" src="%s/js/bootstrap-multiselect.js"></script>
 
 """%(bootstrap,bootstrap,bootstrap)
+
 headlink+="""<link rel="stylesheet" href="%s/css/bootstrap.css" type="text/css">
 <link rel="stylesheet" href="%s/css/dropdowns-enhancement.css" type="text/css">
 <link rel="stylesheet" href="%s/css/bootstrap-multiselect.css" type="text/css"/>
 			"""%(bootstrap,bootstrap,bootstrap)
-headlink+="""<script type="text/javascript" src="%s/jquery.bootpag.min.js"></script>"""%js			
+			
 headlink+="""<script type="text/javascript" data-jsfiddle="common" src="%s/handsontable.full.js"></script>"""%js
 headlink+="""<link data-jsfiddle="common" rel="stylesheet" media="screen" href="%s/handsontable.full.css" type="text/css">"""%js
 headlink+="""<!-- the below is only needed for DateCell (uses jQuery UI Datepicker) -->"""
