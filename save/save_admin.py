@@ -120,7 +120,11 @@ def application(environment, start_response):
                                             'update[%s][column]' % i] + """ = NULLIF(%s,'')::json, update_time = %s  where id = %s """,
                                                     (json.dumps(post['update[%s][value]' % i]),
                                                      datetime.datetime.today(), post['update[%s][id]' % i]))
-
+                                    elif types[post['update[%s][column]' % i]] == 'timestamp without time zone':
+                                        cur.execute("update " + table + " set " + post[
+                                            'update[%s][column]' % i] + """ = NULLIF(%s,'')::timestamp, update_time = %s  where id = %s """,
+                                                    (json.dumps(post['update[%s][value]' % i]),
+                                                     datetime.datetime.today(), post['update[%s][id]' % i]))
 
                                     else:
                                         cur.execute("update " + table + " set " + post[
