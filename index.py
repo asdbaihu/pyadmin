@@ -72,7 +72,60 @@ def application(environ, start_response):
             <br />
             <br />"""
 
-            page += "<p> You are successfully logged in !</p>"
+            page += """<p> You are successfully logged in !</p>
+            <div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">Dashboard</div>
+
+                <div class="panel-body">
+                    <canvas id="line-chart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    window.onload = function () {
+        Chart.defaults.global.defaultFontColor = '#000000';
+        Chart.defaults.global.defaultFontFamily = 'Arial';
+        var lineChart = document.getElementById('line-chart');
+        var myChart = new Chart(lineChart, {
+            type: 'line',
+            data: {
+                labels: ["Jan", "Feb", "Mar", "Apr", "May", "June"],
+                datasets: [
+                    {
+                        label: 'PHP Activities',
+                        data: [80, 30, 63, 20, 110, 3],
+                        backgroundColor: 'rgba(0, 128, 128, 0.3)',
+                        borderColor: 'rgba(0, 128, 128, 0.7)',
+                        borderWidth: 1
+                    },
+                    {
+                        label: 'Ruby Activities',
+                        data: [18, 72, 10, 39, 19, 75],
+                        backgroundColor: 'rgba(0, 128, 128, 0.7)',
+                        borderColor: 'rgba(0, 128, 128, 1)',
+                        borderWidth: 1
+                    }
+                ]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero:true
+                        }
+                    }]
+                },
+            }
+        });
+    };
+</script>
+            
+            """
 
         con.commit()
         cur.close()
