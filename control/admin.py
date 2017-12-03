@@ -75,7 +75,6 @@ def application(environment, start_response):
                 else:
                     by = post['by']
                 que = ""
-
                 if 'table' in post:
                     if post['table'] != "":
                         table = post['table']
@@ -205,6 +204,9 @@ def application(environment, start_response):
                     movecols = ""
                     que = ""
 
+                if 'table' in params:
+                    table = params.getall('table')[0]
+
                 colHeaders = [co.title().replace("_", " ") for co in cols]
 
                 cur.execute("select tablename,query from settings order by id")
@@ -229,7 +231,7 @@ def application(environment, start_response):
                                                       " ") + """ > <input class="input-mini" name='mor""" + fil + """' value=''/> and """
                         grofil += fil.title().replace("_",
                                                       " ") + """ < <input class="input-mini" name='les""" + fil + """' value=''/> || """
-                    elif types[fil] == 'datetime':
+                    elif types[fil] == 'datetime' or types[fil] == 'date':
                         grofil += fil.title().replace("_",
                                                       " ") + """ > <input class="input-mini" name='mor""" + fil + """' value=''/> and """
                         grofil += fil.title().replace("_",
@@ -323,12 +325,12 @@ def application(environment, start_response):
                 else:
                     year = datetime.today().year
                 if table == 'home_%s'%year:
-                    cur.execute("delete from "+table +" where id not in (select min(id) from " + table + " group by report_date,agent)")
+                    cur.execute("delete from "+table +" where id not in (select max(id) from " + table + " group by report_date,agent)")
                 page += """<br /><br />"""
                 page += """<ul class="nav nav-tabs">
 								<li class="active"><a href="%s/account_manager">%s</a></li>
 							</ul>""" % (pyadmin.module.control, table)
-                page += """<h2>Table  %s %s %s </h2>""" % (table,params,params.getone('year'))
+                page += """<h2>Table  %s </h2>""" % (table)
                 page += """Order by: %s. Sort by: %s. Hide columns: %s	| Hide filter: %s + %s  <br />
 				<nav class='navbar navbar-default'>
 								<form method="post" action="">								
