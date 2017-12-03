@@ -91,7 +91,7 @@ def application(environment, start_response):
                             if post['les%s' % c] != "":
                                 query.append(c + " < " + post['les%s' % c] + " ")
 
-                    elif post['types[%s]' % c] == 'datetime':
+                    elif post['types[%s]' % c] == 'datetime' or post['types[%s]' % c] == 'date':
                         if 'mor%s' % c in post:
                             if post['mor%s' % c] != "":
                                 query.append(c + " > '" + post['mor%s' % c] + "' ")
@@ -180,7 +180,7 @@ def application(environment, start_response):
                             d = collections.OrderedDict()
                             d['idha'] = i + 1  # row[0]
                             for j in range(len(cols)):
-                                if type(row[i][j]).__name__ == 'datetime':
+                                if type(row[i][j]).__name__ == 'datetime' or type(row[i][j]).__name__ == 'date':
                                     d[cols[j]] = str(row[i][j])
                                 elif type(row[i][j]).__name__ == 'float':
                                     d[cols[j]] = str(round(row[i][j], 9))
@@ -189,7 +189,6 @@ def application(environment, start_response):
                                 elif type(row[i][j]).__name__ == 'dict' or type(row[i][j]).__name__ == 'list':
                                     d[cols[j]] = json.dumps(row[i][j], ensure_ascii=False).encode('utf8').decode(
                                         'utf-8')
-
                                 else:
                                     d[cols[j]] = row[i][j]
                             objects_list.append(d)

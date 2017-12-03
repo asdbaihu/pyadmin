@@ -25,9 +25,9 @@ def application(environment, start_response):
 	month = datetime.today().month
 	day = datetime.today().day
 
-	cur.execute("""create table if not exists agoraphile"""+ agent +"""%s%s%s(id serial8 primary key,agent text default %s,link text,	title text,	customize text,	variant_check text,	correct_check text,	status text, price text,currency text,condition text,availability text,cds_key text,update_time timestamp default now())""",(year,month,day,agent))
+	cur.execute("""create table if not exists """+ agent.split('@')[0].replace(".","") +"""_%s_%s_%s(id serial8 primary key,agent text default %s,link text,	title text,	customize text,	variant_check text,	correct_check text,	status text, price text,currency text,condition text,availability text,cds_key text,update_time timestamp default now())""",(year,month,day,agent))
 
-	cur.execute("""insert into agoraphile""" + agent + """%s%s%s"""%(year,month,day) + """(link,title,customize,variant_check,correct_check,status,price,currency,condition,availability,cds_key) values (nullif(%s,''),nullif(%s,''),nullif(%s,''),nullif(%s,''),nullif(%s,''),nullif(%s,''),nullif(%s,''),nullif(%s,''),nullif(%s,''),nullif(%s,''),nullif(%s,''))""",(link,title,customize,variant_check,correct_check,status,price,currency,condition,availability,cds_key))
+	cur.execute("""insert into """ + agent.split('@')[0].replace(".","") + """_%s_%s_%s"""%(year,month,day) + """(link,title,customize,variant_check,correct_check,status,price,currency,condition,availability,cds_key) values (nullif(%s,''),nullif(%s,''),nullif(%s,''),nullif(%s,''),nullif(%s,''),nullif(%s,''),nullif(%s,''),nullif(%s,''),nullif(%s,''),nullif(%s,''),nullif(%s,''))""",(link,title,customize,variant_check,correct_check,status,price,currency,condition,availability,cds_key))
 	conn.commit()
 	cur.close()
 	conn.close()
