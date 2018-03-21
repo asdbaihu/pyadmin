@@ -2,10 +2,939 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="897b6eec-0177-403c-9ed8-b290c520ec9a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sitemaps/save_cookie.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scripts/console.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scripts/convert_image.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scripts/export_excel.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scripts/upload_files_demo.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/crawler.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/crawler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/preferred-vcs.xml" afterPath="$PROJECT_DIR$/.idea/preferred-vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/pypgadmin.iml" afterPath="$PROJECT_DIR$/.idea/pypgadmin.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Chart/.codeclimate.yml" afterPath="$PROJECT_DIR$/Chart/.codeclimate.yml" />
+      <change beforePath="$PROJECT_DIR$/Chart/.editorconfig" afterPath="$PROJECT_DIR$/Chart/.editorconfig" />
+      <change beforePath="$PROJECT_DIR$/Chart/.eslintignore" afterPath="$PROJECT_DIR$/Chart/.eslintignore" />
+      <change beforePath="$PROJECT_DIR$/Chart/.eslintrc" afterPath="$PROJECT_DIR$/Chart/.eslintrc" />
+      <change beforePath="$PROJECT_DIR$/Chart/.github/ISSUE_TEMPLATE.md" afterPath="$PROJECT_DIR$/Chart/.github/ISSUE_TEMPLATE.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/.github/PULL_REQUEST_TEMPLATE.md" afterPath="$PROJECT_DIR$/Chart/.github/PULL_REQUEST_TEMPLATE.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/.gitignore" afterPath="$PROJECT_DIR$/Chart/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/Chart/.npmignore" afterPath="$PROJECT_DIR$/Chart/.npmignore" />
+      <change beforePath="$PROJECT_DIR$/Chart/.travis.yml" afterPath="$PROJECT_DIR$/Chart/.travis.yml" />
+      <change beforePath="$PROJECT_DIR$/Chart/LICENSE.md" afterPath="$PROJECT_DIR$/Chart/LICENSE.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/MAINTAINING.md" afterPath="$PROJECT_DIR$/Chart/MAINTAINING.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/README.md" afterPath="$PROJECT_DIR$/Chart/README.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/book.json" afterPath="$PROJECT_DIR$/Chart/book.json" />
+      <change beforePath="$PROJECT_DIR$/Chart/composer.json" afterPath="$PROJECT_DIR$/Chart/composer.json" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/README.md" afterPath="$PROJECT_DIR$/Chart/docs/README.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/SUMMARY.md" afterPath="$PROJECT_DIR$/Chart/docs/SUMMARY.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/axes/README.md" afterPath="$PROJECT_DIR$/Chart/docs/axes/README.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/axes/cartesian/README.md" afterPath="$PROJECT_DIR$/Chart/docs/axes/cartesian/README.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/axes/cartesian/category.md" afterPath="$PROJECT_DIR$/Chart/docs/axes/cartesian/category.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/axes/cartesian/linear.md" afterPath="$PROJECT_DIR$/Chart/docs/axes/cartesian/linear.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/axes/cartesian/logarithmic.md" afterPath="$PROJECT_DIR$/Chart/docs/axes/cartesian/logarithmic.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/axes/cartesian/time.md" afterPath="$PROJECT_DIR$/Chart/docs/axes/cartesian/time.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/axes/labelling.md" afterPath="$PROJECT_DIR$/Chart/docs/axes/labelling.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/axes/radial/README.md" afterPath="$PROJECT_DIR$/Chart/docs/axes/radial/README.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/axes/radial/linear.md" afterPath="$PROJECT_DIR$/Chart/docs/axes/radial/linear.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/axes/styling.md" afterPath="$PROJECT_DIR$/Chart/docs/axes/styling.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/charts/README.md" afterPath="$PROJECT_DIR$/Chart/docs/charts/README.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/charts/area.md" afterPath="$PROJECT_DIR$/Chart/docs/charts/area.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/charts/bar.md" afterPath="$PROJECT_DIR$/Chart/docs/charts/bar.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/charts/bubble.md" afterPath="$PROJECT_DIR$/Chart/docs/charts/bubble.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/charts/doughnut.md" afterPath="$PROJECT_DIR$/Chart/docs/charts/doughnut.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/charts/line.md" afterPath="$PROJECT_DIR$/Chart/docs/charts/line.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/charts/mixed.md" afterPath="$PROJECT_DIR$/Chart/docs/charts/mixed.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/charts/polar.md" afterPath="$PROJECT_DIR$/Chart/docs/charts/polar.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/charts/radar.md" afterPath="$PROJECT_DIR$/Chart/docs/charts/radar.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/charts/scatter.md" afterPath="$PROJECT_DIR$/Chart/docs/charts/scatter.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/configuration/README.md" afterPath="$PROJECT_DIR$/Chart/docs/configuration/README.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/configuration/animations.md" afterPath="$PROJECT_DIR$/Chart/docs/configuration/animations.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/configuration/elements.md" afterPath="$PROJECT_DIR$/Chart/docs/configuration/elements.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/configuration/layout.md" afterPath="$PROJECT_DIR$/Chart/docs/configuration/layout.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/configuration/legend.md" afterPath="$PROJECT_DIR$/Chart/docs/configuration/legend.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/configuration/title.md" afterPath="$PROJECT_DIR$/Chart/docs/configuration/title.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/configuration/tooltip.md" afterPath="$PROJECT_DIR$/Chart/docs/configuration/tooltip.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/developers/README.md" afterPath="$PROJECT_DIR$/Chart/docs/developers/README.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/developers/api.md" afterPath="$PROJECT_DIR$/Chart/docs/developers/api.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/developers/axes.md" afterPath="$PROJECT_DIR$/Chart/docs/developers/axes.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/developers/charts.md" afterPath="$PROJECT_DIR$/Chart/docs/developers/charts.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/developers/contributing.md" afterPath="$PROJECT_DIR$/Chart/docs/developers/contributing.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/developers/plugins.md" afterPath="$PROJECT_DIR$/Chart/docs/developers/plugins.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/developers/updates.md" afterPath="$PROJECT_DIR$/Chart/docs/developers/updates.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/general/README.md" afterPath="$PROJECT_DIR$/Chart/docs/general/README.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/general/colors.md" afterPath="$PROJECT_DIR$/Chart/docs/general/colors.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/general/device-pixel-ratio.md" afterPath="$PROJECT_DIR$/Chart/docs/general/device-pixel-ratio.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/general/fonts.md" afterPath="$PROJECT_DIR$/Chart/docs/general/fonts.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/general/interactions/README.md" afterPath="$PROJECT_DIR$/Chart/docs/general/interactions/README.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/general/interactions/events.md" afterPath="$PROJECT_DIR$/Chart/docs/general/interactions/events.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/general/interactions/modes.md" afterPath="$PROJECT_DIR$/Chart/docs/general/interactions/modes.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/general/options.md" afterPath="$PROJECT_DIR$/Chart/docs/general/options.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/general/responsive.md" afterPath="$PROJECT_DIR$/Chart/docs/general/responsive.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/getting-started/README.md" afterPath="$PROJECT_DIR$/Chart/docs/getting-started/README.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/getting-started/installation.md" afterPath="$PROJECT_DIR$/Chart/docs/getting-started/installation.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/getting-started/integration.md" afterPath="$PROJECT_DIR$/Chart/docs/getting-started/integration.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/getting-started/usage.md" afterPath="$PROJECT_DIR$/Chart/docs/getting-started/usage.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/notes/README.md" afterPath="$PROJECT_DIR$/Chart/docs/notes/README.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/notes/comparison.md" afterPath="$PROJECT_DIR$/Chart/docs/notes/comparison.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/notes/extensions.md" afterPath="$PROJECT_DIR$/Chart/docs/notes/extensions.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/notes/license.md" afterPath="$PROJECT_DIR$/Chart/docs/notes/license.md" />
+      <change beforePath="$PROJECT_DIR$/Chart/docs/style.css" afterPath="$PROJECT_DIR$/Chart/docs/style.css" />
+      <change beforePath="$PROJECT_DIR$/Chart/gulpfile.js" afterPath="$PROJECT_DIR$/Chart/gulpfile.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/karma.conf.js" afterPath="$PROJECT_DIR$/Chart/karma.conf.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/package.json" afterPath="$PROJECT_DIR$/Chart/package.json" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/advanced/data-labelling.html" afterPath="$PROJECT_DIR$/Chart/samples/advanced/data-labelling.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/advanced/progress-bar.html" afterPath="$PROJECT_DIR$/Chart/samples/advanced/progress-bar.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/charts/area/analyser.js" afterPath="$PROJECT_DIR$/Chart/samples/charts/area/analyser.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/charts/area/line-boundaries.html" afterPath="$PROJECT_DIR$/Chart/samples/charts/area/line-boundaries.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/charts/area/line-datasets.html" afterPath="$PROJECT_DIR$/Chart/samples/charts/area/line-datasets.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/charts/area/line-stacked.html" afterPath="$PROJECT_DIR$/Chart/samples/charts/area/line-stacked.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/charts/area/radar.html" afterPath="$PROJECT_DIR$/Chart/samples/charts/area/radar.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/charts/bar/horizontal.html" afterPath="$PROJECT_DIR$/Chart/samples/charts/bar/horizontal.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/charts/bar/multi-axis.html" afterPath="$PROJECT_DIR$/Chart/samples/charts/bar/multi-axis.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/charts/bar/stacked-group.html" afterPath="$PROJECT_DIR$/Chart/samples/charts/bar/stacked-group.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/charts/bar/stacked.html" afterPath="$PROJECT_DIR$/Chart/samples/charts/bar/stacked.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/charts/bar/vertical.html" afterPath="$PROJECT_DIR$/Chart/samples/charts/bar/vertical.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/charts/bubble.html" afterPath="$PROJECT_DIR$/Chart/samples/charts/bubble.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/charts/combo-bar-line.html" afterPath="$PROJECT_DIR$/Chart/samples/charts/combo-bar-line.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/charts/doughnut.html" afterPath="$PROJECT_DIR$/Chart/samples/charts/doughnut.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/charts/ktrace.out" afterPath="$PROJECT_DIR$/Chart/samples/charts/ktrace.out" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/charts/line/basic.html" afterPath="$PROJECT_DIR$/Chart/samples/charts/line/basic.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/charts/line/interpolation-modes.html" afterPath="$PROJECT_DIR$/Chart/samples/charts/line/interpolation-modes.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/charts/line/line-styles.html" afterPath="$PROJECT_DIR$/Chart/samples/charts/line/line-styles.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/charts/line/multi-axis.html" afterPath="$PROJECT_DIR$/Chart/samples/charts/line/multi-axis.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/charts/line/point-sizes.html" afterPath="$PROJECT_DIR$/Chart/samples/charts/line/point-sizes.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/charts/line/point-styles.html" afterPath="$PROJECT_DIR$/Chart/samples/charts/line/point-styles.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/charts/line/skip-points.html" afterPath="$PROJECT_DIR$/Chart/samples/charts/line/skip-points.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/charts/line/stepped.html" afterPath="$PROJECT_DIR$/Chart/samples/charts/line/stepped.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/charts/pie.html" afterPath="$PROJECT_DIR$/Chart/samples/charts/pie.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/charts/polar-area.html" afterPath="$PROJECT_DIR$/Chart/samples/charts/polar-area.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/charts/radar-skip-points.html" afterPath="$PROJECT_DIR$/Chart/samples/charts/radar-skip-points.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/charts/radar.html" afterPath="$PROJECT_DIR$/Chart/samples/charts/radar.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/charts/scatter/basic.html" afterPath="$PROJECT_DIR$/Chart/samples/charts/scatter/basic.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/charts/scatter/multi-axis.html" afterPath="$PROJECT_DIR$/Chart/samples/charts/scatter/multi-axis.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/favicon.ico" afterPath="$PROJECT_DIR$/Chart/samples/favicon.ico" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/index.html" afterPath="$PROJECT_DIR$/Chart/samples/index.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/ktrace.out" afterPath="$PROJECT_DIR$/Chart/samples/ktrace.out" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/legend/point-style.html" afterPath="$PROJECT_DIR$/Chart/samples/legend/point-style.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/legend/positioning.html" afterPath="$PROJECT_DIR$/Chart/samples/legend/positioning.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/logo.svg" afterPath="$PROJECT_DIR$/Chart/samples/logo.svg" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/samples.js" afterPath="$PROJECT_DIR$/Chart/samples/samples.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/scales/filtering-labels.html" afterPath="$PROJECT_DIR$/Chart/samples/scales/filtering-labels.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/scales/gridlines-display.html" afterPath="$PROJECT_DIR$/Chart/samples/scales/gridlines-display.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/scales/gridlines-style.html" afterPath="$PROJECT_DIR$/Chart/samples/scales/gridlines-style.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/scales/linear/min-max-suggested.html" afterPath="$PROJECT_DIR$/Chart/samples/scales/linear/min-max-suggested.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/scales/linear/min-max.html" afterPath="$PROJECT_DIR$/Chart/samples/scales/linear/min-max.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/scales/linear/step-size.html" afterPath="$PROJECT_DIR$/Chart/samples/scales/linear/step-size.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/scales/logarithmic/line.html" afterPath="$PROJECT_DIR$/Chart/samples/scales/logarithmic/line.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/scales/logarithmic/scatter.html" afterPath="$PROJECT_DIR$/Chart/samples/scales/logarithmic/scatter.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/scales/multiline-labels.html" afterPath="$PROJECT_DIR$/Chart/samples/scales/multiline-labels.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/scales/non-numeric-y.html" afterPath="$PROJECT_DIR$/Chart/samples/scales/non-numeric-y.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/scales/time/combo.html" afterPath="$PROJECT_DIR$/Chart/samples/scales/time/combo.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/scales/time/financial.html" afterPath="$PROJECT_DIR$/Chart/samples/scales/time/financial.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/scales/time/line-point-data.html" afterPath="$PROJECT_DIR$/Chart/samples/scales/time/line-point-data.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/scales/time/line.html" afterPath="$PROJECT_DIR$/Chart/samples/scales/time/line.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/scriptable/bubble.html" afterPath="$PROJECT_DIR$/Chart/samples/scriptable/bubble.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/style.css" afterPath="$PROJECT_DIR$/Chart/samples/style.css" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/tooltips/border.html" afterPath="$PROJECT_DIR$/Chart/samples/tooltips/border.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/tooltips/callbacks.html" afterPath="$PROJECT_DIR$/Chart/samples/tooltips/callbacks.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/tooltips/custom-line.html" afterPath="$PROJECT_DIR$/Chart/samples/tooltips/custom-line.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/tooltips/custom-pie.html" afterPath="$PROJECT_DIR$/Chart/samples/tooltips/custom-pie.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/tooltips/custom-points.html" afterPath="$PROJECT_DIR$/Chart/samples/tooltips/custom-points.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/tooltips/interactions.html" afterPath="$PROJECT_DIR$/Chart/samples/tooltips/interactions.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/tooltips/positioning.html" afterPath="$PROJECT_DIR$/Chart/samples/tooltips/positioning.html" />
+      <change beforePath="$PROJECT_DIR$/Chart/samples/utils.js" afterPath="$PROJECT_DIR$/Chart/samples/utils.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/chart.js" afterPath="$PROJECT_DIR$/Chart/src/chart.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/charts/Chart.Bar.js" afterPath="$PROJECT_DIR$/Chart/src/charts/Chart.Bar.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/charts/Chart.Bubble.js" afterPath="$PROJECT_DIR$/Chart/src/charts/Chart.Bubble.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/charts/Chart.Doughnut.js" afterPath="$PROJECT_DIR$/Chart/src/charts/Chart.Doughnut.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/charts/Chart.Line.js" afterPath="$PROJECT_DIR$/Chart/src/charts/Chart.Line.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/charts/Chart.PolarArea.js" afterPath="$PROJECT_DIR$/Chart/src/charts/Chart.PolarArea.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/charts/Chart.Radar.js" afterPath="$PROJECT_DIR$/Chart/src/charts/Chart.Radar.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/charts/Chart.Scatter.js" afterPath="$PROJECT_DIR$/Chart/src/charts/Chart.Scatter.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/controllers/controller.bar.js" afterPath="$PROJECT_DIR$/Chart/src/controllers/controller.bar.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/controllers/controller.bubble.js" afterPath="$PROJECT_DIR$/Chart/src/controllers/controller.bubble.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/controllers/controller.doughnut.js" afterPath="$PROJECT_DIR$/Chart/src/controllers/controller.doughnut.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/controllers/controller.line.js" afterPath="$PROJECT_DIR$/Chart/src/controllers/controller.line.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/controllers/controller.polarArea.js" afterPath="$PROJECT_DIR$/Chart/src/controllers/controller.polarArea.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/controllers/controller.radar.js" afterPath="$PROJECT_DIR$/Chart/src/controllers/controller.radar.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/controllers/controller.scatter.js" afterPath="$PROJECT_DIR$/Chart/src/controllers/controller.scatter.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/core/core.animation.js" afterPath="$PROJECT_DIR$/Chart/src/core/core.animation.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/core/core.controller.js" afterPath="$PROJECT_DIR$/Chart/src/core/core.controller.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/core/core.datasetController.js" afterPath="$PROJECT_DIR$/Chart/src/core/core.datasetController.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/core/core.defaults.js" afterPath="$PROJECT_DIR$/Chart/src/core/core.defaults.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/core/core.element.js" afterPath="$PROJECT_DIR$/Chart/src/core/core.element.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/core/core.helpers.js" afterPath="$PROJECT_DIR$/Chart/src/core/core.helpers.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/core/core.interaction.js" afterPath="$PROJECT_DIR$/Chart/src/core/core.interaction.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/core/core.js" afterPath="$PROJECT_DIR$/Chart/src/core/core.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/core/core.layoutService.js" afterPath="$PROJECT_DIR$/Chart/src/core/core.layoutService.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/core/core.plugin.js" afterPath="$PROJECT_DIR$/Chart/src/core/core.plugin.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/core/core.scale.js" afterPath="$PROJECT_DIR$/Chart/src/core/core.scale.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/core/core.scaleService.js" afterPath="$PROJECT_DIR$/Chart/src/core/core.scaleService.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/core/core.ticks.js" afterPath="$PROJECT_DIR$/Chart/src/core/core.ticks.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/core/core.tooltip.js" afterPath="$PROJECT_DIR$/Chart/src/core/core.tooltip.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/elements/element.arc.js" afterPath="$PROJECT_DIR$/Chart/src/elements/element.arc.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/elements/element.line.js" afterPath="$PROJECT_DIR$/Chart/src/elements/element.line.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/elements/element.point.js" afterPath="$PROJECT_DIR$/Chart/src/elements/element.point.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/elements/element.rectangle.js" afterPath="$PROJECT_DIR$/Chart/src/elements/element.rectangle.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/elements/index.js" afterPath="$PROJECT_DIR$/Chart/src/elements/index.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/helpers/helpers.canvas.js" afterPath="$PROJECT_DIR$/Chart/src/helpers/helpers.canvas.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/helpers/helpers.core.js" afterPath="$PROJECT_DIR$/Chart/src/helpers/helpers.core.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/helpers/helpers.easing.js" afterPath="$PROJECT_DIR$/Chart/src/helpers/helpers.easing.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/helpers/helpers.options.js" afterPath="$PROJECT_DIR$/Chart/src/helpers/helpers.options.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/helpers/index.js" afterPath="$PROJECT_DIR$/Chart/src/helpers/index.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/platforms/platform.basic.js" afterPath="$PROJECT_DIR$/Chart/src/platforms/platform.basic.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/platforms/platform.dom.js" afterPath="$PROJECT_DIR$/Chart/src/platforms/platform.dom.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/platforms/platform.js" afterPath="$PROJECT_DIR$/Chart/src/platforms/platform.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/plugins/plugin.filler.js" afterPath="$PROJECT_DIR$/Chart/src/plugins/plugin.filler.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/plugins/plugin.legend.js" afterPath="$PROJECT_DIR$/Chart/src/plugins/plugin.legend.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/plugins/plugin.title.js" afterPath="$PROJECT_DIR$/Chart/src/plugins/plugin.title.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/scales/scale.category.js" afterPath="$PROJECT_DIR$/Chart/src/scales/scale.category.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/scales/scale.linear.js" afterPath="$PROJECT_DIR$/Chart/src/scales/scale.linear.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/scales/scale.linearbase.js" afterPath="$PROJECT_DIR$/Chart/src/scales/scale.linearbase.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/scales/scale.logarithmic.js" afterPath="$PROJECT_DIR$/Chart/src/scales/scale.logarithmic.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/scales/scale.radialLinear.js" afterPath="$PROJECT_DIR$/Chart/src/scales/scale.radialLinear.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/src/scales/scale.time.js" afterPath="$PROJECT_DIR$/Chart/src/scales/scale.time.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/.eslintrc" afterPath="$PROJECT_DIR$/Chart/test/.eslintrc" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/core.scale/label-offset-vertical-axes.json" afterPath="$PROJECT_DIR$/Chart/test/fixtures/core.scale/label-offset-vertical-axes.json" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/core.scale/label-offset-vertical-axes.png" afterPath="$PROJECT_DIR$/Chart/test/fixtures/core.scale/label-offset-vertical-axes.png" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-end-span.json" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-end-span.json" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-end-span.png" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-end-span.png" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-end.json" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-end.json" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-end.png" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-end.png" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-origin-span.json" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-origin-span.json" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-origin-span.png" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-origin-span.png" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-origin-spline-span.json" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-origin-spline-span.json" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-origin-spline-span.png" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-origin-spline-span.png" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-origin-spline.json" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-origin-spline.json" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-origin-spline.png" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-origin-spline.png" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-origin-stepped-span.json" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-origin-stepped-span.json" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-origin-stepped-span.png" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-origin-stepped-span.png" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-origin-stepped.json" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-origin-stepped.json" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-origin-stepped.png" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-origin-stepped.png" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-origin.json" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-origin.json" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-origin.png" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-origin.png" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-start-span.json" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-start-span.json" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-start-span.png" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-start-span.png" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-start.json" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-start.json" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-start.png" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-boundary-start.png" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-dataset-span.json" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-dataset-span.json" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-dataset-span.png" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-dataset-span.png" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-dataset-spline-span.json" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-dataset-spline-span.json" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-dataset-spline-span.png" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-dataset-spline-span.png" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-dataset-spline.json" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-dataset-spline.json" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-dataset-spline.png" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-dataset-spline.png" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-dataset.json" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-dataset.json" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-dataset.png" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-line-dataset.png" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-radar-boundary-origin-spline.json" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-radar-boundary-origin-spline.json" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-radar-boundary-origin-spline.png" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-radar-boundary-origin-spline.png" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-radar-boundary-origin.json" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-radar-boundary-origin.json" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-radar-boundary-origin.png" afterPath="$PROJECT_DIR$/Chart/test/fixtures/plugin.filler/fill-radar-boundary-origin.png" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/jasmine.context.js" afterPath="$PROJECT_DIR$/Chart/test/jasmine.context.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/jasmine.index.js" afterPath="$PROJECT_DIR$/Chart/test/jasmine.index.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/jasmine.matchers.js" afterPath="$PROJECT_DIR$/Chart/test/jasmine.matchers.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/jasmine.utils.js" afterPath="$PROJECT_DIR$/Chart/test/jasmine.utils.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/controller.bar.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/controller.bar.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/controller.bubble.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/controller.bubble.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/controller.doughnut.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/controller.doughnut.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/controller.line.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/controller.line.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/controller.polarArea.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/controller.polarArea.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/controller.radar.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/controller.radar.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/core.controller.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/core.controller.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/core.datasetController.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/core.datasetController.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/core.element.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/core.element.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/core.helpers.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/core.helpers.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/core.interaction.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/core.interaction.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/core.layoutService.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/core.layoutService.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/core.plugin.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/core.plugin.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/core.scale.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/core.scale.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/core.scaleService.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/core.scaleService.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/element.arc.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/element.arc.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/element.line.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/element.line.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/element.point.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/element.point.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/element.rectangle.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/element.rectangle.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/global.defaults.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/global.defaults.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/global.deprecations.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/global.deprecations.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/helpers.canvas.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/helpers.canvas.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/helpers.core.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/helpers.core.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/helpers.easing.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/helpers.easing.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/helpers.options.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/helpers.options.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/platform.dom.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/platform.dom.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/plugin.filler.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/plugin.filler.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/plugin.legend.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/plugin.legend.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/plugin.title.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/plugin.title.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/scale.category.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/scale.category.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/scale.linear.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/scale.linear.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/scale.logarithmic.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/scale.logarithmic.tests.js" />
+      <change beforePath="$PROJECT_DIR$/Chart/test/specs/scale.radialLinear.tests.js" afterPath="$PROJECT_DIR$/Chart/test/specs/scale.radialLinear.tests.js" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" afterPath="$PROJECT_DIR$/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/bin/activate" afterPath="$PROJECT_DIR$/bin/activate" />
+      <change beforePath="$PROJECT_DIR$/bin/activate.csh" afterPath="$PROJECT_DIR$/bin/activate.csh" />
+      <change beforePath="$PROJECT_DIR$/bin/activate.fish" afterPath="$PROJECT_DIR$/bin/activate.fish" />
+      <change beforePath="$PROJECT_DIR$/bin/activate_this.py" afterPath="$PROJECT_DIR$/bin/activate_this.py" />
+      <change beforePath="$PROJECT_DIR$/control/admin_create.py" afterPath="$PROJECT_DIR$/control/admin_create.py" />
+      <change beforePath="$PROJECT_DIR$/import_module/pyad/.idea/modules.xml" afterPath="$PROJECT_DIR$/import_module/pyad/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/import_module/pyad/.idea/pyad.iml" afterPath="$PROJECT_DIR$/import_module/pyad/.idea/pyad.iml" />
+      <change beforePath="$PROJECT_DIR$/import_module/pyad/.idea/workspace.xml" afterPath="$PROJECT_DIR$/import_module/pyad/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/import_module/pyad/conn.py" afterPath="$PROJECT_DIR$/import_module/pyad/conn.py" />
+      <change beforePath="$PROJECT_DIR$/import_module/pyad/login.py" afterPath="$PROJECT_DIR$/import_module/pyad/login.py" />
+      <change beforePath="$PROJECT_DIR$/import_module/pyad/module.py" afterPath="$PROJECT_DIR$/import_module/pyad/module.py" />
+      <change beforePath="$PROJECT_DIR$/import_module/pyad/sess.py" afterPath="$PROJECT_DIR$/import_module/pyad/sess.py" />
+      <change beforePath="$PROJECT_DIR$/importlib" afterPath="$PROJECT_DIR$/importlib" />
+      <change beforePath="$PROJECT_DIR$/js/README.md" afterPath="$PROJECT_DIR$/js/README.md" />
+      <change beforePath="$PROJECT_DIR$/js/handsontable.css" afterPath="$PROJECT_DIR$/js/handsontable.css" />
+      <change beforePath="$PROJECT_DIR$/js/handsontable.css.map" afterPath="$PROJECT_DIR$/js/handsontable.css.map" />
+      <change beforePath="$PROJECT_DIR$/js/handsontable.full.css" afterPath="$PROJECT_DIR$/js/handsontable.full.css" />
+      <change beforePath="$PROJECT_DIR$/js/handsontable.full.js" afterPath="$PROJECT_DIR$/js/handsontable.full.js" />
+      <change beforePath="$PROJECT_DIR$/js/handsontable.full.min.css" afterPath="$PROJECT_DIR$/js/handsontable.full.min.css" />
+      <change beforePath="$PROJECT_DIR$/js/handsontable.full.min.js" afterPath="$PROJECT_DIR$/js/handsontable.full.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/handsontable.js" afterPath="$PROJECT_DIR$/js/handsontable.js" />
+      <change beforePath="$PROJECT_DIR$/js/handsontable.js.map" afterPath="$PROJECT_DIR$/js/handsontable.js.map" />
+      <change beforePath="$PROJECT_DIR$/js/handsontable.min.css" afterPath="$PROJECT_DIR$/js/handsontable.min.css" />
+      <change beforePath="$PROJECT_DIR$/js/handsontable.min.js" afterPath="$PROJECT_DIR$/js/handsontable.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-ui.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-ui.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.bootpag.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/moment/LICENSE" afterPath="$PROJECT_DIR$/js/moment/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/af.js" afterPath="$PROJECT_DIR$/js/moment/locale/af.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/ar-dz.js" afterPath="$PROJECT_DIR$/js/moment/locale/ar-dz.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/ar-kw.js" afterPath="$PROJECT_DIR$/js/moment/locale/ar-kw.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/ar-ly.js" afterPath="$PROJECT_DIR$/js/moment/locale/ar-ly.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/ar-ma.js" afterPath="$PROJECT_DIR$/js/moment/locale/ar-ma.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/ar-sa.js" afterPath="$PROJECT_DIR$/js/moment/locale/ar-sa.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/ar-tn.js" afterPath="$PROJECT_DIR$/js/moment/locale/ar-tn.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/ar.js" afterPath="$PROJECT_DIR$/js/moment/locale/ar.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/az.js" afterPath="$PROJECT_DIR$/js/moment/locale/az.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/be.js" afterPath="$PROJECT_DIR$/js/moment/locale/be.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/bg.js" afterPath="$PROJECT_DIR$/js/moment/locale/bg.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/bn.js" afterPath="$PROJECT_DIR$/js/moment/locale/bn.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/bo.js" afterPath="$PROJECT_DIR$/js/moment/locale/bo.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/br.js" afterPath="$PROJECT_DIR$/js/moment/locale/br.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/bs.js" afterPath="$PROJECT_DIR$/js/moment/locale/bs.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/ca.js" afterPath="$PROJECT_DIR$/js/moment/locale/ca.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/cs.js" afterPath="$PROJECT_DIR$/js/moment/locale/cs.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/cv.js" afterPath="$PROJECT_DIR$/js/moment/locale/cv.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/cy.js" afterPath="$PROJECT_DIR$/js/moment/locale/cy.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/da.js" afterPath="$PROJECT_DIR$/js/moment/locale/da.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/de-at.js" afterPath="$PROJECT_DIR$/js/moment/locale/de-at.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/de-ch.js" afterPath="$PROJECT_DIR$/js/moment/locale/de-ch.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/de.js" afterPath="$PROJECT_DIR$/js/moment/locale/de.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/dv.js" afterPath="$PROJECT_DIR$/js/moment/locale/dv.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/el.js" afterPath="$PROJECT_DIR$/js/moment/locale/el.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/en-au.js" afterPath="$PROJECT_DIR$/js/moment/locale/en-au.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/en-ca.js" afterPath="$PROJECT_DIR$/js/moment/locale/en-ca.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/en-gb.js" afterPath="$PROJECT_DIR$/js/moment/locale/en-gb.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/en-ie.js" afterPath="$PROJECT_DIR$/js/moment/locale/en-ie.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/en-nz.js" afterPath="$PROJECT_DIR$/js/moment/locale/en-nz.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/eo.js" afterPath="$PROJECT_DIR$/js/moment/locale/eo.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/es-do.js" afterPath="$PROJECT_DIR$/js/moment/locale/es-do.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/es.js" afterPath="$PROJECT_DIR$/js/moment/locale/es.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/et.js" afterPath="$PROJECT_DIR$/js/moment/locale/et.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/eu.js" afterPath="$PROJECT_DIR$/js/moment/locale/eu.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/fa.js" afterPath="$PROJECT_DIR$/js/moment/locale/fa.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/fi.js" afterPath="$PROJECT_DIR$/js/moment/locale/fi.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/fo.js" afterPath="$PROJECT_DIR$/js/moment/locale/fo.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/fr-ca.js" afterPath="$PROJECT_DIR$/js/moment/locale/fr-ca.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/fr-ch.js" afterPath="$PROJECT_DIR$/js/moment/locale/fr-ch.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/fr.js" afterPath="$PROJECT_DIR$/js/moment/locale/fr.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/fy.js" afterPath="$PROJECT_DIR$/js/moment/locale/fy.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/gd.js" afterPath="$PROJECT_DIR$/js/moment/locale/gd.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/gl.js" afterPath="$PROJECT_DIR$/js/moment/locale/gl.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/gom-latn.js" afterPath="$PROJECT_DIR$/js/moment/locale/gom-latn.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/he.js" afterPath="$PROJECT_DIR$/js/moment/locale/he.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/hi.js" afterPath="$PROJECT_DIR$/js/moment/locale/hi.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/hr.js" afterPath="$PROJECT_DIR$/js/moment/locale/hr.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/hu.js" afterPath="$PROJECT_DIR$/js/moment/locale/hu.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/hy-am.js" afterPath="$PROJECT_DIR$/js/moment/locale/hy-am.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/id.js" afterPath="$PROJECT_DIR$/js/moment/locale/id.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/is.js" afterPath="$PROJECT_DIR$/js/moment/locale/is.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/it.js" afterPath="$PROJECT_DIR$/js/moment/locale/it.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/ja.js" afterPath="$PROJECT_DIR$/js/moment/locale/ja.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/jv.js" afterPath="$PROJECT_DIR$/js/moment/locale/jv.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/ka.js" afterPath="$PROJECT_DIR$/js/moment/locale/ka.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/kk.js" afterPath="$PROJECT_DIR$/js/moment/locale/kk.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/km.js" afterPath="$PROJECT_DIR$/js/moment/locale/km.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/kn.js" afterPath="$PROJECT_DIR$/js/moment/locale/kn.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/ko.js" afterPath="$PROJECT_DIR$/js/moment/locale/ko.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/ky.js" afterPath="$PROJECT_DIR$/js/moment/locale/ky.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/lb.js" afterPath="$PROJECT_DIR$/js/moment/locale/lb.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/lo.js" afterPath="$PROJECT_DIR$/js/moment/locale/lo.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/lt.js" afterPath="$PROJECT_DIR$/js/moment/locale/lt.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/lv.js" afterPath="$PROJECT_DIR$/js/moment/locale/lv.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/me.js" afterPath="$PROJECT_DIR$/js/moment/locale/me.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/mi.js" afterPath="$PROJECT_DIR$/js/moment/locale/mi.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/mk.js" afterPath="$PROJECT_DIR$/js/moment/locale/mk.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/ml.js" afterPath="$PROJECT_DIR$/js/moment/locale/ml.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/mr.js" afterPath="$PROJECT_DIR$/js/moment/locale/mr.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/ms-my.js" afterPath="$PROJECT_DIR$/js/moment/locale/ms-my.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/ms.js" afterPath="$PROJECT_DIR$/js/moment/locale/ms.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/my.js" afterPath="$PROJECT_DIR$/js/moment/locale/my.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/nb.js" afterPath="$PROJECT_DIR$/js/moment/locale/nb.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/ne.js" afterPath="$PROJECT_DIR$/js/moment/locale/ne.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/nl-be.js" afterPath="$PROJECT_DIR$/js/moment/locale/nl-be.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/nl.js" afterPath="$PROJECT_DIR$/js/moment/locale/nl.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/nn.js" afterPath="$PROJECT_DIR$/js/moment/locale/nn.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/pa-in.js" afterPath="$PROJECT_DIR$/js/moment/locale/pa-in.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/pl.js" afterPath="$PROJECT_DIR$/js/moment/locale/pl.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/pt-br.js" afterPath="$PROJECT_DIR$/js/moment/locale/pt-br.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/pt.js" afterPath="$PROJECT_DIR$/js/moment/locale/pt.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/ro.js" afterPath="$PROJECT_DIR$/js/moment/locale/ro.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/ru.js" afterPath="$PROJECT_DIR$/js/moment/locale/ru.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/sd.js" afterPath="$PROJECT_DIR$/js/moment/locale/sd.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/se.js" afterPath="$PROJECT_DIR$/js/moment/locale/se.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/si.js" afterPath="$PROJECT_DIR$/js/moment/locale/si.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/sk.js" afterPath="$PROJECT_DIR$/js/moment/locale/sk.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/sl.js" afterPath="$PROJECT_DIR$/js/moment/locale/sl.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/sq.js" afterPath="$PROJECT_DIR$/js/moment/locale/sq.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/sr-cyrl.js" afterPath="$PROJECT_DIR$/js/moment/locale/sr-cyrl.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/sr.js" afterPath="$PROJECT_DIR$/js/moment/locale/sr.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/ss.js" afterPath="$PROJECT_DIR$/js/moment/locale/ss.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/sv.js" afterPath="$PROJECT_DIR$/js/moment/locale/sv.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/sw.js" afterPath="$PROJECT_DIR$/js/moment/locale/sw.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/ta.js" afterPath="$PROJECT_DIR$/js/moment/locale/ta.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/te.js" afterPath="$PROJECT_DIR$/js/moment/locale/te.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/tet.js" afterPath="$PROJECT_DIR$/js/moment/locale/tet.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/th.js" afterPath="$PROJECT_DIR$/js/moment/locale/th.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/tl-ph.js" afterPath="$PROJECT_DIR$/js/moment/locale/tl-ph.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/tlh.js" afterPath="$PROJECT_DIR$/js/moment/locale/tlh.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/tr.js" afterPath="$PROJECT_DIR$/js/moment/locale/tr.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/tzl.js" afterPath="$PROJECT_DIR$/js/moment/locale/tzl.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/tzm-latn.js" afterPath="$PROJECT_DIR$/js/moment/locale/tzm-latn.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/tzm.js" afterPath="$PROJECT_DIR$/js/moment/locale/tzm.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/uk.js" afterPath="$PROJECT_DIR$/js/moment/locale/uk.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/ur.js" afterPath="$PROJECT_DIR$/js/moment/locale/ur.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/uz-latn.js" afterPath="$PROJECT_DIR$/js/moment/locale/uz-latn.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/uz.js" afterPath="$PROJECT_DIR$/js/moment/locale/uz.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/vi.js" afterPath="$PROJECT_DIR$/js/moment/locale/vi.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/x-pseudo.js" afterPath="$PROJECT_DIR$/js/moment/locale/x-pseudo.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/yo.js" afterPath="$PROJECT_DIR$/js/moment/locale/yo.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/zh-cn.js" afterPath="$PROJECT_DIR$/js/moment/locale/zh-cn.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/zh-hk.js" afterPath="$PROJECT_DIR$/js/moment/locale/zh-hk.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/locale/zh-tw.js" afterPath="$PROJECT_DIR$/js/moment/locale/zh-tw.js" />
+      <change beforePath="$PROJECT_DIR$/js/moment/moment.js" afterPath="$PROJECT_DIR$/js/moment/moment.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/LICENSE" afterPath="$PROJECT_DIR$/js/numbro/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/LICENSE-Numeraljs" afterPath="$PROJECT_DIR$/js/numbro/LICENSE-Numeraljs" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages.js" afterPath="$PROJECT_DIR$/js/numbro/languages.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/bg.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/bg.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/cs-CZ.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/cs-CZ.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/da-DK.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/da-DK.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/de-AT.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/de-AT.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/de-CH.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/de-CH.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/de-DE.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/de-DE.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/de-LI.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/de-LI.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/el.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/el.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/en-AU.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/en-AU.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/en-GB.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/en-GB.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/en-IE.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/en-IE.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/en-NZ.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/en-NZ.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/en-ZA.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/en-ZA.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/es-AR.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/es-AR.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/es-CL.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/es-CL.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/es-CO.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/es-CO.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/es-CR.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/es-CR.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/es-ES.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/es-ES.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/es-NI.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/es-NI.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/es-PE.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/es-PE.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/es-PR.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/es-PR.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/es-SV.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/es-SV.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/et-EE.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/et-EE.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/fa-IR.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/fa-IR.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/fi-FI.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/fi-FI.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/fil-PH.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/fil-PH.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/fr-CA.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/fr-CA.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/fr-CH.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/fr-CH.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/fr-FR.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/fr-FR.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/he-IL.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/he-IL.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/hu-HU.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/hu-HU.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/id.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/id.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/index.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/index.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/it-CH.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/it-CH.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/it-IT.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/it-IT.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/ja-JP.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/ja-JP.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/ko-KR.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/ko-KR.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/lv-LV.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/lv-LV.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/nb-NO.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/nb-NO.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/nb.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/nb.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/nl-BE.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/nl-BE.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/nl-NL.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/nl-NL.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/nn.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/nn.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/pl-PL.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/pl-PL.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/pt-BR.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/pt-BR.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/pt-PT.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/pt-PT.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/ro-RO.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/ro-RO.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/ro.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/ro.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/ru-RU.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/ru-RU.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/ru-UA.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/ru-UA.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/sk-SK.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/sk-SK.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/sl.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/sl.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/sr-Cyrl-RS.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/sr-Cyrl-RS.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/sv-SE.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/sv-SE.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/th-TH.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/th-TH.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/tr-TR.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/tr-TR.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/uk-UA.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/uk-UA.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/zh-CN.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/zh-CN.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/zh-HANS.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/zh-HANS.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/zh-HANT.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/zh-HANT.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/zh-MO.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/zh-MO.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/zh-SG.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/zh-SG.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/languages/zh-TW.min.js" afterPath="$PROJECT_DIR$/js/numbro/languages/zh-TW.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/numbro/numbro.js" afterPath="$PROJECT_DIR$/js/numbro/numbro.js" />
+      <change beforePath="$PROJECT_DIR$/js/pikaday/LICENSE" afterPath="$PROJECT_DIR$/js/pikaday/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/js/pikaday/pikaday.css" afterPath="$PROJECT_DIR$/js/pikaday/pikaday.css" />
+      <change beforePath="$PROJECT_DIR$/js/pikaday/pikaday.js" afterPath="$PROJECT_DIR$/js/pikaday/pikaday.js" />
+      <change beforePath="$PROJECT_DIR$/js/zeroclipboard/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/zeroclipboard/ZeroClipboard.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/zeroclipboard/ZeroClipboard.swf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ktrace.out" afterPath="$PROJECT_DIR$/ktrace.out" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/distutils/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/distutils/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/distutils/distutils.cfg" afterPath="$PROJECT_DIR$/lib/python3.6/distutils/distutils.cfg" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/no-global-site-packages.txt" afterPath="$PROJECT_DIR$/lib/python3.6/no-global-site-packages.txt" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/orig-prefix.txt" afterPath="$PROJECT_DIR$/lib/python3.6/orig-prefix.txt" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/easy_install.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/easy_install.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-9.0.1.dist-info/DESCRIPTION.rst" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-9.0.1.dist-info/DESCRIPTION.rst" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-9.0.1.dist-info/INSTALLER" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-9.0.1.dist-info/INSTALLER" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-9.0.1.dist-info/METADATA" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-9.0.1.dist-info/METADATA" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-9.0.1.dist-info/RECORD" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-9.0.1.dist-info/RECORD" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-9.0.1.dist-info/WHEEL" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-9.0.1.dist-info/WHEEL" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-9.0.1.dist-info/entry_points.txt" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-9.0.1.dist-info/entry_points.txt" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-9.0.1.dist-info/metadata.json" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-9.0.1.dist-info/metadata.json" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-9.0.1.dist-info/top_level.txt" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-9.0.1.dist-info/top_level.txt" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/__main__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/__main__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/appdirs.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/appdirs.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/_cmd.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/_cmd.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/adapter.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/adapter.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/cache.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/cache.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/caches/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/caches/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/caches/file_cache.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/caches/file_cache.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/caches/redis_cache.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/caches/redis_cache.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/compat.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/compat.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/controller.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/controller.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/filewrapper.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/filewrapper.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/heuristics.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/heuristics.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/serialize.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/serialize.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/wrapper.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/wrapper.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/colorama/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/colorama/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/colorama/ansi.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/colorama/ansi.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/colorama/ansitowin32.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/colorama/ansitowin32.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/colorama/initialise.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/colorama/initialise.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/colorama/win32.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/colorama/win32.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/colorama/winterm.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/colorama/winterm.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/_backport/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/_backport/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/_backport/misc.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/_backport/misc.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/_backport/shutil.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/_backport/shutil.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/_backport/sysconfig.cfg" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/_backport/sysconfig.cfg" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/_backport/sysconfig.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/_backport/sysconfig.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/_backport/tarfile.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/_backport/tarfile.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/compat.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/compat.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/database.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/database.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/index.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/index.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/locators.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/locators.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/manifest.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/manifest.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/markers.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/markers.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/metadata.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/metadata.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/resources.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/resources.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/scripts.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/scripts.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/t32.exe" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/t32.exe" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/t64.exe" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/t64.exe" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/util.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/util.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/version.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/version.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/w32.exe" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/w32.exe" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/w64.exe" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/w64.exe" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/wheel.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/wheel.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distro.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distro.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/_ihatexml.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/_ihatexml.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/_inputstream.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/_inputstream.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/_tokenizer.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/_tokenizer.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/_trie/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/_trie/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/_trie/_base.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/_trie/_base.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/_trie/datrie.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/_trie/datrie.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/_trie/py.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/_trie/py.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/_utils.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/_utils.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/constants.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/constants.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/filters/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/filters/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/filters/alphabeticalattributes.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/filters/alphabeticalattributes.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/filters/base.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/filters/base.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/filters/inject_meta_charset.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/filters/inject_meta_charset.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/filters/lint.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/filters/lint.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/filters/optionaltags.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/filters/optionaltags.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/filters/sanitizer.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/filters/sanitizer.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/filters/whitespace.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/filters/whitespace.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/html5parser.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/html5parser.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/serializer.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/serializer.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treeadapters/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treeadapters/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treeadapters/genshi.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treeadapters/genshi.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treeadapters/sax.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treeadapters/sax.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treebuilders/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treebuilders/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treebuilders/base.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treebuilders/base.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treebuilders/dom.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treebuilders/dom.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treebuilders/etree.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treebuilders/etree.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treebuilders/etree_lxml.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treebuilders/etree_lxml.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treewalkers/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treewalkers/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treewalkers/base.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treewalkers/base.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treewalkers/dom.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treewalkers/dom.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treewalkers/etree.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treewalkers/etree.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treewalkers/etree_lxml.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treewalkers/etree_lxml.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treewalkers/genshi.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treewalkers/genshi.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/ipaddress.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/ipaddress.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/lockfile/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/lockfile/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/lockfile/linklockfile.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/lockfile/linklockfile.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/lockfile/mkdirlockfile.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/lockfile/mkdirlockfile.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/lockfile/pidlockfile.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/lockfile/pidlockfile.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/lockfile/sqlitelockfile.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/lockfile/sqlitelockfile.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/lockfile/symlinklockfile.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/lockfile/symlinklockfile.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/ordereddict.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/ordereddict.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/__about__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/__about__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/_compat.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/_compat.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/_structures.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/_structures.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/markers.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/markers.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/requirements.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/requirements.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/specifiers.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/specifiers.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/utils.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/utils.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/version.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/version.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/pkg_resources/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/pkg_resources/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/progress/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/progress/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/progress/bar.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/progress/bar.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/progress/counter.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/progress/counter.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/progress/helpers.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/progress/helpers.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/progress/spinner.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/progress/spinner.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/pyparsing.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/pyparsing.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/re-vendor.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/re-vendor.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/adapters.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/adapters.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/api.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/api.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/auth.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/auth.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/cacert.pem" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/cacert.pem" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/certs.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/certs.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/compat.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/compat.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/cookies.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/cookies.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/exceptions.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/exceptions.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/hooks.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/hooks.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/models.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/models.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/big5freq.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/big5freq.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/big5prober.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/big5prober.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/chardetect.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/chardetect.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/chardistribution.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/chardistribution.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/charsetgroupprober.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/charsetgroupprober.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/charsetprober.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/charsetprober.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/codingstatemachine.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/codingstatemachine.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/compat.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/compat.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/constants.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/constants.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/cp949prober.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/cp949prober.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/escprober.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/escprober.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/escsm.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/escsm.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/eucjpprober.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/eucjpprober.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/euckrfreq.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/euckrfreq.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/euckrprober.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/euckrprober.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/euctwfreq.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/euctwfreq.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/euctwprober.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/euctwprober.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/gb2312freq.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/gb2312freq.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/gb2312prober.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/gb2312prober.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/hebrewprober.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/hebrewprober.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/jisfreq.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/jisfreq.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/jpcntx.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/jpcntx.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/langbulgarianmodel.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/langbulgarianmodel.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/langcyrillicmodel.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/langcyrillicmodel.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/langgreekmodel.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/langgreekmodel.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/langhebrewmodel.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/langhebrewmodel.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/langhungarianmodel.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/langhungarianmodel.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/langthaimodel.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/langthaimodel.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/latin1prober.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/latin1prober.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/mbcharsetprober.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/mbcharsetprober.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/mbcsgroupprober.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/mbcsgroupprober.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/mbcssm.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/mbcssm.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/sbcharsetprober.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/sbcharsetprober.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/sbcsgroupprober.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/sbcsgroupprober.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/sjisprober.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/sjisprober.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/universaldetector.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/universaldetector.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/utf8prober.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/chardet/utf8prober.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/_collections.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/_collections.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/connection.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/connection.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/connectionpool.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/connectionpool.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/contrib/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/contrib/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/contrib/appengine.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/contrib/appengine.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/contrib/ntlmpool.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/contrib/ntlmpool.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/contrib/pyopenssl.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/contrib/pyopenssl.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/contrib/socks.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/contrib/socks.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/exceptions.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/exceptions.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/fields.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/fields.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/filepost.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/filepost.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/packages/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/packages/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/packages/ordered_dict.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/packages/ordered_dict.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/packages/six.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/packages/six.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/packages/ssl_match_hostname/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/packages/ssl_match_hostname/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/packages/ssl_match_hostname/_implementation.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/packages/ssl_match_hostname/_implementation.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/poolmanager.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/poolmanager.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/request.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/request.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/response.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/response.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/util/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/util/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/util/connection.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/util/connection.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/util/request.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/util/request.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/util/response.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/util/response.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/util/retry.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/util/retry.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl_.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl_.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/util/timeout.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/util/timeout.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/util/url.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/packages/urllib3/util/url.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/sessions.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/sessions.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/status_codes.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/status_codes.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/structures.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/structures.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/utils.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/utils.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/retrying.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/retrying.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/six.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/six.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/webencodings/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/webencodings/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/webencodings/labels.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/webencodings/labels.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/webencodings/mklabels.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/webencodings/mklabels.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/webencodings/tests.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/webencodings/tests.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/webencodings/x_user_defined.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/webencodings/x_user_defined.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/basecommand.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/basecommand.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/baseparser.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/baseparser.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/cmdoptions.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/cmdoptions.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/check.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/check.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/completion.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/completion.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/download.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/download.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/freeze.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/freeze.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/hash.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/hash.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/help.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/help.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/install.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/install.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/list.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/list.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/search.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/search.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/show.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/show.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/uninstall.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/uninstall.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/wheel.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/wheel.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/compat/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/compat/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/compat/dictconfig.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/compat/dictconfig.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/download.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/download.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/exceptions.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/exceptions.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/index.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/index.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/locations.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/locations.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/models/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/models/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/models/index.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/models/index.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/operations/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/operations/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/operations/check.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/operations/check.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/operations/freeze.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/operations/freeze.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/pep425tags.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/pep425tags.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/req/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/req/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/req/req_file.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/req/req_file.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/req/req_install.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/req/req_install.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/req/req_set.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/req/req_set.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/req/req_uninstall.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/req/req_uninstall.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/status_codes.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/status_codes.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/appdirs.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/appdirs.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/build.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/build.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/deprecation.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/deprecation.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/encoding.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/encoding.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/filesystem.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/filesystem.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/glibc.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/glibc.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/hashes.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/hashes.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/logging.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/logging.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/outdated.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/outdated.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/packaging.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/packaging.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/setuptools_build.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/setuptools_build.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/ui.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/ui.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/vcs/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/vcs/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/vcs/bazaar.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/vcs/bazaar.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/vcs/git.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/vcs/git.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/vcs/mercurial.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/vcs/mercurial.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/vcs/subversion.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/vcs/subversion.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/wheel.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/wheel.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/_vendor/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/_vendor/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/_vendor/appdirs.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/_vendor/appdirs.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__about__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__about__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/_compat.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/_compat.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/_structures.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/_structures.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/markers.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/markers.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/requirements.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/requirements.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/specifiers.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/specifiers.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/utils.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/utils.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/version.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/version.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/_vendor/pyparsing.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/_vendor/pyparsing.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/_vendor/six.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/_vendor/six.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/extern/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/extern/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/py31compat.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pkg_resources/py31compat.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools-36.2.7.dist-info/DESCRIPTION.rst" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools-36.2.7.dist-info/DESCRIPTION.rst" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools-36.2.7.dist-info/INSTALLER" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools-36.2.7.dist-info/INSTALLER" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools-36.2.7.dist-info/METADATA" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools-36.2.7.dist-info/METADATA" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools-36.2.7.dist-info/RECORD" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools-36.2.7.dist-info/RECORD" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools-36.2.7.dist-info/WHEEL" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools-36.2.7.dist-info/WHEEL" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools-36.2.7.dist-info/dependency_links.txt" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools-36.2.7.dist-info/dependency_links.txt" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools-36.2.7.dist-info/entry_points.txt" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools-36.2.7.dist-info/entry_points.txt" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools-36.2.7.dist-info/metadata.json" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools-36.2.7.dist-info/metadata.json" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools-36.2.7.dist-info/top_level.txt" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools-36.2.7.dist-info/top_level.txt" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools-36.2.7.dist-info/zip-safe" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools-36.2.7.dist-info/zip-safe" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/archive_util.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/archive_util.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/cli-32.exe" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/cli-32.exe" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/cli-64.exe" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/cli-64.exe" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/cli.exe" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/cli.exe" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/alias.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/alias.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/bdist_egg.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/bdist_egg.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/bdist_rpm.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/bdist_rpm.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/bdist_wininst.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/bdist_wininst.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/build_clib.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/build_clib.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/build_ext.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/build_ext.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/build_py.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/build_py.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/develop.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/develop.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/easy_install.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/easy_install.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/egg_info.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/egg_info.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/install.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/install.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/install_egg_info.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/install_egg_info.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/install_lib.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/install_lib.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/install_scripts.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/install_scripts.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/launcher manifest.xml" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/launcher manifest.xml" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/py36compat.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/py36compat.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/register.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/register.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/rotate.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/rotate.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/saveopts.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/saveopts.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/sdist.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/sdist.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/setopt.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/setopt.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/test.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/test.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/upload.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/upload.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/upload_docs.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/command/upload_docs.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/config.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/config.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/dep_util.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/dep_util.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/depends.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/depends.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/dist.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/dist.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/extension.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/extension.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/extern/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/extern/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/glob.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/glob.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/gui-32.exe" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/gui-32.exe" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/gui-64.exe" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/gui-64.exe" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/gui.exe" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/gui.exe" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/launch.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/launch.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/lib2to3_ex.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/lib2to3_ex.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/monkey.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/monkey.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/msvc.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/msvc.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/namespaces.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/namespaces.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/package_index.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/package_index.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/py26compat.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/py26compat.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/py27compat.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/py27compat.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/py31compat.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/py31compat.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/py33compat.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/py33compat.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/py36compat.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/py36compat.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/sandbox.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/sandbox.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/script (dev).tmpl" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/script (dev).tmpl" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/script.tmpl" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/script.tmpl" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/site-patch.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/site-patch.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/ssl_support.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/ssl_support.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/unicode_utils.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/unicode_utils.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/version.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/version.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/windows_support.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/setuptools/windows_support.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel-0.29.0.dist-info/DESCRIPTION.rst" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel-0.29.0.dist-info/DESCRIPTION.rst" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel-0.29.0.dist-info/INSTALLER" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel-0.29.0.dist-info/INSTALLER" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel-0.29.0.dist-info/LICENSE.txt" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel-0.29.0.dist-info/LICENSE.txt" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel-0.29.0.dist-info/METADATA" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel-0.29.0.dist-info/METADATA" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel-0.29.0.dist-info/RECORD" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel-0.29.0.dist-info/RECORD" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel-0.29.0.dist-info/WHEEL" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel-0.29.0.dist-info/WHEEL" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel-0.29.0.dist-info/entry_points.txt" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel-0.29.0.dist-info/entry_points.txt" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel-0.29.0.dist-info/metadata.json" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel-0.29.0.dist-info/metadata.json" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel-0.29.0.dist-info/top_level.txt" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel-0.29.0.dist-info/top_level.txt" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/__main__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/__main__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/archive.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/archive.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/bdist_wheel.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/bdist_wheel.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/decorator.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/decorator.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/egg2wheel.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/egg2wheel.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/eggnames.txt" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/eggnames.txt" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/install.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/install.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/metadata.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/metadata.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/paths.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/paths.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/pep425tags.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/pep425tags.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/pkginfo.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/pkginfo.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/signatures/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/signatures/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/signatures/djbec.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/signatures/djbec.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/signatures/ed25519py.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/signatures/ed25519py.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/signatures/keys.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/signatures/keys.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/complex-dist/complexdist/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/complex-dist/complexdist/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/complex-dist/setup.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/complex-dist/setup.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/headers.dist/header.h" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/headers.dist/header.h" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/headers.dist/headersdist.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/headers.dist/headersdist.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/headers.dist/setup.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/headers.dist/setup.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/pydist-schema.json" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/pydist-schema.json" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/simple.dist/setup.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/simple.dist/setup.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/simple.dist/simpledist/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/simple.dist/simpledist/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/test-1.0-py2.py3-none-win32.whl" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/test-1.0-py2.py3-none-win32.whl" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/test_basic.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/test_basic.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/test_install.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/test_install.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/test_keys.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/test_keys.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/test_paths.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/test_paths.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/test_ranking.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/test_ranking.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/test_signatures.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/test_signatures.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/test_tagopt.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/test_tagopt.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/test_tool.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/test_tool.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/test_wheelfile.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/test/test_wheelfile.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/tool/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/tool/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/util.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/util.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/wininst2wheel.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/wheel/wininst2wheel.py" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site.py" afterPath="$PROJECT_DIR$/lib/python3.6/site.py" />
+      <change beforePath="$PROJECT_DIR$/load/importlib" afterPath="$PROJECT_DIR$/load/importlib" />
+      <change beforePath="$PROJECT_DIR$/load/load_admin_create.py" afterPath="$PROJECT_DIR$/load/load_admin_create.py" />
+      <change beforePath="$PROJECT_DIR$/manager/setups/pyadmin/conn.py" afterPath="$PROJECT_DIR$/manager/setups/pyadmin/conn.py" />
+      <change beforePath="$PROJECT_DIR$/manager/setups/pyadmin/login.py" afterPath="$PROJECT_DIR$/manager/setups/pyadmin/login.py" />
+      <change beforePath="$PROJECT_DIR$/manager/setups/pyadmin/module.py" afterPath="$PROJECT_DIR$/manager/setups/pyadmin/module.py" />
+      <change beforePath="$PROJECT_DIR$/manager/setups/pyadmin/sess.py" afterPath="$PROJECT_DIR$/manager/setups/pyadmin/sess.py" />
+      <change beforePath="$PROJECT_DIR$/manager/setups/pyadmin_database_sample" afterPath="$PROJECT_DIR$/manager/setups/pyadmin_database_sample" />
+      <change beforePath="$PROJECT_DIR$/pip-selfcheck.json" afterPath="$PROJECT_DIR$/pip-selfcheck.json" />
+      <change beforePath="$PROJECT_DIR$/save/save_admin_create.py" afterPath="$PROJECT_DIR$/save/save_admin_create.py" />
+      <change beforePath="$PROJECT_DIR$/save/sql_query.py" afterPath="$PROJECT_DIR$/save/sql_query.py" />
+      <change beforePath="$PROJECT_DIR$/scripts/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/scripts/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change beforePath="$PROJECT_DIR$/scripts/.idea/misc.xml" afterPath="$PROJECT_DIR$/scripts/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/scripts/.idea/modules.xml" afterPath="$PROJECT_DIR$/scripts/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/scripts/.idea/scripts.iml" afterPath="$PROJECT_DIR$/scripts/.idea/scripts.iml" />
+      <change beforePath="$PROJECT_DIR$/scripts/.idea/workspace.xml" afterPath="$PROJECT_DIR$/scripts/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/scripts/README.md" afterPath="$PROJECT_DIR$/scripts/README.md" />
+      <change beforePath="$PROJECT_DIR$/scripts/ago/result.py" afterPath="$PROJECT_DIR$/scripts/ago/result.py" />
+      <change beforePath="$PROJECT_DIR$/scripts/ago/result_home.py" afterPath="$PROJECT_DIR$/scripts/ago/result_home.py" />
+      <change beforePath="$PROJECT_DIR$/scripts/find2.py" afterPath="$PROJECT_DIR$/scripts/find2.py" />
+      <change beforePath="$PROJECT_DIR$/scripts/get_ip.py" afterPath="$PROJECT_DIR$/scripts/get_ip.py" />
+      <change beforePath="$PROJECT_DIR$/scripts/info.py" afterPath="$PROJECT_DIR$/scripts/info.py" />
+      <change beforePath="$PROJECT_DIR$/scripts/save3.py" afterPath="$PROJECT_DIR$/scripts/save3.py" />
+      <change beforePath="$PROJECT_DIR$/scripts/save7.py" afterPath="$PROJECT_DIR$/scripts/save7.py" />
+      <change beforePath="$PROJECT_DIR$/scripts/save_result.py" afterPath="$PROJECT_DIR$/scripts/save_result.py" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_session.py" afterPath="$PROJECT_DIR$/scripts/test_session.py" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_session2.py" afterPath="$PROJECT_DIR$/scripts/test_session2.py" />
+      <change beforePath="$PROJECT_DIR$/scripts/testing.py" afterPath="$PROJECT_DIR$/scripts/testing.py" />
+      <change beforePath="$PROJECT_DIR$/scripts/ting.html" afterPath="$PROJECT_DIR$/scripts/ting.html" />
+      <change beforePath="$PROJECT_DIR$/scripts/upload_file_omnivore2.py" afterPath="$PROJECT_DIR$/scripts/upload_file_omnivore2.py" />
+      <change beforePath="$PROJECT_DIR$/scripts/webob21_qa42.py" afterPath="$PROJECT_DIR$/scripts/webob21_qa42.py" />
+      <change beforePath="$PROJECT_DIR$/scripts/webob22_qa42.py" afterPath="$PROJECT_DIR$/scripts/webob22_qa42.py" />
+      <change beforePath="$PROJECT_DIR$/scripts/webob22_qa43.py" afterPath="$PROJECT_DIR$/scripts/webob22_qa43.py" />
+      <change beforePath="$PROJECT_DIR$/sitemaps/get_job.py" afterPath="$PROJECT_DIR$/sitemaps/get_job.py" />
+      <change beforePath="$PROJECT_DIR$/sitemaps/load_sitemaps.py" afterPath="$PROJECT_DIR$/sitemaps/load_sitemaps.py" />
+      <change beforePath="$PROJECT_DIR$/sitemaps/save.py" afterPath="$PROJECT_DIR$/sitemaps/save.py" />
+      <change beforePath="$PROJECT_DIR$/sitemaps/save_cookie.py" afterPath="$PROJECT_DIR$/sitemaps/save_cookie.py" />
+      <change beforePath="$PROJECT_DIR$/sitemaps/save_data.py" afterPath="$PROJECT_DIR$/sitemaps/save_data.py" />
+      <change beforePath="$PROJECT_DIR$/sitemaps/save_data1.py" afterPath="$PROJECT_DIR$/sitemaps/save_data1.py" />
+      <change beforePath="$PROJECT_DIR$/sitemaps/save_data6.py" afterPath="$PROJECT_DIR$/sitemaps/save_data6.py" />
+      <change beforePath="$PROJECT_DIR$/sitemaps/save_sitemaps.py" afterPath="$PROJECT_DIR$/sitemaps/save_sitemaps.py" />
+      <change beforePath="$PROJECT_DIR$/sitemaps/update_sitemaps.py" afterPath="$PROJECT_DIR$/sitemaps/update_sitemaps.py" />
+      <change beforePath="$PROJECT_DIR$/start_service.py" afterPath="$PROJECT_DIR$/start_service.py" />
+      <change beforePath="$PROJECT_DIR$/test/__init__.py" afterPath="$PROJECT_DIR$/test/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/test/models/__init__.py" afterPath="$PROJECT_DIR$/test/models/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/test/models/base_model.py" afterPath="$PROJECT_DIR$/test/models/base_model.py" />
+      <change beforePath="$PROJECT_DIR$/test/models/user.py" afterPath="$PROJECT_DIR$/test/models/user.py" />
+      <change beforePath="$PROJECT_DIR$/test/new.py" afterPath="$PROJECT_DIR$/test/new.py" />
+      <change beforePath="$PROJECT_DIR$/test/services/__init__.py" afterPath="$PROJECT_DIR$/test/services/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/test/services/create_user.py" afterPath="$PROJECT_DIR$/test/services/create_user.py" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,73 +944,104 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/pyadmin$console.coverage" NAME="console Coverage Results" MODIFIED="1521601915001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/pyadmin$convert_image.coverage" NAME="convert_image Coverage Results" MODIFIED="1521617573621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/pyadmin$new.coverage" NAME="new Coverage Results" MODIFIED="1521255386290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/pyadmin$export_excel.coverage" NAME="export_excel Coverage Results" MODIFIED="1521616797644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#47#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#47#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login_form.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login_form.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/new.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.88137674">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="upload_files_omnivore_z.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scripts/upload_files_omnivore_z.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="80">
+                  <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+                  <folding>
+                    <marker date="1511487541376" expanded="true" signature="1048:1255" ph="create table... if" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="convert_image.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/scripts/convert_image.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1095">
+                  <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="63" selection-end-column="42" />
+                  <folding>
+                    <element signature="e#0#19#0" expanded="true" />
+                    <marker date="1521618418325" expanded="true" signature="1729:1815" ph="select table... pg_tables" />
+                    <marker date="1521618418325" expanded="true" signature="2042:2106" ph="select id,im... missing_value" />
+                    <marker date="1521618418325" expanded="true" signature="2679:2762" ph="update missing_value... " />
+                    <marker date="1521618418325" expanded="true" signature="2944:3085" ph="select id,ag... missing_value" />
+                    <marker date="1521618418325" expanded="true" signature="2944:3087" ph="select id,ag... %s" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="export_excel.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scripts/export_excel.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="os.py" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/anaconda2/envs/pyadmin/lib/python3.6/os.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="4440">
+                  <caret line="224" column="0" lean-forward="false" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="console.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scripts/console.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="21" selection-end-column="30" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="smartfile_test.log" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scripts/smartfile_test.log">
+              <provider selected="true" editor-type-id="LogFileEditorProvider">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+          <file leaf-file-name="export_excel.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/scripts/export_excel.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+                  <folding>
+                    <element signature="e#16#35#0" expanded="true" />
+                    <marker date="1521616593088" expanded="true" signature="391:549" ph="select id,ag... linhnguyenthuy1_2018_3_21" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -89,6 +1049,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>account</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -101,6 +1066,12 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/test/new.py" />
         <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/scripts/upload_file_demo.py" />
+        <option value="$PROJECT_DIR$/scripts/console.py" />
+        <option value="$PROJECT_DIR$/scripts/upload_files_demo.py" />
+        <option value="$USER_HOME$/PycharmProjects/playgrounds/untitled3/convert_image.py" />
+        <option value="$PROJECT_DIR$/scripts/export_excel.py" />
+        <option value="$PROJECT_DIR$/scripts/convert_image.py" />
       </list>
     </option>
   </component>
@@ -111,10 +1082,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="155" />
-    <option name="y" value="39" />
-    <option name="width" value="942" />
-    <option name="height" value="921" />
+    <option name="x" value="109" />
+    <option name="y" value="128" />
+    <option name="width" value="1736" />
+    <option name="height" value="905" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -152,13 +1123,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="pypgadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pypgadmin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pypgadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pypgadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="pyadmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyadmin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -169,8 +1135,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scripts" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -184,7 +1155,64 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.convert_image">
+    <configuration name="console" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pypgadmin" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/console.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="convert_image" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pypgadmin" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/convert_image.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="export_excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pypgadmin" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/export_excel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="new" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -204,9 +1232,18 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Python.new" />
+      <item index="1" class="java.lang.String" itemvalue="Python.console" />
+      <item index="2" class="java.lang.String" itemvalue="Python.convert_image" />
+      <item index="3" class="java.lang.String" itemvalue="Python.export_excel" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.new" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.convert_image" />
+        <item index="1" class="java.lang.String" itemvalue="Python.export_excel" />
+        <item index="2" class="java.lang.String" itemvalue="Python.console" />
+        <item index="3" class="java.lang.String" itemvalue="Python.new" />
       </list>
     </recent_temporary>
   </component>
@@ -227,21 +1264,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="155" y="39" width="942" height="921" extended-state="0" />
+    <frame x="109" y="128" width="1736" height="905" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908162" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4500684" sideWeight="0.14217444" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908162" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26946107" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35475233" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1097561" sideWeight="0.79731995" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908162" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31600547" sideWeight="0.4199522" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.027479092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4500684" sideWeight="0.8578256" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -262,51 +1300,38 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scripts/upload_file_demo.py</url>
+          <line>37</line>
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="9" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>table_name</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login_form.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/new.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -314,17 +1339,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ago/result.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="160">
+          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -332,9 +1360,93 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login_form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login_form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -342,7 +1454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -351,9 +1462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -361,7 +1469,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -369,9 +1476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -381,9 +1485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -391,9 +1492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -401,7 +1499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -410,7 +1507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -418,9 +1514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -431,7 +1524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -439,13 +1531,118 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/pyad/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ago/result.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/upload_file_omnivore2g2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-840">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/upload_file_omnivore2g.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1140">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/upload_file_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="37" column="43" lean-forward="false" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+          <folding>
+            <marker date="1521253922285" expanded="true" signature="1378:1659" ph="create table... if" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/console.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="21" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/upload_files_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="45" column="43" lean-forward="false" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/smartfile_test.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/playgrounds/untitled3/convert_image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/upload_files_omnivore_z.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <marker date="1511487541376" expanded="true" signature="1048:1255" ph="create table... if" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/envs/pyadmin/lib/python3.6/os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4440">
+          <caret line="224" column="0" lean-forward="false" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/export_excel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -453,20 +1650,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/pyad/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/test/new.py">
+    <entry file="file://$PROJECT_DIR$/scripts/convert_image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-1095">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="63" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <marker date="1521618418325" expanded="true" signature="1729:1815" ph="select table... pg_tables" />
+            <marker date="1521618418325" expanded="true" signature="2042:2106" ph="select id,im... missing_value" />
+            <marker date="1521618418325" expanded="true" signature="2679:2762" ph="update missing_value... " />
+            <marker date="1521618418325" expanded="true" signature="2944:3085" ph="select id,ag... missing_value" />
+            <marker date="1521618418325" expanded="true" signature="2944:3087" ph="select id,ag... %s" />
+          </folding>
         </state>
       </provider>
     </entry>

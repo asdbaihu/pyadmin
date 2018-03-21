@@ -9,7 +9,7 @@ def application(environ, start_response):
 	import psycopg2
 	import psycopg2.extras
 	import psycopg2.extensions
-	conn = psycopg2.connect("dbname=omnivore user=postgres password=12345678")
+	conn = psycopg2.connect("host=localhost dbname=omnivore user=postgres password=12345678")
 	cur = conn.cursor()
 
 
@@ -96,7 +96,7 @@ no text,agent text, module text,domain text,title text,link text, quest text, an
 			<html>
 			<head><title>Upload</title></head>
 			<body>
-			<form name="test" method="post" action="upload_file2a" enctype="multipart/form-data">
+			<form name="test" method="post" action="upload_file_omnivore2.py" enctype="multipart/form-data">
 				Import file csv : <input type="file" name="file" multiple/> <br />
 				<p>--------------</p>
 			

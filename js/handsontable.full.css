@@ -23,8 +23,8 @@
  * TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  * 
- * Version: 0.32.0
- * Date: Tue May 30 2017 12:18:32 GMT+0200 (CEST)
+ * Version: 0.38.0
+ * Release date: 14/03/2018 (built at 12/03/2018 15:07:01)
  */
 /**
  * Fix for bootstrap styles
@@ -41,12 +41,12 @@
   background-color: inherit;
 }
 
-.table caption + thead tr:first-child th,
-.table caption + thead tr:first-child td,
-.table colgroup + thead tr:first-child th,
-.table colgroup + thead tr:first-child td,
-.table thead:first-child tr:first-child th,
-.table thead:first-child tr:first-child td {
+.handsontable .table caption + thead tr:first-child th,
+.handsontable .table caption + thead tr:first-child td,
+.handsontable .table colgroup + thead tr:first-child th,
+.handsontable .table colgroup + thead tr:first-child td,
+.handsontable .table thead:first-child tr:first-child th,
+.handsontable .table thead:first-child tr:first-child td {
   border-top: 1px solid #CCCCCC;
 }
 
@@ -66,7 +66,12 @@
   border-left: 1px solid #CCCCCC;
 }
 
-.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+.handsontable .table > tbody > tr > td,
+.handsontable .table > tbody > tr > th,
+.handsontable .table > tfoot > tr > td,
+.handsontable .table > tfoot > tr > th,
+.handsontable .table > thead > tr > td,
+.handsontable .table > thead > tr > th {
   line-height: 21px;
   padding: 0 4px;
 }
@@ -83,7 +88,7 @@
   padding-right: 0;
 }
 
-.table-striped > tbody > tr:nth-of-type(even) {
+.handsontable .table-striped > tbody > tr:nth-of-type(even) {
   background-color: #FFF;
 }
 .handsontable {
@@ -134,14 +139,14 @@
 
 .handsontable table.htCore {
   border-collapse: separate;
-  /*it must be separate, otherwise there are offset miscalculations in WebKit: http://stackoverflow.com/questions/2655987/border-collapse-differences-in-ff-and-webkit*/
-  /*this actually only changes appearance of user selection - does not make text unselectable
-  -webkit-user-select: none;
+  /* it must be separate, otherwise there are offset miscalculations in WebKit: http://stackoverflow.com/questions/2655987/border-collapse-differences-in-ff-and-webkit */
+  /* this actually only changes appearance of user selection - does not make text unselectable */
+  /* -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
   -o-user-select: none;
   -ms-user-select: none;
-  /*user-select: none; /*no browser supports unprefixed version*/
+  user-select: none; */ /* no browser supports unprefixed version */
   border-spacing: 0;
   margin: 0;
   border-width: 0;
@@ -262,6 +267,14 @@
   color: #000;
 }
 
+#hot-display-license-info {
+  font-size: 9px;
+  color: #323232 ;
+  padding: 5px 0 3px 0;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: left;
+}
+
 /* plugins */
 
 /* row + column resizer*/
@@ -351,15 +364,72 @@
   display:none !important;
 }
 
-.handsontable td.area {
-  background: -moz-linear-gradient(top,  rgba(181,209,255,0.34) 0%, rgba(181,209,255,0.34) 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(181,209,255,0.34)), color-stop(100%,rgba(181,209,255,0.34))); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  rgba(181,209,255,0.34) 0%,rgba(181,209,255,0.34) 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  rgba(181,209,255,0.34) 0%,rgba(181,209,255,0.34) 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  rgba(181,209,255,0.34) 0%,rgba(181,209,255,0.34) 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  rgba(181,209,255,0.34) 0%,rgba(181,209,255,0.34) 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57b5d1ff', endColorstr='#57b5d1ff',GradientType=0 ); /* IE6-9 */
-  background-color: #fff;
+.handsontable td.area,
+.handsontable td.area-1,
+.handsontable td.area-2,
+.handsontable td.area-3,
+.handsontable td.area-4,
+.handsontable td.area-5,
+.handsontable td.area-6,
+.handsontable td.area-7 {
+  position: relative;
+}
+
+.handsontable td.area:before,
+.handsontable td.area-1:before,
+.handsontable td.area-2:before,
+.handsontable td.area-3:before,
+.handsontable td.area-4:before,
+.handsontable td.area-5:before,
+.handsontable td.area-6:before,
+.handsontable td.area-7:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  bottom: -100%\9; /* Fix for IE9 to spread the ":before" pseudo element to 100% height of the parent element */
+  background: #005eff;
+}
+
+/* Fix for IE10 and IE11 to spread the ":before" pseudo element to 100% height of the parent element */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .handsontable td.area:before,
+  .handsontable td.area-1:before,
+  .handsontable td.area-2:before,
+  .handsontable td.area-3:before,
+  .handsontable td.area-4:before,
+  .handsontable td.area-5:before,
+  .handsontable td.area-6:before,
+  .handsontable td.area-7:before {
+    bottom: -100%;
+  }
+}
+
+.handsontable td.area:before {
+  opacity: 0.1;
+}
+.handsontable td.area-1:before {
+  opacity: 0.2;
+}
+.handsontable td.area-2:before {
+  opacity: 0.27;
+}
+.handsontable td.area-3:before {
+  opacity: 0.35;
+}
+.handsontable td.area-4:before {
+  opacity: 0.41;
+}
+.handsontable td.area-5:before {
+  opacity: 0.47;
+}
+.handsontable td.area-6:before {
+  opacity: 0.54;
+}
+.handsontable td.area-7:before {
+  opacity: 0.58;
 }
 
 /* fill handle */
@@ -386,7 +456,7 @@
   box-shadow: 0 0 0 2px #5292F7 inset;
   resize: none;
   /*below are needed to overwrite stuff added by jQuery UI Bootstrap theme*/
-  display: inline-block;
+  display: block;
   color: #000;
   border-radius: 0;
   background-color: #FFF;
@@ -1246,7 +1316,8 @@ http://nicolasgallagher.com/micro-clearfix-hack/
     border-radius: 3px;
 }
 
-.is-disabled .pika-button {
+.is-disabled .pika-button,
+.is-outside-current-month .pika-button {
     pointer-events: none;
     cursor: default;
     color: #999;
@@ -1392,6 +1463,14 @@ http://nicolasgallagher.com/micro-clearfix-hack/
 .htContextMenu .ht_master .wtHolder {
   overflow: hidden;
 }
+textarea#HandsontableCopyPaste {
+  position: fixed !important;
+  top: 0 !important;
+  right: 100% !important;
+  overflow: hidden;
+  opacity: 0;
+  outline: 0 none !important;
+}
 .htRowHeaders .ht_master.innerBorderLeft ~ .ht_clone_top_left_corner th:nth-child(2),
 .htRowHeaders .ht_master.innerBorderLeft ~ .ht_clone_left td:first-of-type {
   border-left: 0 none;
@@ -1481,4 +1560,8 @@ http://nicolasgallagher.com/micro-clearfix-hack/
 .handsontable.on-moving--rows.show-ui .ht__manualRowMove--guideline,
 .handsontable.on-moving--rows .ht__manualRowMove--backlight {
   display: block;
+}
+.handsontable.ht__selection--rows tbody td[rowspan][class*="area"][class*="highlight"]:before,
+.handsontable.ht__selection--columns tbody td[colspan][class*="area"][class*="highlight"]:before {
+    background: inherit;
 }
