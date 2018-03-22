@@ -115,7 +115,7 @@ for table_name in table_names:
     conn.commit()
     cur.close()
     conn.close()
-    logging.info(rows_excel)
+    #logging.info(rows_excel)
     size = 20000000
 
     df = pd.DataFrame(rows_excel)
