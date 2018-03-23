@@ -75,7 +75,7 @@ if not os.path.exists(data_path):
 conn = getConnection()
 cur = conn.cursor()
 
-cur.execute("select tablename from pg_tables where schemaname='public' and tablename ilike '%%%s%%'" % today)
+cur.execute("select tablename from pg_tables where schemaname='public' and tablename ilike '%%%s%%'  and not tablename ilike '%%master_table%%' and not tablename ilike '%%disagreement%%'" % today)
 table_names = cur.fetchall()
 conn.commit()
 cur.close()
