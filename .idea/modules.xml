@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file:///usr/local/lib/python3.6/dist-packages/pyadmin/.idea/pyadmin.iml" filepath="/usr/local/lib/python3.6/dist-packages/pyadmin/.idea/pyadmin.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/pypgadmin.iml" filepath="$PROJECT_DIR$/.idea/pypgadmin.iml" />
     </modules>
   </component>

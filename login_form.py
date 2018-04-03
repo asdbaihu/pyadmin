@@ -66,8 +66,8 @@ def application(environment, start_response):
 	</html>""" % (js, bootstrap, bootstrap)
 
     response = Response(body=page,
-        content_type="text/html",
-        charset="utf8",
-        status="200 OK")
+                        content_type="text/html",
+                        charset="utf8",
+                        status="200 OK")
 
     return response(environment, start_response)
