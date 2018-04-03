@@ -3,7 +3,7 @@ import pandas as pd
 import psycopg2,logging,base64,os
 from datetime import datetime
 
-from os.path import join, dirname
+#from os.path import join, dirname
 
 logging.basicConfig(level=logging.DEBUG)
 #logging.warning("Watch out!")
