@@ -183,9 +183,6 @@ def application(environment, start_response):
                                 filcols = []
                                 movecols = ""
                                 que = ""
-
-
-
                     else:  # table =""
 
                         cols = []
@@ -706,10 +703,8 @@ document.getElementById("load_dog").click();
 </body>
 </html>
 """
-
             else:
                 page = pyadmin.login.login_again
-
         con.commit()
         cur.close()
         con.close()
@@ -720,7 +715,6 @@ document.getElementById("load_dog").click();
                         status="200 OK")
 
     return response(environment, start_response)
-
 
 # Configure the SessionMiddleware
 import pyadmin.sess

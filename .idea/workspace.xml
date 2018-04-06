@@ -2,16 +2,448 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="897b6eec-0177-403c-9ed8-b290c520ec9a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/disagreement_without_images.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/export_excel_without_images.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pypgadmin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pypgadmin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/con.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/fu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/mylib.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/login_form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/control/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/control/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/handsontable.css" beforeDir="false" afterPath="$PROJECT_DIR$/js/handsontable.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/handsontable.full.css" beforeDir="false" afterPath="$PROJECT_DIR$/js/handsontable.full.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/handsontable.full.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/handsontable.full.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/handsontable.full.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/js/handsontable.full.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/handsontable.full.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/handsontable.full.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/handsontable.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/handsontable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/handsontable.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/handsontable.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/handsontable.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/js/handsontable.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/handsontable.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/handsontable.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/handsontable.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/handsontable.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/handsontable.full.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/handsontable.full.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/handsontable.full.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/handsontable.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/handsontable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/handsontable.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/handsontable.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/handsontable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/jquery.bootpag.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/af.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ar-dz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ar-kw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ar-ly.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ar-ma.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ar-sa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ar-tn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/be.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/bn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/bo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/bs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/cv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/de-at.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/de-ch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/dv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/en-au.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/en-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/en-gb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/en-ie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/en-nz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/eo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/es-do.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/fo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/fr-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/fr-ch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/fy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/gd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/gom-latn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/hy-am.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/jv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ka.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/kk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/kn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ky.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/lb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/lo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/me.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/mi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/mr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ms-my.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/my.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ne.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/nl-be.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/nn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/pa-in.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/pt-br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/sd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/se.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/si.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/sr-cyrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/sw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ta.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/te.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/tet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/tl-ph.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/tlh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/tzl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/tzm-latn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/tzm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ur.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/uz-latn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/uz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/x-pseudo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/yo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/zh-hk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/locale/zh-tw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/moment/moment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/LICENSE-Numeraljs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/bg.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/cs-CZ.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/da-DK.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/de-AT.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/de-CH.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/de-DE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/de-LI.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/el.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/en-AU.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/en-GB.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/en-IE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/en-NZ.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/en-ZA.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/es-AR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/es-CL.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/es-CO.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/es-CR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/es-ES.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/es-NI.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/es-PE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/es-PR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/es-SV.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/et-EE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/fa-IR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/fi-FI.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/fil-PH.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/fr-CA.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/fr-CH.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/fr-FR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/he-IL.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/hu-HU.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/id.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/index.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/it-CH.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/it-IT.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/ja-JP.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/ko-KR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/lv-LV.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/nb-NO.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/nb.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/nl-BE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/nl-NL.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/nn.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/pl-PL.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/pt-BR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/pt-PT.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/ro-RO.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/ro.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/ru-RU.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/ru-UA.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/sk-SK.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/sl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/sr-Cyrl-RS.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/sv-SE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/th-TH.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/tr-TR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/uk-UA.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/zh-CN.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/zh-HANS.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/zh-HANT.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/zh-MO.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/zh-SG.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/zh-TW.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/numbro/numbro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/pikaday/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/pikaday/pikaday.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/pikaday/pikaday.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/zeroclipboard/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/zeroclipboard/ZeroClipboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js1/zeroclipboard/ZeroClipboard.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/handsontable.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/handsontable.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/handsontable.full.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/handsontable.full.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/handsontable.full.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/handsontable.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/handsontable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/handsontable.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/handsontable.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/handsontable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/languages/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/languages/all.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/languages/de-CH.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/languages/de-CH.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/languages/de-DE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/languages/de-DE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/languages/en-US.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/languages/en-US.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/languages/ja-JP.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/languages/ja-JP.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/languages/pl-PL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/languages/pl-PL.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/languages/pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/languages/pt-BR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/af.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ar-dz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ar-kw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ar-ly.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ar-ma.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ar-sa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ar-tn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/be.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/bm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/bn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/bo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/bs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/cv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/de-at.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/de-ch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/dv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/en-au.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/en-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/en-gb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/en-ie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/en-nz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/eo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/es-do.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/es-us.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/fo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/fr-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/fr-ch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/fy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/gd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/gom-latn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/gu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/hy-am.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/jv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ka.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/kk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/kn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ky.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/lb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/lo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/me.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/mi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/mr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ms-my.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/mt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/my.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ne.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/nl-be.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/nn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/pa-in.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/pt-br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/sd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/se.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/si.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/sr-cyrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/sw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ta.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/te.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/tet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/tl-ph.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/tlh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/tzl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/tzm-latn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/tzm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ur.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/uz-latn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/uz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/x-pseudo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/yo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/zh-hk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/locale/zh-tw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/moment/moment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/LICENSE-Numeraljs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/bg.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/cs-CZ.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/da-DK.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/de-AT.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/de-CH.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/de-DE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/de-LI.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/el.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/en-AU.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/en-GB.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/en-IE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/en-NZ.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/en-ZA.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/es-AR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/es-CL.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/es-CO.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/es-CR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/es-ES.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/es-NI.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/es-PE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/es-PR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/es-SV.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/et-EE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/fa-IR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/fi-FI.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/fil-PH.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/fr-CA.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/fr-CH.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/fr-FR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/he-IL.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/hu-HU.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/id.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/index.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/it-CH.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/it-IT.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/ja-JP.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/ko-KR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/lv-LV.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/nb-NO.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/nb.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/nl-BE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/nl-NL.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/nn.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/pl-PL.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/pt-BR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/pt-PT.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/ro-RO.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/ro.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/ru-RU.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/ru-UA.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/sk-SK.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/sl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/sr-Cyrl-RS.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/sv-SE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/th-TH.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/tr-TR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/uk-UA.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/zh-CN.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/zh-HANS.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/zh-HANT.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/zh-MO.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/zh-SG.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/zh-TW.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/numbro/numbro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/pikaday/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/pikaday/pikaday.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js2/pikaday/pikaday.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/convert_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/convert_image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/find_disagreement_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/find_disagreement_image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/find_duplicated_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/find_duplicated_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/disagreement_without_images.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/disagreement_without_images.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/smartfile_test.log" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/smartfile_test.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/truy_xuat_mot_nguoi.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/truy_xuat_mot_nguoi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/upload_file_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/upload_file_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/upload_file_omnivore2.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/upload_file_omnivore2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/upload_files_omnivore_z.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/upload_files_omnivore_z.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,119 +456,85 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/pyadmin$export_excel.coverage" NAME="export_excel Coverage Results" MODIFIED="1521616797644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/pyadmin$console.coverage" NAME="console Coverage Results" MODIFIED="1521601915001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/pyadmin$disagreement_without_images.coverage" NAME="disagreement_without_images Coverage Results" MODIFIED="1522375136086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/pyadmin$disagreement_without_images.coverage" NAME="disagreement_without_images Coverage Results" MODIFIED="1522899278869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/pyadmin$upload_file_demo.coverage" NAME="upload_file_demo Coverage Results" MODIFIED="1522987612088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/pyadmin$convert_image.coverage" NAME="convert_image Coverage Results" MODIFIED="1521794516060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/pyadmin$export_excel_without_images.coverage" NAME="export_excel_without_images Coverage Results" MODIFIED="1521798453216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/pyadmin$new.coverage" NAME="new Coverage Results" MODIFIED="1521255386290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/pyadmin$testcookie.coverage" NAME="testcookie Coverage Results" MODIFIED="1523007339218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/pyadmin$truy_xuat_mot_nguoi.coverage" NAME="truy_xuat_mot_nguoi Coverage Results" MODIFIED="1522911577796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/pyadmin$find_duplicated_image.coverage" NAME="find_duplicated_image Coverage Results" MODIFIED="1522376087757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/pyadmin$find_disagreement_image.coverage" NAME="find_disagreement_image Coverage Results" MODIFIED="1521800007782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/pyadmin$con.coverage" NAME="con Coverage Results" MODIFIED="1522915955744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="find_disagreement_image.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/find_disagreement_image.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <marker date="1522377635793" expanded="true" signature="1759:1845" ph="select table... pg_tables" />
-                <marker date="1522377635793" expanded="true" signature="1759:1931" ph="select table... pg_tables" />
-                <marker date="1522377635793" expanded="true" signature="2076:2099" ph="drop table m... " />
-                <marker date="1522377635793" expanded="true" signature="2076:2100" ph="drop table m... " />
-                <marker date="1522377635793" expanded="true" signature="2076:2102" ph="drop table m... " />
-                <marker date="1522377635793" expanded="true" signature="2264:2692" ph="create table... if" />
-                <marker date="1522377635793" expanded="true" signature="2895:3213" ph="insert into master_table_missing_value... " />
-                <marker date="1522377635793" expanded="true" signature="3062:3213" ph="select id,ag... missing_value" />
-                <marker date="1522377635793" expanded="true" signature="3376:3400" ph="drop table d... " />
-                <marker date="1522377635793" expanded="true" signature="3386:3400" ph="delete from disagreement_missing_value... " />
-                <marker date="1522377635793" expanded="true" signature="3573:4307" ph="create table... disagreement_missing_value" />
-                <marker date="1522377635793" expanded="true" signature="4535:4599" ph="select id,im... missing_value" />
-                <marker date="1522377635793" expanded="true" signature="5123:5206" ph="update missing_value... " />
-                <marker date="1522377635793" expanded="true" signature="5370:5533" ph="select id,ag... disagreement_missing_value" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="disagreement_without_images.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/disagreement_without_images.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="114" column="17" selection-start-line="114" selection-start-column="17" selection-end-line="114" selection-end-column="17" />
-              <folding>
-                <element signature="e#15#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="find_duplicated_image.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/find_duplicated_image.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3540">
-              <caret line="179" selection-start-line="179" selection-end-line="179" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-                <marker date="1522377882704" expanded="true" signature="1760:1846" ph="select table... pg_tables" />
-                <marker date="1522377882704" expanded="true" signature="1760:1933" ph="select table... pg_tables" />
-                <marker date="1522377882704" expanded="true" signature="2094:2118" ph="drop table m... " />
-                <marker date="1522377882704" expanded="true" signature="2104:2118" ph="delete from master_table_missing_value... " />
-                <marker date="1522377882704" expanded="true" signature="2284:2692" ph="create table... master_table" />
-                <marker date="1522377882704" expanded="true" signature="2284:2693" ph="create table... if" />
-                <marker date="1522377882704" expanded="true" signature="3055:3197" ph="select id,im... missing_value" />
-                <marker date="1522377882704" expanded="true" signature="3055:3200" ph="select id,im... missing_value" />
-                <marker date="1522377882704" expanded="true" signature="3055:3225" ph="select id,im... %s" />
-                <marker date="1522377882704" expanded="true" signature="3361:3385" ph="drop table d... " />
-                <marker date="1522377882704" expanded="true" signature="3556:4279" ph="create table... disagreement_2018_3_23" />
-                <marker date="1522377882704" expanded="true" signature="4407:4561" ph="select id,ag... master_table_missing_value" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="export_excel_without_images.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/export_excel_without_images.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2060">
-              <caret line="107" column="23" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
-              <folding>
-                <marker date="1522377882656" expanded="true" signature="1896:2069" ph="select table... pg_tables" />
-                <marker date="1522377882656" expanded="true" signature="2246:2381" ph="select id,ag... missing_value" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="convert_image.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/convert_image.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="20" selection-start-line="20" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login_form.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login_form.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1300">
-              <caret line="65" column="43" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logout.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logout.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#47#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.27002966">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+          <file leaf-file-name="login.py" pinned="false" current-in-tab="true">
+            <entry file="file:///usr/local/lib/python3.6/dist-packages/pyadmin/login.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="80">
+                  <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="upload_file_demo.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scripts/upload_file_demo.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="280">
+                  <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="background.js" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/Downloads/1.11_0/background.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="620">
+                  <caret line="31" selection-start-line="31" selection-end-line="31" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="contentscript.js" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/Downloads/1.11_0/contentscript.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1080">
+                  <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file leaf-file-name="module.py" pinned="false" current-in-tab="false">
+            <entry file="file:///usr/local/lib/python3.6/dist-packages/pyadmin/module.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="20">
+                  <caret line="102" column="23" selection-start-line="102" selection-start-column="23" selection-end-line="102" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="testcookie.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/scripts/testcookie.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-840">
+                  <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+                  <folding>
+                    <element signature="e#24#45#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -151,10 +549,14 @@
       <find>$</find>
       <find>split_part(link,'stringQuestionId',2)</find>
       <find>idv</find>
+      <find>.s</find>
     </findStrings>
     <replaceStrings>
       <replace>cds_key</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -166,7 +568,6 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/test/new.py" />
         <option value="$PROJECT_DIR$/__init__.py" />
-        <option value="$PROJECT_DIR$/scripts/upload_file_demo.py" />
         <option value="$PROJECT_DIR$/scripts/console.py" />
         <option value="$PROJECT_DIR$/scripts/upload_files_demo.py" />
         <option value="$USER_HOME$/PycharmProjects/playgrounds/untitled3/convert_image.py" />
@@ -174,15 +575,30 @@
         <option value="$PROJECT_DIR$/scripts/export_excel.py" />
         <option value="$USER_HOME$/Downloads/aa/background.js" />
         <option value="$USER_HOME$/Downloads/aa/contentscript.js" />
-        <option value="$PROJECT_DIR$/scripts/truy_xuat_mot_nguoi.py" />
         <option value="$USER_HOME$/Downloads/googleq-20180323T014734Z-001/googleq/load/test" />
         <option value="$PROJECT_DIR$/login.py" />
         <option value="$PROJECT_DIR$/login_form.py" />
-        <option value="$PROJECT_DIR$/scripts/convert_image.py" />
-        <option value="$PROJECT_DIR$/scripts/disagreement_without_images.py" />
         <option value="$PROJECT_DIR$/scripts/find_disagreement_image.py" />
         <option value="$PROJECT_DIR$/scripts/find_duplicated_image.py" />
         <option value="$PROJECT_DIR$/scripts/export_excel_without_images.py" />
+        <option value="$PROJECT_DIR$/scripts/disagreement_without_images.py" />
+        <option value="$USER_HOME$/Downloads/Title_black/Title1_10/manifest.json" />
+        <option value="$PROJECT_DIR$/scripts/truy_xuat_mot_nguoi.py" />
+        <option value="$PROJECT_DIR$/scripts/convert_image.py" />
+        <option value="$PROJECT_DIR$/scripts/concurrent.py" />
+        <option value="$PROJECT_DIR$/scripts/con.py" />
+        <option value="$PROJECT_DIR$/scripts/fu.py" />
+        <option value="/usr/local/lib/python3.6/dist-packages/pyadmin/login.py" />
+        <option value="/usr/local/lib/python3.6/dist-packages/pyadmin/module.py" />
+        <option value="$PROJECT_DIR$/scripts/upload_file_omnivore2.py" />
+        <option value="$PROJECT_DIR$/scripts/upload_files_omnivore_z.py" />
+        <option value="$PROJECT_DIR$/scripts/mylib.py" />
+        <option value="$PROJECT_DIR$/scripts/smartfile_test.log" />
+        <option value="$PROJECT_DIR$/scripts/upload_file_demo.py" />
+        <option value="$PROJECT_DIR$/control/admin.py" />
+        <option value="$USER_HOME$/Downloads/1.11_0/contentscript.js" />
+        <option value="$USER_HOME$/Downloads/1.11_0/background.js" />
+        <option value="$PROJECT_DIR$/scripts/testcookie.py" />
       </list>
     </option>
   </component>
@@ -193,10 +609,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="387" />
-    <option name="y" value="145" />
-    <option name="width" value="1142" />
-    <option name="height" value="935" />
+    <option name="x" value="531" />
+    <option name="y" value="75" />
+    <option name="width" value="1389" />
+    <option name="height" value="825" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -240,7 +656,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../log" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -260,8 +676,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.find_duplicated_image">
-    <configuration name="convert_image" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.testcookie">
+    <configuration name="con" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pypgadmin" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -274,7 +690,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/convert_image.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/con.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -299,7 +715,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="export_excel_without_images" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="testcookie" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pypgadmin" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -312,13 +728,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/export_excel_without_images.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/testcookie.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="find_disagreement_image" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="truy_xuat_mot_nguoi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pypgadmin" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -331,13 +747,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/find_disagreement_image.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/truy_xuat_mot_nguoi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="find_duplicated_image" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="upload_file_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pypgadmin" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -350,26 +766,26 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/find_duplicated_image.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/upload_file_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.convert_image" />
-      <item itemvalue="Python.find_duplicated_image" />
-      <item itemvalue="Python.find_disagreement_image" />
-      <item itemvalue="Python.export_excel_without_images" />
       <item itemvalue="Python.disagreement_without_images" />
+      <item itemvalue="Python.truy_xuat_mot_nguoi" />
+      <item itemvalue="Python.con" />
+      <item itemvalue="Python.upload_file_demo" />
+      <item itemvalue="Python.testcookie" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.find_duplicated_image" />
+        <item itemvalue="Python.testcookie" />
+        <item itemvalue="Python.upload_file_demo" />
+        <item itemvalue="Python.con" />
+        <item itemvalue="Python.truy_xuat_mot_nguoi" />
         <item itemvalue="Python.disagreement_without_images" />
-        <item itemvalue="Python.find_disagreement_image" />
-        <item itemvalue="Python.export_excel_without_images" />
-        <item itemvalue="Python.convert_image" />
       </list>
     </recent_temporary>
   </component>
@@ -387,22 +803,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="795" y="199" width="1637" height="795" extended-state="0" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.18287937" side_tool="true" visible="true" weight="0.1940532" />
-      <window_info anchor="right" x="0" y="0" width="359" height="595" id="Documentation" order="6" side_tool="true" visible="true" weight="0.118761845" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.21234019" side_tool="true" weight="0.27234638" />
+      <window_info anchor="right" x="0" y="0" width="297" height="625" id="Documentation" order="6" side_tool="true" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32908162" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32908162" />
-      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.7898413" weight="0.1078905" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.54885536" weight="0.44040862" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18319646" />
+      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.7876598" weight="0.27234638" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.5458588" visible="true" weight="0.27808675" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12729295" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8171206" weight="0.3548387" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8134747" weight="0.52057844" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Salesforce" order="11" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -413,9 +830,36 @@
       <window_info anchor="bottom" id="Execute Anonymous" order="11" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Data View" order="5" weight="0.3298071" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Salesforce" order="12" />
+      <window_info anchor="bottom" id="Debug Logs" order="15" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.176209" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32908162" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="5" weight="0.3298071" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.7876598" visible="true" weight="0.27234638" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="364" height="763" id="Documentation" order="6" side_tool="true" weight="0.44580323" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8134747" weight="0.29864866" />
+      <window_info anchor="bottom" id="Execute Anonymous" order="14" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.5458588" weight="0.2788104" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.21234019" side_tool="true" visible="true" weight="0.27234638" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32908162" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -427,12 +871,18 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/scripts/upload_file_demo.py</url>
-          <line>37</line>
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/scripts/find_duplicated_image.py</url>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scripts/upload_file_omnivore2.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scripts/upload_file_omnivore2.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -442,7 +892,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="17" />
+      <option name="time" value="20" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -455,170 +905,27 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scripts/disagreement_without_images.py">
+    <entry file="file://$USER_HOME$/Downloads/1.11_0/background.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3280">
-          <caret line="164" column="25" lean-forward="true" selection-start-line="164" selection-start-column="25" selection-end-line="164" selection-end-column="25" />
-          <folding>
-            <element signature="e#15#34#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="620">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login.py">
+    <entry file="file://$USER_HOME$/Downloads/1.11_0/contentscript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        <state relative-caret-position="1080">
+          <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/disagreement_without_images.py">
+    <entry file="file:///usr/local/lib/python3.6/dist-packages/pyadmin/module.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="7" selection-start-line="19" selection-end-line="22" selection-end-column="15" />
-          <folding>
-            <element signature="e#15#34#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2040">
+          <caret line="102" column="23" selection-start-line="102" selection-start-column="23" selection-end-line="102" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/export_excel_without_images.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <marker date="1522377882656" expanded="true" signature="1896:2069" ph="select table... pg_tables" />
-            <marker date="1522377882656" expanded="true" signature="2246:2381" ph="select id,ag... missing_value" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/find_disagreement_image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-          <folding>
-            <marker date="1522377635793" expanded="true" signature="1759:1845" ph="select table... pg_tables" />
-            <marker date="1522377635793" expanded="true" signature="1759:1931" ph="select table... pg_tables" />
-            <marker date="1522377635793" expanded="true" signature="2076:2099" ph="drop table m... " />
-            <marker date="1522377635793" expanded="true" signature="2076:2100" ph="drop table m... " />
-            <marker date="1522377635793" expanded="true" signature="2076:2102" ph="drop table m... " />
-            <marker date="1522377635793" expanded="true" signature="2264:2692" ph="create table... if" />
-            <marker date="1522377635793" expanded="true" signature="2895:3213" ph="insert into master_table_missing_value... " />
-            <marker date="1522377635793" expanded="true" signature="3062:3213" ph="select id,ag... missing_value" />
-            <marker date="1522377635793" expanded="true" signature="3376:3400" ph="drop table d... " />
-            <marker date="1522377635793" expanded="true" signature="3386:3400" ph="delete from disagreement_missing_value... " />
-            <marker date="1522377635793" expanded="true" signature="3573:4307" ph="create table... disagreement_missing_value" />
-            <marker date="1522377635793" expanded="true" signature="4535:4599" ph="select id,im... missing_value" />
-            <marker date="1522377635793" expanded="true" signature="5123:5206" ph="update missing_value... " />
-            <marker date="1522377635793" expanded="true" signature="5370:5533" ph="select id,ag... disagreement_missing_value" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/find_duplicated_image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <marker date="1522377882704" expanded="true" signature="1760:1846" ph="select table... pg_tables" />
-            <marker date="1522377882704" expanded="true" signature="1760:1933" ph="select table... pg_tables" />
-            <marker date="1522377882704" expanded="true" signature="2094:2118" ph="drop table m... " />
-            <marker date="1522377882704" expanded="true" signature="2104:2118" ph="delete from master_table_missing_value... " />
-            <marker date="1522377882704" expanded="true" signature="2284:2692" ph="create table... master_table" />
-            <marker date="1522377882704" expanded="true" signature="2284:2693" ph="create table... if" />
-            <marker date="1522377882704" expanded="true" signature="3055:3197" ph="select id,im... missing_value" />
-            <marker date="1522377882704" expanded="true" signature="3055:3200" ph="select id,im... missing_value" />
-            <marker date="1522377882704" expanded="true" signature="3055:3225" ph="select id,im... %s" />
-            <marker date="1522377882704" expanded="true" signature="3361:3385" ph="drop table d... " />
-            <marker date="1522377882704" expanded="true" signature="3556:4279" ph="create table... disagreement_2018_3_23" />
-            <marker date="1522377882704" expanded="true" signature="4407:4561" ph="select id,ag... master_table_missing_value" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login_form.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="65" column="43" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/convert_image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login_form.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="65" column="43" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login_form.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="13" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql.py" />
-    <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql.py" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YANDEX-BROWSER-KEY.GPG" />
-    <entry file="file://$PROJECT_DIR$/index1.py" />
-    <entry file="file://$PROJECT_DIR$/sql.py" />
     <entry file="file://$PROJECT_DIR$/index.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -658,16 +965,6 @@
         <state relative-caret-position="-1140" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/upload_file_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
-          <folding>
-            <marker date="1521253922285" expanded="true" signature="1378:1659" ph="create table... if" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/upload_files_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -679,13 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/upload_files_omnivore_z.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -724,13 +1014,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/truy_xuat_mot_nguoi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/googleq-20180323T014734Z-001/googleq/load/test">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -759,15 +1042,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-40">
@@ -775,54 +1049,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/convert_image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" selection-start-line="20" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/find_disagreement_image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <marker date="1522377635793" expanded="true" signature="1759:1845" ph="select table... pg_tables" />
-            <marker date="1522377635793" expanded="true" signature="1759:1931" ph="select table... pg_tables" />
-            <marker date="1522377635793" expanded="true" signature="2076:2099" ph="drop table m... " />
-            <marker date="1522377635793" expanded="true" signature="2076:2100" ph="drop table m... " />
-            <marker date="1522377635793" expanded="true" signature="2076:2102" ph="drop table m... " />
-            <marker date="1522377635793" expanded="true" signature="2264:2692" ph="create table... if" />
-            <marker date="1522377635793" expanded="true" signature="2895:3213" ph="insert into master_table_missing_value... " />
-            <marker date="1522377635793" expanded="true" signature="3062:3213" ph="select id,ag... missing_value" />
-            <marker date="1522377635793" expanded="true" signature="3376:3400" ph="drop table d... " />
-            <marker date="1522377635793" expanded="true" signature="3386:3400" ph="delete from disagreement_missing_value... " />
-            <marker date="1522377635793" expanded="true" signature="3573:4307" ph="create table... disagreement_missing_value" />
-            <marker date="1522377635793" expanded="true" signature="4535:4599" ph="select id,im... missing_value" />
-            <marker date="1522377635793" expanded="true" signature="5123:5206" ph="update missing_value... " />
-            <marker date="1522377635793" expanded="true" signature="5370:5533" ph="select id,ag... disagreement_missing_value" />
-          </folding>
+        <state relative-caret-position="-2256">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/find_duplicated_image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3540">
-          <caret line="179" selection-start-line="179" selection-end-line="179" />
+        <state relative-caret-position="3560">
+          <caret line="180" column="21" selection-start-line="180" selection-start-column="21" selection-end-line="180" selection-end-column="21" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-            <marker date="1522377882704" expanded="true" signature="1760:1846" ph="select table... pg_tables" />
-            <marker date="1522377882704" expanded="true" signature="1760:1933" ph="select table... pg_tables" />
-            <marker date="1522377882704" expanded="true" signature="2094:2118" ph="drop table m... " />
-            <marker date="1522377882704" expanded="true" signature="2104:2118" ph="delete from master_table_missing_value... " />
-            <marker date="1522377882704" expanded="true" signature="2284:2692" ph="create table... master_table" />
-            <marker date="1522377882704" expanded="true" signature="2284:2693" ph="create table... if" />
-            <marker date="1522377882704" expanded="true" signature="3055:3197" ph="select id,im... missing_value" />
-            <marker date="1522377882704" expanded="true" signature="3055:3200" ph="select id,im... missing_value" />
-            <marker date="1522377882704" expanded="true" signature="3055:3225" ph="select id,im... %s" />
-            <marker date="1522377882704" expanded="true" signature="3361:3385" ph="drop table d... " />
-            <marker date="1522377882704" expanded="true" signature="3556:4279" ph="create table... disagreement_2018_3_23" />
-            <marker date="1522377882704" expanded="true" signature="4407:4561" ph="select id,ag... master_table_missing_value" />
+            <marker date="1522752776883" expanded="true" signature="1760:1846" ph="select table... pg_tables" />
+            <marker date="1522752776883" expanded="true" signature="1760:1933" ph="select table... pg_tables" />
+            <marker date="1522752776883" expanded="true" signature="2094:2118" ph="drop table m... " />
+            <marker date="1522752776883" expanded="true" signature="2104:2118" ph="delete from master_table_missing_value... " />
+            <marker date="1522752776883" expanded="true" signature="2284:2470" ph="create table... master_table" />
           </folding>
         </state>
       </provider>
@@ -830,20 +1074,166 @@
     <entry file="file://$PROJECT_DIR$/scripts/export_excel_without_images.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2060">
-          <caret line="107" column="23" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
-          <folding>
-            <marker date="1522377882656" expanded="true" signature="1896:2069" ph="select table... pg_tables" />
-            <marker date="1522377882656" expanded="true" signature="2246:2381" ph="select id,ag... missing_value" />
-          </folding>
+          <caret line="107" column="21" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Title_black/Title/manifest.json" />
+    <entry file="file://$USER_HOME$/Downloads/Title_black/Title1_10/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/concurrent.py" />
+    <entry file="file://$PROJECT_DIR$/scripts/convert_image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1960">
+          <caret line="100" column="37" selection-start-line="100" selection-start-column="36" selection-end-line="100" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/1.9_0/contentscript.js" />
+    <entry file="file:///usr/local/lib/python3.6/dist-packages/pyadmin/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/disagreement_without_images.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="114" column="17" selection-start-line="114" selection-start-column="17" selection-end-line="114" selection-end-column="17" />
+        <state relative-caret-position="620">
+          <caret line="118" column="41" selection-start-line="118" selection-start-column="41" selection-end-line="118" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/truy_xuat_mot_nguoi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/upload_file_omnivore2z.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-960" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/upload_files_omnivore_z.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/upload_files_monivore_g.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2020">
+          <caret line="101" column="54" lean-forward="true" selection-start-line="101" selection-start-column="54" selection-end-line="101" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/upload_file_omnivore2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="106" column="67" lean-forward="true" selection-start-line="106" selection-start-column="67" selection-end-line="106" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/dist-packages/pyadmin/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="102" column="23" selection-start-line="102" selection-start-column="23" selection-end-line="102" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/con.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/smartfile_test.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../log/apache2/error.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3220" selection-start-line="3220" selection-end-line="3221" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ago/result_aa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ago/result_cu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/account_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-840" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14100">
+          <caret line="705" selection-start-line="705" selection-end-line="705" />
           <folding>
-            <element signature="e#15#34#0" expanded="true" />
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/load/load_admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1080" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/mylib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/upload_file_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/1.11_0/background.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/1.11_0/contentscript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/testcookie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-840">
+          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <folding>
+            <element signature="e#24#45#0" expanded="true" />
           </folding>
         </state>
       </provider>

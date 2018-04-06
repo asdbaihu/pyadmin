@@ -114,6 +114,7 @@ cur.execute("""create table if not exists master_table_%s(
     condition text,
     availability text,
     cds_key text,
+    image text,
     update_time timestamp,
     master_update_time timestamp default now())"""%day)
 conn.commit()

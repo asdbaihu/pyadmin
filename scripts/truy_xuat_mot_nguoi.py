@@ -3,7 +3,7 @@ import pandas as pd
 import psycopg2,logging,base64,os
 from datetime import datetime
 
-from os.path import join, dirname
+#from os.path import join, dirname
 
 logging.basicConfig(level=logging.DEBUG)
 #logging.warning("Watch out!")
@@ -110,7 +110,7 @@ for row in rows:
 
 conn = getConnection()
 cur = conn.cursor()
-cur.execute("select id,agent,link,title,customize,variant_check,correct_check,status,price,currency,condition,availability,cds_key,image,update_time from %s"%table_name)
+cur.execute("select id,agent,link,title,customize,variant_check,price_check,page_problem,price_detail,price,currency,condition,availability,cds_key,image,update_time from %s"%table_name)
 rows_excel = cur.fetchall()
 conn.commit()
 cur.close()
@@ -119,10 +119,11 @@ conn.close()
 size = 20000000
 
 df = pd.DataFrame(rows_excel)
-df.columns = ['Stt', 'Agent', 'Link','Title', 'Customize', 'VariantCheck','CorrectCheck', 'Status', 'Price',
+df.columns = ['Stt', 'Agent', 'Link','Title', 'Customize', 'VariantCheck','PriceCheck','PageProblem', 'PriceDetail', 'Price',
               'Currency', 'Condition', 'Availability','Cds_key','Image','Time']
 #filepath = join(dirname(dirname(__file__)), "data", "%s.xlsx"%table_name)
 filepath ="%s/%s.xlsx"% (data_path,table_name)
 df.to_excel(filepath.format(size), index=False)
 
 logging.info("table: %s",str(table_name))
+logging.info("Done!")
