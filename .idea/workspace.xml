@@ -2,448 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="897b6eec-0177-403c-9ed8-b290c520ec9a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/con.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/fu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/mylib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/control/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/control/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/handsontable.css" beforeDir="false" afterPath="$PROJECT_DIR$/js/handsontable.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/handsontable.full.css" beforeDir="false" afterPath="$PROJECT_DIR$/js/handsontable.full.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/handsontable.full.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/handsontable.full.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/handsontable.full.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/js/handsontable.full.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/handsontable.full.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/handsontable.full.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/handsontable.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/handsontable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/handsontable.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/handsontable.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/handsontable.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/js/handsontable.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/handsontable.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/handsontable.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/handsontable.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/handsontable.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/handsontable.full.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/handsontable.full.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/handsontable.full.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/handsontable.full.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/handsontable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/handsontable.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/handsontable.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/handsontable.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/jquery-ui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/jquery-ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/jquery.bootpag.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/af.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ar-dz.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ar-kw.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ar-ly.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ar-ma.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ar-sa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ar-tn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/az.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/be.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/bn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/bo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/br.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/bs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/cv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/de-at.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/de-ch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/dv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/en-au.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/en-ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/en-gb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/en-ie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/en-nz.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/eo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/es-do.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/et.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/eu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/fi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/fo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/fr-ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/fr-ch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/fy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/gd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/gl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/gom-latn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/he.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/hi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/hu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/hy-am.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/id.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/is.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/jv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ka.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/kk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/km.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/kn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ko.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ky.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/lb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/lo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/lt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/lv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/me.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/mi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/mk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/mr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ms-my.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/my.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/nb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ne.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/nl-be.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/nn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/pa-in.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/pt-br.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/sd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/se.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/si.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/sk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/sl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/sq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/sr-cyrl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/sr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ss.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/sw.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ta.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/te.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/tet.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/th.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/tl-ph.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/tlh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/tzl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/tzm-latn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/tzm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/uk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/ur.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/uz-latn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/uz.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/vi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/x-pseudo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/yo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/zh-cn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/zh-hk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/locale/zh-tw.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/moment/moment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/LICENSE-Numeraljs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/bg.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/cs-CZ.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/da-DK.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/de-AT.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/de-CH.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/de-DE.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/de-LI.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/el.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/en-AU.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/en-GB.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/en-IE.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/en-NZ.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/en-ZA.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/es-AR.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/es-CL.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/es-CO.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/es-CR.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/es-ES.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/es-NI.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/es-PE.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/es-PR.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/es-SV.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/et-EE.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/fa-IR.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/fi-FI.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/fil-PH.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/fr-CA.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/fr-CH.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/fr-FR.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/he-IL.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/hu-HU.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/id.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/index.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/it-CH.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/it-IT.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/ja-JP.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/ko-KR.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/lv-LV.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/nb-NO.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/nb.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/nl-BE.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/nl-NL.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/nn.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/pl-PL.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/pt-BR.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/pt-PT.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/ro-RO.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/ro.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/ru-RU.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/ru-UA.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/sk-SK.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/sl.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/sr-Cyrl-RS.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/sv-SE.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/th-TH.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/tr-TR.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/uk-UA.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/zh-CN.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/zh-HANS.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/zh-HANT.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/zh-MO.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/zh-SG.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/languages/zh-TW.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/numbro/numbro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/pikaday/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/pikaday/pikaday.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/pikaday/pikaday.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/zeroclipboard/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/zeroclipboard/ZeroClipboard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js1/zeroclipboard/ZeroClipboard.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/handsontable.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/handsontable.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/handsontable.full.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/handsontable.full.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/handsontable.full.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/handsontable.full.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/handsontable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/handsontable.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/handsontable.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/handsontable.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/languages/all.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/languages/all.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/languages/de-CH.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/languages/de-CH.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/languages/de-DE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/languages/de-DE.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/languages/en-US.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/languages/en-US.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/languages/ja-JP.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/languages/ja-JP.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/languages/pl-PL.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/languages/pl-PL.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/languages/pt-BR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/languages/pt-BR.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/af.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ar-dz.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ar-kw.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ar-ly.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ar-ma.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ar-sa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ar-tn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/az.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/be.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/bm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/bn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/bo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/br.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/bs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/cv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/de-at.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/de-ch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/dv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/en-au.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/en-ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/en-gb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/en-ie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/en-nz.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/eo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/es-do.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/es-us.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/et.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/eu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/fi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/fo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/fr-ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/fr-ch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/fy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/gd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/gl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/gom-latn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/gu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/he.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/hi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/hu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/hy-am.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/id.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/is.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/jv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ka.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/kk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/km.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/kn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ko.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ky.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/lb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/lo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/lt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/lv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/me.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/mi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/mk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/mr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ms-my.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/mt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/my.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/nb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ne.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/nl-be.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/nn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/pa-in.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/pt-br.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/sd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/se.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/si.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/sk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/sl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/sq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/sr-cyrl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/sr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ss.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/sw.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ta.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/te.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/tet.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/th.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/tl-ph.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/tlh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/tzl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/tzm-latn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/tzm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/uk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/ur.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/uz-latn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/uz.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/vi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/x-pseudo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/yo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/zh-cn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/zh-hk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/locale/zh-tw.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/moment/moment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/LICENSE-Numeraljs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/bg.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/cs-CZ.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/da-DK.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/de-AT.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/de-CH.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/de-DE.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/de-LI.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/el.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/en-AU.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/en-GB.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/en-IE.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/en-NZ.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/en-ZA.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/es-AR.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/es-CL.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/es-CO.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/es-CR.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/es-ES.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/es-NI.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/es-PE.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/es-PR.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/es-SV.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/et-EE.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/fa-IR.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/fi-FI.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/fil-PH.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/fr-CA.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/fr-CH.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/fr-FR.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/he-IL.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/hu-HU.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/id.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/index.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/it-CH.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/it-IT.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/ja-JP.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/ko-KR.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/lv-LV.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/nb-NO.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/nb.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/nl-BE.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/nl-NL.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/nn.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/pl-PL.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/pt-BR.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/pt-PT.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/ro-RO.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/ro.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/ru-RU.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/ru-UA.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/sk-SK.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/sl.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/sr-Cyrl-RS.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/sv-SE.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/th-TH.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/tr-TR.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/uk-UA.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/zh-CN.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/zh-HANS.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/zh-HANT.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/zh-MO.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/zh-SG.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/languages/zh-TW.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/numbro/numbro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/pikaday/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/pikaday/pikaday.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js2/pikaday/pikaday.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/convert_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/convert_image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/disagreement_without_images.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/disagreement_without_images.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/smartfile_test.log" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/smartfile_test.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/truy_xuat_mot_nguoi.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/truy_xuat_mot_nguoi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/upload_file_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/upload_file_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/upload_file_omnivore2.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/upload_file_omnivore2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/upload_files_omnivore_z.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/upload_files_omnivore_z.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/testcookie.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/testcookie.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -461,80 +23,37 @@
     <SUITE FILE_PATH="coverage/pyadmin$convert_image.coverage" NAME="convert_image Coverage Results" MODIFIED="1521794516060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/pyadmin$export_excel_without_images.coverage" NAME="export_excel_without_images Coverage Results" MODIFIED="1521798453216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/pyadmin$new.coverage" NAME="new Coverage Results" MODIFIED="1521255386290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/pyadmin$testcookie.coverage" NAME="testcookie Coverage Results" MODIFIED="1523007339218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/pyadmin$testcookie.coverage" NAME="testcookie Coverage Results" MODIFIED="1523072860359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/pyadmin$truy_xuat_mot_nguoi.coverage" NAME="truy_xuat_mot_nguoi Coverage Results" MODIFIED="1522911577796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/pyadmin$find_duplicated_image.coverage" NAME="find_duplicated_image Coverage Results" MODIFIED="1522376087757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/pyadmin$find_disagreement_image.coverage" NAME="find_disagreement_image Coverage Results" MODIFIED="1521800007782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/pyadmin$con.coverage" NAME="con Coverage Results" MODIFIED="1522915955744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.27002966">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-          <file leaf-file-name="login.py" pinned="false" current-in-tab="true">
-            <entry file="file:///usr/local/lib/python3.6/dist-packages/pyadmin/login.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="80">
-                  <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="upload_file_demo.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/scripts/upload_file_demo.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="280">
-                  <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="background.js" pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/Downloads/1.11_0/background.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="620">
-                  <caret line="31" selection-start-line="31" selection-end-line="31" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="contentscript.js" pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/Downloads/1.11_0/contentscript.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1080">
-                  <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="module.py" pinned="false" current-in-tab="false">
-            <entry file="file:///usr/local/lib/python3.6/dist-packages/pyadmin/module.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="20">
-                  <caret line="102" column="23" selection-start-line="102" selection-start-column="23" selection-end-line="102" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="testcookie.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/scripts/testcookie.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-840">
-                  <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-                  <folding>
-                    <element signature="e#24#45#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="testcookie.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/testcookie.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3686">
+              <caret line="289" column="1" selection-start-line="289" selection-start-column="1" selection-end-line="289" selection-end-column="1" />
+              <folding>
+                <element signature="e#24#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="runtime.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../log/pyadmin/runtime.log">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="test2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../../log/pyadmin/test2.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -598,7 +117,11 @@
         <option value="$PROJECT_DIR$/control/admin.py" />
         <option value="$USER_HOME$/Downloads/1.11_0/contentscript.js" />
         <option value="$USER_HOME$/Downloads/1.11_0/background.js" />
+        <option value="$USER_HOME$/Downloads/1.12_0/manifest.json" />
+        <option value="$USER_HOME$/Downloads/1.12_0/contentscript.js" />
         <option value="$PROJECT_DIR$/scripts/testcookie.py" />
+        <option value="$PROJECT_DIR$/../../../log/pyadmin/runtime.log" />
+        <option value="$PROJECT_DIR$/../../../log/pyadmin/test2.py" />
       </list>
     </option>
   </component>
@@ -608,27 +131,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="531" />
-    <option name="y" value="75" />
-    <option name="width" value="1389" />
-    <option name="height" value="825" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Python</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="32" />
+    <option name="y" value="243" />
+    <option name="width" value="1802" />
+    <option name="height" value="996" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -656,7 +163,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../log" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/playgrounds/untitled3" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -803,23 +310,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="32" y="243" width="1802" height="996" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.21234019" side_tool="true" weight="0.27234638" />
-      <window_info anchor="right" x="0" y="0" width="297" height="625" id="Documentation" order="6" side_tool="true" visible="true" weight="0.0" />
+      <window_info anchor="right" x="0" y="0" width="364" height="796" id="Documentation" order="6" side_tool="true" visible="true" weight="0.06521739" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32908162" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32857144" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32908162" />
-      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.7876598" weight="0.27234638" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.5458588" visible="true" weight="0.27808675" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12729295" />
+      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.7876598" weight="0.27142859" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.5458588" weight="0.30238095" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20995423" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8134747" weight="0.52057844" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8134747" weight="0.42261904" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Salesforce" order="11" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -830,35 +337,36 @@
       <window_info anchor="bottom" id="Execute Anonymous" order="11" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Data View" order="5" weight="0.3298071" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="right" x="0" y="0" width="364" height="763" id="Documentation" order="6" side_tool="true" weight="0.44580323" />
       <window_info anchor="bottom" id="Salesforce" order="12" />
       <window_info anchor="bottom" id="Debug Logs" order="15" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.176209" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32908162" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Data View" order="5" weight="0.3298071" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.7876598" visible="true" weight="0.27234638" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32908162" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="0" y="0" width="364" height="763" id="Documentation" order="6" side_tool="true" weight="0.44580323" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.176209" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8134747" weight="0.29864866" />
       <window_info anchor="bottom" id="Execute Anonymous" order="14" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.5458588" weight="0.2788104" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.21234019" side_tool="true" visible="true" weight="0.27234638" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32908162" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.7876598" visible="true" weight="0.27234638" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -892,11 +400,16 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="26" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>rs</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>table_name</expression-string>
         <language-id>Python</language-id>
@@ -905,34 +418,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/1.11_0/background.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/1.11_0/contentscript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/dist-packages/pyadmin/module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2040">
-          <caret line="102" column="23" selection-start-line="102" selection-start-column="23" selection-end-line="102" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/packages/pyad/__init__.py" />
     <entry file="file://$PROJECT_DIR$/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1095,13 +580,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/1.9_0/contentscript.js" />
-    <entry file="file:///usr/local/lib/python3.6/dist-packages/pyadmin/login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/disagreement_without_images.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
@@ -1189,9 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14100">
           <caret line="705" selection-start-line="705" selection-end-line="705" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1228,15 +703,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/local/lib/python3.6/dist-packages/pyadmin/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/1.12_0/contentscript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2171">
+          <caret line="295" column="58" lean-forward="true" selection-start-line="295" selection-start-column="58" selection-end-line="295" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/1.12_0/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/testcookie.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-840">
-          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        <state relative-caret-position="3686">
+          <caret line="289" column="1" selection-start-line="289" selection-start-column="1" selection-end-line="289" selection-end-column="1" />
           <folding>
-            <element signature="e#24#45#0" expanded="true" />
+            <element signature="e#24#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../log/pyadmin/runtime.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../log/pyadmin/test2.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

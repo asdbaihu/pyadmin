@@ -1,87 +1,67 @@
 # -*- coding: utf-8 -*-
-import requests, json
-import logging
-from pyquery import PyQuery as pq
-from lxml import etree
-import urllib
+import requests, json, random
+import logging,time,pymysql.cursors
+# from pyquery import PyQuery as pq
+# from lxml import etree
+# import urllib
+
 
 logging.basicConfig(
-    format='%(levelname)s - %(message)s',
+    filename='/var/log/pyadmin/runtime.log',
+    format='%(levelname)s - %(filename)s - %(funcName)s - %(lineno)s - %(message)s',
     level=logging.DEBUG
 )
-# from lxml import html
+logging.info('testting')
 
-# url = 'http://m.facebook.com'
-#
-# #headers = {"Accept": "text/html,application/xhtml xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
-#            "Accept-Language": "en-US,en;q=0.9",
-#            "Cookie": "datr=qyr4WR9Ez1nWorA_JZ_gWZ4e; sb=qyr4WWKRT2rk0TZFezrAeC4B; c_user=100022700031597; xs=16:xgYlXQxrcmh3VA:2:1509436088:-1:-1; fr=03f31XtHmTnhcxGxt.AWXxaR2xlvHg5-a8T5fNj8uar3I.BZ-Cqr.88.Fqr.0.0.BavabG.AWWr34jY; wd=1853x987; presence=EDvF3EtimeF1522380325EuserFA21B227B31597A2EstateFDutF1522380325954CEchFDp_5f1B227B31597F8CC",
-#            "Pragma": "akamai-x-cache-on, akamai-x-cache-remote-on, akamai-x-check-cacheable, akamai-x-get-cache-key, akamai-x-get-extracted-values, akamai-x-get-ssl-client-session-id, akamai-x-get-true-cache-key, akamai-x-serial-no, akamai-x-get-request-id,akamai-x-get-nonces,akamai-x-get-client-ip,akamai-x-feo-trace",
-#            "Upgrade-Insecure-Requests": "1",
-#            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+def getConnection():
+    # You can change value connection.
+    connection = pymysql.connect(host='192.168.0.118',
+                                 port=3306,
+                                 user='docker',
+                                 password='docker',
+                                 db='docker',
+                                 charset='utf8mb4',
+                                 cursorclass=pymysql.cursors.DictCursor,
+                                 autocommit=True)
+    return connection
 
-# "Content-Type":"text/html; charset=UTF-8",
-# "Accept-Encoding":"gzip, deflate, br",
-# r = requests.get(url, headers=headers, allow_redirects=True)
+connection = getConnection()
+try:
+    with connection.cursor() as cursor:
+        sql = "select cookies from fbcrawler_service_account where cookies like '%%facebook.com%%' and  cookies is not null and homepage like '%%https://m.facebook.com%%' and homepage not like '%%checkpoint/block%%'"
+        cursor.execute(sql)
+        rs = cursor.fetchall()
+        connection.commit()
+finally:
+    connection.close()
 
-# print(r.text)
-# print(r.content)
-# print(r.encoding)
-#
-# from requests_html import HTMLSession
-# session = HTMLSession()
-# r = session.get('https://www.facebook.com',headers=headers,allow_redirects= True)
-# for html in r.html:
-#     print(html)
+time_waits = [10, 5, 7]
 
-# from pyquery import PyQuery as pq
-# from lxml import etree
-# import urllib
-#
-# d = pq("<html></html>")
-# d = pq(etree.fromstring("<html></html>"))
-# d = pq(url='https://www.facebook.com',headers=headers)
-# #print(d.html())
-# print(d("body").html())
 
-# -*- coding: utf-8 -*-
-# import requests
-# from lxml import html
-#
-# url = 'http://www.facebook.com'
 
-# headers = {"Accept": "text/html,application/xhtml xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
-#            "Accept-Language": "en-US,en;q=0.9",
-#            "Cookie": "datr=qyr4WR9Ez1nWorA_JZ_gWZ4e; sb=qyr4WWKRT2rk0TZFezrAeC4B; c_user=100022700031597; xs=16:xgYlXQxrcmh3VA:2:1509436088:-1:-1; fr=03f31XtHmTnhcxGxt.AWXxaR2xlvHg5-a8T5fNj8uar3I.BZ-Cqr.88.Fqr.0.0.BavabG.AWWr34jY; wd=1853x987; presence=EDvF3EtimeF1522380325EuserFA21B227B31597A2EstateFDutF1522380325954CEchFDp_5f1B227B31597F8CC",
-#            "Pragma": "akamai-x-cache-on, akamai-x-cache-remote-on, akamai-x-check-cacheable, akamai-x-get-cache-key, akamai-x-get-extracted-values, akamai-x-get-ssl-client-session-id, akamai-x-get-true-cache-key, akamai-x-serial-no, akamai-x-get-request-id,akamai-x-get-nonces,akamai-x-get-client-ip,akamai-x-feo-trace",
-#            "Upgrade-Insecure-Requests": "1",
-#            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+for row in rs:
+    cs = row['cookies']
+    #print(row['cookies'])
 
-# "Content-Type":"text/html; charset=UTF-8",
-# "Accept-Encoding":"gzip, deflate, br",
-# r = requests.get(url, headers=headers, allow_redirects=True)
+    j = json.loads(cs)
+    s = requests.Session()
+    for cookie in j:
+        #logging.info(cookie['name'])
+        s.cookies.set(cookie['name'], cookie['value'], domain=cookie['domain'],
+                      path=cookie['path'])
 
-# print(r.text)
-# print(r.content)
-# print(r.encoding)
-#
-# from requests_html import HTMLSession
-# session = HTMLSession()
-# r = session.get('https://www.facebook.com',headers=headers,allow_redirects= True)
-# for html in r.html:
-#     print(html)
+    r = s.get('https://www.facebook.com/pinkypinky.trang')
 
-# from pyquery import PyQuery as pq
-# from lxml import etree
-# import urllib
-#
-# d = pq("<html></html>")
-# d = pq(etree.fromstring("<html></html>"))
-# d = pq(url='https://www.facebook.com',headers=headers)
-# #print(d.html())
-# print(d("body").html())
+    # d = pq(r.content)
+    from bs4 import BeautifulSoup
 
-cs = """[
+    #print(d('#toolbarContainer'))
+    soup = BeautifulSoup(r.content,'html.parser')
+    #print(s.cookies.get_dict()['c_user'])
+    logging.info(s.cookies.get_dict())
+    time.sleep(random.choice(time_waits))
+
+cs = """[  
 {
     "domain": ".facebook.com",
     "hostOnly": false,
@@ -311,20 +291,9 @@ cs1= """[
 """
 
 
-j = json.loads(cs)
-s = requests.Session()
-for cookie in j:
-    #logging.info(cookie['name'])
-    s.cookies.set(cookie['name'], cookie['value'], domain=cookie['domain'],
-                  path=cookie['path'])
 
-r = s.get('https://www.facebook.com/pinkypinky.trang')
+#print(s.cookies.get_dict())
 
-# d = pq(r.content)
-from bs4 import BeautifulSoup
-
-#print(d('#toolbarContainer'))
-soup = BeautifulSoup(r.content,'html.parser')
 
 #print(soup.prettify())
 # print(soup.find_all('div'))
@@ -336,4 +305,5 @@ soup = BeautifulSoup(r.content,'html.parser')
 # #print(list(html.children))
 # body = list(html.children)
 # print(body)
-print(soup.find_all('div',class_='_li'))
+#print(soup.find_all('div',class_='_li'))
+
