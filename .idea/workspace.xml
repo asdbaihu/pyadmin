@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="897b6eec-0177-403c-9ed8-b290c520ec9a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/cron_test.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/remove_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/test_log.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/smartfile_test.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/testcookie.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/testcookie.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -16,40 +18,43 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/pyadmin$export_excel.coverage" NAME="export_excel Coverage Results" MODIFIED="1521616797644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/pyadmin$console.coverage" NAME="console Coverage Results" MODIFIED="1521601915001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/pyadmin$disagreement_without_images.coverage" NAME="disagreement_without_images Coverage Results" MODIFIED="1522899278869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/pyadmin$upload_file_demo.coverage" NAME="upload_file_demo Coverage Results" MODIFIED="1522987612088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/pyadmin$convert_image.coverage" NAME="convert_image Coverage Results" MODIFIED="1521794516060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/pyadmin$export_excel_without_images.coverage" NAME="export_excel_without_images Coverage Results" MODIFIED="1521798453216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/pyadmin$new.coverage" NAME="new Coverage Results" MODIFIED="1521255386290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/pyadmin$testcookie.coverage" NAME="testcookie Coverage Results" MODIFIED="1523072860359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/pyadmin$truy_xuat_mot_nguoi.coverage" NAME="truy_xuat_mot_nguoi Coverage Results" MODIFIED="1522911577796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/pyadmin$export_excel.coverage" NAME="export_excel Coverage Results" MODIFIED="1521616797644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/pyadmin$testcookie.coverage" NAME="testcookie Coverage Results" MODIFIED="1523256499350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/pyadmin$test_log.coverage" NAME="test_log Coverage Results" MODIFIED="1523261970844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/pyadmin$remove_file.coverage" NAME="remove_file Coverage Results" MODIFIED="1523269830739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/pyadmin$find_duplicated_image.coverage" NAME="find_duplicated_image Coverage Results" MODIFIED="1522376087757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/pyadmin$find_disagreement_image.coverage" NAME="find_disagreement_image Coverage Results" MODIFIED="1521800007782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/pyadmin$con.coverage" NAME="con Coverage Results" MODIFIED="1522915955744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="testcookie.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/testcookie.py">
+      <file leaf-file-name="test_log.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/test_log.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3686">
-              <caret line="289" column="1" selection-start-line="289" selection-start-column="1" selection-end-line="289" selection-end-column="1" />
-              <folding>
-                <element signature="e#24#53#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="140">
+              <caret line="7" lean-forward="true" selection-end-line="11" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="remove_file.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/remove_file.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="runtime.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../log/pyadmin/runtime.log">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="test2.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../../log/pyadmin/test2.py">
+        <entry file="file://$PROJECT_DIR$/scripts/runtime.log">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -112,16 +117,21 @@
         <option value="$PROJECT_DIR$/scripts/upload_file_omnivore2.py" />
         <option value="$PROJECT_DIR$/scripts/upload_files_omnivore_z.py" />
         <option value="$PROJECT_DIR$/scripts/mylib.py" />
-        <option value="$PROJECT_DIR$/scripts/smartfile_test.log" />
         <option value="$PROJECT_DIR$/scripts/upload_file_demo.py" />
         <option value="$PROJECT_DIR$/control/admin.py" />
         <option value="$USER_HOME$/Downloads/1.11_0/contentscript.js" />
         <option value="$USER_HOME$/Downloads/1.11_0/background.js" />
         <option value="$USER_HOME$/Downloads/1.12_0/manifest.json" />
         <option value="$USER_HOME$/Downloads/1.12_0/contentscript.js" />
-        <option value="$PROJECT_DIR$/scripts/testcookie.py" />
         <option value="$PROJECT_DIR$/../../../log/pyadmin/runtime.log" />
         <option value="$PROJECT_DIR$/../../../log/pyadmin/test2.py" />
+        <option value="$PROJECT_DIR$/scripts/testcookie.py" />
+        <option value="$PROJECT_DIR$/scripts/cron_test.py" />
+        <option value="$PROJECT_DIR$/scripts/cron_test.sh" />
+        <option value="$PROJECT_DIR$/scripts/smartfile_test.log" />
+        <option value="$PROJECT_DIR$/scripts/test_log.py" />
+        <option value="$PROJECT_DIR$/scripts/runtime.log" />
+        <option value="$PROJECT_DIR$/scripts/remove_file.py" />
       </list>
     </option>
   </component>
@@ -132,10 +142,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="32" />
-    <option name="y" value="243" />
-    <option name="width" value="1802" />
-    <option name="height" value="996" />
+    <option name="x" value="223" />
+    <option name="y" value="54" />
+    <option name="width" value="2043" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -164,7 +174,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/playgrounds/untitled3" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -183,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.testcookie">
+  <component name="RunManager" selected="Python.remove_file">
     <configuration name="con" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pypgadmin" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -203,7 +213,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="disagreement_without_images" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="remove_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pypgadmin" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -216,7 +226,26 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/disagreement_without_images.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/remove_file.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test_log" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pypgadmin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/test_log.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -236,25 +265,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/testcookie.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="truy_xuat_mot_nguoi" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pypgadmin" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/truy_xuat_mot_nguoi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -280,19 +290,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.disagreement_without_images" />
-      <item itemvalue="Python.truy_xuat_mot_nguoi" />
       <item itemvalue="Python.con" />
       <item itemvalue="Python.upload_file_demo" />
       <item itemvalue="Python.testcookie" />
+      <item itemvalue="Python.test_log" />
+      <item itemvalue="Python.remove_file" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.remove_file" />
+        <item itemvalue="Python.test_log" />
         <item itemvalue="Python.testcookie" />
         <item itemvalue="Python.upload_file_demo" />
         <item itemvalue="Python.con" />
-        <item itemvalue="Python.truy_xuat_mot_nguoi" />
-        <item itemvalue="Python.disagreement_without_images" />
       </list>
     </recent_temporary>
   </component>
@@ -310,30 +320,30 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="32" y="243" width="1802" height="996" extended-state="0" />
+    <frame x="223" y="54" width="2043" height="1053" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.21234019" side_tool="true" weight="0.27234638" />
-      <window_info anchor="right" x="0" y="0" width="364" height="796" id="Documentation" order="6" side_tool="true" visible="true" weight="0.06521739" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32857144" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32908162" />
-      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.7876598" weight="0.27142859" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.5458588" weight="0.30238095" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20995423" />
+      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.7876598" weight="0.33333334" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32853404" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.5458588" weight="0.3062678" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2850679" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8134747" weight="0.42261904" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.8134747" visible="true" weight="0.38795987" />
       <window_info anchor="bottom" id="Salesforce" order="11" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Debug Logs" order="11" />
+      <window_info anchor="right" x="0" y="0" width="364" height="720" id="Documentation" order="6" side_tool="true" weight="0.4179663" />
       <window_info anchor="bottom" id="Execute Anonymous" order="11" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -341,32 +351,32 @@
       <window_info anchor="right" id="Data View" order="5" weight="0.3298071" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" x="0" y="0" width="364" height="763" id="Documentation" order="6" side_tool="true" weight="0.44580323" />
       <window_info anchor="bottom" id="Salesforce" order="12" />
-      <window_info anchor="bottom" id="Debug Logs" order="15" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32908162" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32853404" />
+      <window_info anchor="bottom" id="Debug Logs" order="15" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Data View" order="5" weight="0.3298071" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24641298" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32908162" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.176209" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8134747" weight="0.29864866" />
-      <window_info anchor="bottom" id="Execute Anonymous" order="14" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.5458588" weight="0.2788104" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.21234019" side_tool="true" visible="true" weight="0.27234638" />
+      <window_info anchor="right" id="Data View" order="5" weight="0.3298071" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" x="0" y="0" width="364" height="720" id="Documentation" order="6" side_tool="true" weight="0.4179663" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8134747" weight="0.4960733" />
+      <window_info anchor="bottom" id="Execute Anonymous" order="14" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.5458588" visible="true" weight="0.2814136" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.21234019" side_tool="true" weight="0.27234638" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.7876598" visible="true" weight="0.27234638" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.7876598" weight="0.27142859" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,28 +428,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/packages/pyad/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/ago/result.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/new.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/upload_file_omnivore2g2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-840" />
@@ -634,13 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/smartfile_test.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../log/apache2/error.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -689,20 +670,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/1.11_0/background.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/1.11_0/contentscript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/1.11_0/background.js" />
+    <entry file="file://$USER_HOME$/Downloads/1.11_0/contentscript.js" />
     <entry file="file:///usr/local/lib/python3.6/dist-packages/pyadmin/login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -724,21 +693,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/cron_test.py" />
     <entry file="file://$PROJECT_DIR$/scripts/testcookie.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3686">
-          <caret line="289" column="1" selection-start-line="289" selection-start-column="1" selection-end-line="289" selection-end-column="1" />
-          <folding>
-            <element signature="e#24#53#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="620">
+          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../log/pyadmin/runtime.log">
+    <entry file="file://$PROJECT_DIR$/smartfile_test.log" />
+    <entry file="file://$PROJECT_DIR$/scripts/cron_test.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/smartfile_test.log" />
+    <entry file="file://$PROJECT_DIR$/scripts/test_log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" lean-forward="true" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/runtime.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../log/pyadmin/test2.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/scripts/remove_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

@@ -35,7 +35,7 @@ try:
 finally:
     connection.close()
 
-time_waits = [10, 5, 7]
+time_waits = [2,3,5]
 
 
 
