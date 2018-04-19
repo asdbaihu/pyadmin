@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="897b6eec-0177-403c-9ed8-b290c520ec9a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/cron_test.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/remove_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/auto_convert_image_not_ask_day.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/pool.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/smartfile_test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/convert_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/convert_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/disagreement_without_images.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/disagreement_without_images.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/export_excel_without_images.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/export_excel_without_images.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/find_disagreement_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/find_disagreement_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/find_duplicated_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/find_duplicated_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/remove_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/remove_file.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/testcookie.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/testcookie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/truy_xuat_mot_nguoi.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/truy_xuat_mot_nguoi.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,43 +24,124 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/pyadmin$console.coverage" NAME="console Coverage Results" MODIFIED="1521601915001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/pyadmin$disagreement_without_images.coverage" NAME="disagreement_without_images Coverage Results" MODIFIED="1522899278869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/pyadmin$upload_file_demo.coverage" NAME="upload_file_demo Coverage Results" MODIFIED="1522987612088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/pyadmin$convert_image.coverage" NAME="convert_image Coverage Results" MODIFIED="1521794516060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/pyadmin$export_excel_without_images.coverage" NAME="export_excel_without_images Coverage Results" MODIFIED="1521798453216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/pyadmin$disagreement_without_images.coverage" NAME="disagreement_without_images Coverage Results" MODIFIED="1523506608790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/pyadmin$convert_image.coverage" NAME="convert_image Coverage Results" MODIFIED="1524047505235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/pyadmin$new.coverage" NAME="new Coverage Results" MODIFIED="1521255386290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/pyadmin$truy_xuat_mot_nguoi.coverage" NAME="truy_xuat_mot_nguoi Coverage Results" MODIFIED="1522911577796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/pyadmin$export_excel.coverage" NAME="export_excel Coverage Results" MODIFIED="1521616797644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/pyadmin$testcookie.coverage" NAME="testcookie Coverage Results" MODIFIED="1523256499350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/pyadmin$export_excel_without_images.coverage" NAME="export_excel_without_images Coverage Results" MODIFIED="1523506790370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/pyadmin$truy_xuat_mot_nguoi.coverage" NAME="truy_xuat_mot_nguoi Coverage Results" MODIFIED="1523530028900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/pyadmin$export_excel.coverage" NAME="export_excel Coverage Results" MODIFIED="1523508121778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/pyadmin$testcookie.coverage" NAME="testcookie Coverage Results" MODIFIED="1523585687363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/pyadmin$test_log.coverage" NAME="test_log Coverage Results" MODIFIED="1523261970844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/pyadmin$remove_file.coverage" NAME="remove_file Coverage Results" MODIFIED="1523269830739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/pyadmin$find_duplicated_image.coverage" NAME="find_duplicated_image Coverage Results" MODIFIED="1522376087757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/pyadmin$find_disagreement_image.coverage" NAME="find_disagreement_image Coverage Results" MODIFIED="1521800007782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/pyadmin$remove_file.coverage" NAME="remove_file Coverage Results" MODIFIED="1523507935534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/pyadmin$find_duplicated_image.coverage" NAME="find_duplicated_image Coverage Results" MODIFIED="1523507583078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/pyadmin$auto_convert_image_not_ask_day.coverage" NAME="auto_convert_image_not_ask_day Coverage Results" MODIFIED="1524048420678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/pyadmin$pool.coverage" NAME="pool Coverage Results" MODIFIED="1523342798305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/pyadmin$find_disagreement_image.coverage" NAME="find_disagreement_image Coverage Results" MODIFIED="1524049029129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/pyadmin$con.coverage" NAME="con Coverage Results" MODIFIED="1522915955744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="test_log.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/test_log.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" lean-forward="true" selection-end-line="11" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="remove_file.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="remove_file.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/remove_file.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="1076">
+              <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+              <folding>
+                <element signature="e#28#64#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="runtime.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/runtime.log">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="truy_xuat_mot_nguoi.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/truy_xuat_mot_nguoi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="63" column="43" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
+              <folding>
+                <element signature="e#15#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testcookie.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/testcookie.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="34" column="216" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="216" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auto_convert_image_not_ask_day.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/auto_convert_image_not_ask_day.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-780">
+              <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="convert_image.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/convert_image.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="68" column="42" lean-forward="true" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
+              <folding>
+                <element signature="e#22#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cron_test.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/cron_test.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="disagreement_without_images.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/disagreement_without_images.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="66" column="43" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="export_excel_without_images.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/export_excel_without_images.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="67" column="43" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="find_disagreement_image.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/find_disagreement_image.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="65" column="43" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="find_duplicated_image.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/find_duplicated_image.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1569">
+              <caret line="65" column="43" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -102,13 +188,7 @@
         <option value="$USER_HOME$/Downloads/googleq-20180323T014734Z-001/googleq/load/test" />
         <option value="$PROJECT_DIR$/login.py" />
         <option value="$PROJECT_DIR$/login_form.py" />
-        <option value="$PROJECT_DIR$/scripts/find_disagreement_image.py" />
-        <option value="$PROJECT_DIR$/scripts/find_duplicated_image.py" />
-        <option value="$PROJECT_DIR$/scripts/export_excel_without_images.py" />
-        <option value="$PROJECT_DIR$/scripts/disagreement_without_images.py" />
         <option value="$USER_HOME$/Downloads/Title_black/Title1_10/manifest.json" />
-        <option value="$PROJECT_DIR$/scripts/truy_xuat_mot_nguoi.py" />
-        <option value="$PROJECT_DIR$/scripts/convert_image.py" />
         <option value="$PROJECT_DIR$/scripts/concurrent.py" />
         <option value="$PROJECT_DIR$/scripts/con.py" />
         <option value="$PROJECT_DIR$/scripts/fu.py" />
@@ -121,17 +201,28 @@
         <option value="$PROJECT_DIR$/control/admin.py" />
         <option value="$USER_HOME$/Downloads/1.11_0/contentscript.js" />
         <option value="$USER_HOME$/Downloads/1.11_0/background.js" />
-        <option value="$USER_HOME$/Downloads/1.12_0/manifest.json" />
         <option value="$USER_HOME$/Downloads/1.12_0/contentscript.js" />
         <option value="$PROJECT_DIR$/../../../log/pyadmin/runtime.log" />
         <option value="$PROJECT_DIR$/../../../log/pyadmin/test2.py" />
-        <option value="$PROJECT_DIR$/scripts/testcookie.py" />
         <option value="$PROJECT_DIR$/scripts/cron_test.py" />
         <option value="$PROJECT_DIR$/scripts/cron_test.sh" />
         <option value="$PROJECT_DIR$/scripts/smartfile_test.log" />
         <option value="$PROJECT_DIR$/scripts/test_log.py" />
         <option value="$PROJECT_DIR$/scripts/runtime.log" />
+        <option value="$USER_HOME$/Downloads/1.12_0/manifest.json" />
+        <option value="$PROJECT_DIR$/scripts/pool.py" />
+        <option value="$USER_HOME$/Downloads/1.13_0/contentscript.js" />
+        <option value="$USER_HOME$/Downloads/1.13_0/background.js" />
+        <option value="$PROJECT_DIR$/scripts/testcookie.py" />
+        <option value="$PROJECT_DIR$/scripts/test_google_com1.py" />
+        <option value="$PROJECT_DIR$/scripts/auto_convert_image_not_ask_day.py" />
+        <option value="$PROJECT_DIR$/scripts/convert_image.py" />
+        <option value="$PROJECT_DIR$/scripts/truy_xuat_mot_nguoi.py" />
+        <option value="$PROJECT_DIR$/scripts/disagreement_without_images.py" />
+        <option value="$PROJECT_DIR$/scripts/export_excel_without_images.py" />
         <option value="$PROJECT_DIR$/scripts/remove_file.py" />
+        <option value="$PROJECT_DIR$/scripts/find_disagreement_image.py" />
+        <option value="$PROJECT_DIR$/scripts/find_duplicated_image.py" />
       </list>
     </option>
   </component>
@@ -142,16 +233,17 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="223" />
-    <option name="y" value="54" />
-    <option name="width" value="2043" />
-    <option name="height" value="1053" />
+    <option name="x" value="81" />
+    <option name="y" value="123" />
+    <option name="width" value="1524" />
+    <option name="height" value="821" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,12 +260,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/playgrounds/untitled3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -193,8 +284,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.remove_file">
-    <configuration name="con" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.find_disagreement_image">
+    <configuration name="auto_convert_image_not_ask_day" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pypgadmin" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -207,13 +298,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/con.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/auto_convert_image_not_ask_day.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="remove_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="convert_image" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pypgadmin" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -226,13 +317,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/remove_file.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/convert_image.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test_log" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="find_disagreement_image" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pypgadmin" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -245,7 +336,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/test_log.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/find_disagreement_image.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -270,7 +361,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="upload_file_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="truy_xuat_mot_nguoi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pypgadmin" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -283,26 +374,26 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/upload_file_demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/truy_xuat_mot_nguoi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.con" />
-      <item itemvalue="Python.upload_file_demo" />
+      <item itemvalue="Python.truy_xuat_mot_nguoi" />
+      <item itemvalue="Python.auto_convert_image_not_ask_day" />
       <item itemvalue="Python.testcookie" />
-      <item itemvalue="Python.test_log" />
-      <item itemvalue="Python.remove_file" />
+      <item itemvalue="Python.convert_image" />
+      <item itemvalue="Python.find_disagreement_image" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.remove_file" />
-        <item itemvalue="Python.test_log" />
+        <item itemvalue="Python.find_disagreement_image" />
+        <item itemvalue="Python.auto_convert_image_not_ask_day" />
+        <item itemvalue="Python.convert_image" />
         <item itemvalue="Python.testcookie" />
-        <item itemvalue="Python.upload_file_demo" />
-        <item itemvalue="Python.con" />
+        <item itemvalue="Python.truy_xuat_mot_nguoi" />
       </list>
     </recent_temporary>
   </component>
@@ -320,23 +411,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="223" y="54" width="2043" height="1053" extended-state="0" />
-    <editor active="true" />
+    <frame x="81" y="123" width="1524" height="821" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.21234019" side_tool="true" weight="0.27234638" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32908162" />
-      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.7876598" weight="0.33333334" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32853404" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.5458588" weight="0.3062678" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2850679" />
+      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.7876598" weight="0.3972789" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3265306" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.5458588" weight="0.30546266" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4292517" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.8134747" visible="true" weight="0.38795987" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8134747" weight="0.37605804" />
       <window_info anchor="bottom" id="Salesforce" order="11" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -352,31 +442,31 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Salesforce" order="12" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32853404" />
       <window_info anchor="bottom" id="Debug Logs" order="15" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24641298" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1717621" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3278272" />
+      <window_info anchor="right" id="Data View" order="5" weight="0.3298071" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32908162" />
-      <window_info anchor="right" id="Data View" order="5" weight="0.3298071" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.7876598" weight="0.22899505" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" x="0" y="0" width="364" height="720" id="Documentation" order="6" side_tool="true" weight="0.4179663" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8134747" weight="0.4960733" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Execute Anonymous" order="14" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.5458588" visible="true" weight="0.2814136" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.21234019" side_tool="true" weight="0.27234638" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.5458588" weight="0.30546266" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.8134747" visible="true" weight="0.41824248" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.7876598" weight="0.27142859" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.21234019" side_tool="true" weight="0.27234638" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,10 +479,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/scripts/find_duplicated_image.py</url>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/scripts/upload_file_omnivore2.py</url>
           <line>9</line>
           <option name="timeStamp" value="18" />
@@ -402,6 +488,46 @@
           <line>48</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scripts/testcookie.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scripts/testcookie.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scripts/testcookie.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scripts/testcookie.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scripts/testcookie.py</url>
+          <line>298</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scripts/testcookie.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scripts/testcookie.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scripts/convert_image.py</url>
+          <line>145</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -410,13 +536,31 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="26" />
+      <option name="time" value="50" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>import re 
+re.match (r'[0-9]',table[0])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>rs</expression-string>
+        <expression-string>s.cookies.get_dict()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>row['cookies']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>rows.__next__()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -425,33 +569,34 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
+      <expression>
+        <expression-string>table_names.__next__()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>import re; re.match (r'[0-9]',table[0])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>import re; re.sub (r'\D',&quot;&quot;,table[0])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>table[0].split(&quot;_20&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>table[0].split(&quot;_&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scripts/upload_file_omnivore2g2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-840" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/upload_file_omnivore2g.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1140" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/upload_files_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/playgrounds/untitled3/convert_image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/console.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -501,13 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/export_excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/login_form.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1300">
@@ -522,35 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/find_disagreement_image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2256">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/find_duplicated_image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3560">
-          <caret line="180" column="21" selection-start-line="180" selection-start-column="21" selection-end-line="180" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <marker date="1522752776883" expanded="true" signature="1760:1846" ph="select table... pg_tables" />
-            <marker date="1522752776883" expanded="true" signature="1760:1933" ph="select table... pg_tables" />
-            <marker date="1522752776883" expanded="true" signature="2094:2118" ph="drop table m... " />
-            <marker date="1522752776883" expanded="true" signature="2104:2118" ph="delete from master_table_missing_value... " />
-            <marker date="1522752776883" expanded="true" signature="2284:2470" ph="create table... master_table" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/export_excel_without_images.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2060">
-          <caret line="107" column="21" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/Title_black/Title/manifest.json" />
     <entry file="file://$USER_HOME$/Downloads/Title_black/Title1_10/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -560,28 +669,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/concurrent.py" />
-    <entry file="file://$PROJECT_DIR$/scripts/convert_image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1960">
-          <caret line="100" column="37" selection-start-line="100" selection-start-column="36" selection-end-line="100" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/1.9_0/contentscript.js" />
-    <entry file="file://$PROJECT_DIR$/scripts/disagreement_without_images.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="118" column="41" selection-start-line="118" selection-start-column="41" selection-end-line="118" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/truy_xuat_mot_nguoi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/upload_file_omnivore2z.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-960" />
@@ -629,11 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/ago/result_aa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/ago/result_cu.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-228" />
@@ -679,29 +762,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/1.12_0/contentscript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2171">
-          <caret line="295" column="58" lean-forward="true" selection-start-line="295" selection-start-column="58" selection-end-line="295" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/1.12_0/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/cron_test.py" />
-    <entry file="file://$PROJECT_DIR$/scripts/testcookie.py">
+    <entry file="file://$PROJECT_DIR$/smartfile_test.log" />
+    <entry file="file://$PROJECT_DIR$/scripts/smartfile_test.log" />
+    <entry file="file://$USER_HOME$/Downloads/1.12_0/contentscript.js" />
+    <entry file="file://$USER_HOME$/Downloads/1.12_0/manifest.json" />
+    <entry file="file://$USER_HOME$/Downloads/1.13_0/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/pool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/1.13_0/background.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/1.13_0/contentscript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="311" column="44" selection-start-line="311" selection-start-column="44" selection-end-line="311" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/export_excel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
-          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smartfile_test.log" />
+    <entry file="file://$PROJECT_DIR$/scripts/ago/result_aa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="29" column="101" lean-forward="true" selection-start-line="29" selection-start-column="101" selection-end-line="29" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/testcookie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="34" column="216" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="216" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/auto_convert_image_not_ask_day.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-780">
+          <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/cron_test.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -709,21 +837,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/smartfile_test.log" />
-    <entry file="file://$PROJECT_DIR$/scripts/test_log.py">
+    <entry file="file://$PROJECT_DIR$/scripts/convert_image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" lean-forward="true" selection-end-line="11" selection-end-column="44" />
+        <state relative-caret-position="291">
+          <caret line="68" column="42" lean-forward="true" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
+          <folding>
+            <element signature="e#22#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/runtime.log">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/scripts/disagreement_without_images.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="66" column="43" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/export_excel_without_images.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="67" column="43" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/find_disagreement_image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="65" column="43" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/find_duplicated_image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1569">
+          <caret line="65" column="43" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/remove_file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="1076">
+          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+          <folding>
+            <element signature="e#28#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/truy_xuat_mot_nguoi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="63" column="43" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
+          <folding>
+            <element signature="e#15#34#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

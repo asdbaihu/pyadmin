@@ -63,7 +63,7 @@ if day !='':
 
 #tao folder chua images:
 
-image_path = '/usr/local/www/apache24/images'
+image_path = '/usr/local/www/apache24/data/images'
 data_path = '/usr/local/www/apache24/data/data'
 
 if not os.path.exists(image_path):
@@ -78,7 +78,7 @@ conn = getConnection()
 cur = conn.cursor()
 
 cur.execute("select tablename from pg_tables where schemaname='public' and tablename ilike '%%%s%%'  and not tablename ilike '%%master_table%%' and not tablename ilike '%%disagreement%%'" % today)
-table_names = cur.fetchall()
+table_names = iter(cur.fetchall())
 conn.commit()
 cur.close()
 conn.close()
@@ -121,16 +121,18 @@ conn.commit()
 cur.close()
 conn.close()
 
-
-
-for table_name in table_names:
-    conn = getConnection()
-    cur = conn.cursor()
-    logging.info("table name : %s "%table_name)
-    cur.execute("""  insert into master_table_%s(id,agent,link,title,customize,variant_check,price_check,page_problem,price_detail,price,currency,condition,availability,cds_key,image,update_time) select id,agent,link,title,customize,variant_check,price_check,page_problem,price_detail,price,currency,condition,availability,cds_key, image,update_time from %s """%(today,table_name[0]))
-    conn.commit()
-    cur.close()
-    conn.close()
+while True:
+    try:
+        table_name = table_names.__next__()[0]
+        conn = getConnection()
+        cur = conn.cursor()
+        logging.info("table name : %s "%table_name)
+        cur.execute("""  insert into master_table_%s(id,agent,link,title,customize,variant_check,price_check,page_problem,price_detail,price,currency,condition,availability,cds_key,image,update_time) select id,agent,link,title,customize,variant_check,price_check,page_problem,price_detail,price,currency,condition,availability,cds_key, image,update_time from %s """%(today,table_name))
+        conn.commit()
+        cur.close()
+        conn.close()
+    except StopIteration:
+        break
 
 
 # delete table;

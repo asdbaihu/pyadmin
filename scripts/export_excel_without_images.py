@@ -65,7 +65,7 @@ if day =='':
 
 # image_path = '/var/www/html/images'
 # data_path = '/var/www/html/data'
-image_path = '/usr/local/www/apache24/images'
+image_path = '/usr/local/www/apache24/data/images'
 data_path = '/usr/local/www/apache24/data/excel_without_images'
 #d = '/usr/local/www/apache24/data'
 
@@ -81,28 +81,33 @@ conn = getConnection()
 cur = conn.cursor()
 
 cur.execute("select tablename from pg_tables where schemaname='public' and tablename ilike '%%%s%%'  and not tablename ilike '%%master_table%%' and not tablename ilike '%%disagreement%%'" % day)
-table_names = cur.fetchall()
+table_names = iter(cur.fetchall())
 conn.commit()
 cur.close()
 conn.close()
 
-for table_name in table_names:
-    conn = getConnection()
-    cur = conn.cursor()
-    cur.execute("select id,agent,link,title,customize,variant_check,price_check,page_problem,price_detail,price,currency,condition,availability,cds_key,update_time from %s"%table_name[0])
-    rows_excel = cur.fetchall()
-    conn.commit()
-    cur.close()
-    conn.close()
-    #logging.info(rows_excel)
-    size = 20000000
 
-    df = pd.DataFrame(rows_excel)
-    df.columns = ['Stt', 'Agent', 'Link','Title', 'Customize', 'VariantCheck','PriceCheck','PageProblem','PriceDetail', 'Price',
-                  'Currency', 'Condition', 'Availability','Cds_key','Time']
-    #filepath = join(dirname(dirname(__file__)), "data", "%s.xlsx"%table_name)
-    filepath ="%s/%s.xlsx"% (data_path,table_name[0])
-    df.to_excel(filepath.format(size), index=False)
+while True:
+    try:
+        table_name = table_names.__next__()[0]
+        conn = getConnection()
+        cur = conn.cursor()
+        cur.execute("select id,agent,link,title,customize,variant_check,price_check,page_problem,price_detail,price,currency,condition,availability,cds_key,update_time from %s"%table_name)
+        rows_excel = cur.fetchall()
+        conn.commit()
+        cur.close()
+        conn.close()
+        #logging.info(rows_excel)
+        size = 20000000
+
+        df = pd.DataFrame(rows_excel)
+        df.columns = ['Stt', 'Agent', 'Link','Title', 'Customize', 'VariantCheck','PriceCheck','PageProblem','PriceDetail', 'Price',
+                      'Currency', 'Condition', 'Availability','Cds_key','Time']
+        #filepath = join(dirname(dirname(__file__)), "data", "%s.xlsx"%table_name)
+        filepath ="%s/%s.xlsx"% (data_path,table_name[0])
+        df.to_excel(filepath.format(size), index=False)
+    except StopIteration:
+        break
 
 logging.info("tables: %s",str(table_names))
 logging.info("Done!")

@@ -6,6 +6,10 @@ import logging,time,pymysql.cursors
 # import urllib
 
 
+
+
+
+
 logging.basicConfig(
     filename='/var/log/pyadmin/runtime.log',
     format='%(levelname)s - %(filename)s - %(funcName)s - %(lineno)s - %(message)s',
@@ -35,7 +39,7 @@ try:
 finally:
     connection.close()
 
-time_waits = [2,3,5]
+time_waits = [5,7,10]
 
 
 
@@ -57,7 +61,7 @@ for row in rs:
 
     #print(d('#toolbarContainer'))
     soup = BeautifulSoup(r.content,'html.parser')
-    #print(s.cookies.get_dict()['c_user'])
+    print(s.cookies.get_dict())
     logging.info(s.cookies.get_dict())
     time.sleep(random.choice(time_waits))
 
@@ -292,7 +296,7 @@ cs1= """[
 
 
 
-#print(s.cookies.get_dict())
+print(s.cookies.get_dict())
 
 
 #print(soup.prettify())

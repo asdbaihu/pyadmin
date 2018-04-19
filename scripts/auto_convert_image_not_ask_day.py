@@ -18,11 +18,12 @@ month = datetime.today().month
 day = datetime.today().day
 today = '%s_%s_%s' % (year, month, day)
 
-print("Ngay can nhap theo dinh dang : nam_thang_ngay (2018_3_28")
-day = input("Moi ban nhap ngay : ")
+# print("Ngay can nhap theo dinh dang : nam_thang_ngay (2018_3_28")
+# day = input("Moi ban nhap ngay : ")
+#
+# if day !='':
+#     today = day
 
-if day !='':
-    today = day
 # for test case:
 # conn = getConnection()
 # cur = conn.cursor()

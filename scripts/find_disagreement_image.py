@@ -63,7 +63,7 @@ if day !='':
 
 #tao folder chua images:
 
-image_path = '/usr/local/www/apache24/images'
+image_path = '/usr/local/www/apache24/data/images'
 data_path = '/usr/local/www/apache24/data/data'
 
 if not os.path.exists(image_path):
@@ -78,7 +78,7 @@ conn = getConnection()
 cur = conn.cursor()
 
 cur.execute("select tablename from pg_tables where schemaname='public' and tablename ilike '%%%s%%' and not tablename ilike '%%master_table%%' and not tablename ilike '%%disagreement%%'" % today)
-table_names = cur.fetchall()
+table_names = iter(cur.fetchall())
 conn.commit()
 cur.close()
 conn.close()
@@ -122,14 +122,20 @@ cur.close()
 conn.close()
 
 
-for table_name in table_names:
-    conn = getConnection()
-    cur = conn.cursor()
-    logging.info("table name : %s "%table_name)
-    cur.execute("""  insert into master_table_%s(id,agent,link,title,customize,variant_check,price_check,page_problem,price_detail,price,currency,condition,availability,cds_key,img_data,image,update_time) select id,agent,link,title,customize,variant_check,price_check,page_problem,price_detail,price,currency,condition,availability,cds_key,img_data, image,update_time from %s """%(today,table_name[0]))
-    conn.commit()
-    cur.close()
-    conn.close()
+
+while True:
+    try:
+        table_name = table_names.__next__()[0]
+        conn = getConnection()
+        cur = conn.cursor()
+        logging.info("table name : %s "%table_name)
+        cur.execute("""  insert into master_table_%s(id,agent,link,title,customize,variant_check,price_check,page_problem,price_detail,price,currency,condition,availability,cds_key,img_data,image,update_time) select id,agent,link,title,customize,variant_check,price_check,page_problem,price_detail,price,currency,condition,availability,cds_key,img_data, image,update_time from %s """%(today,table_name))
+        conn.commit()
+        cur.close()
+        conn.close()
+    except StopIteration:
+        break
+
 
 # delete table;
 conn = getConnection()
@@ -163,29 +169,32 @@ conn = getConnection()
 cur = conn.cursor()
 logging.info("table name : %s " % table_name)
 cur.execute("select id,img_data from %s where img_data ilike '%%data:image%%' " % table_name)
-rows = cur.fetchall()
+rows = iter(cur.fetchall())
 conn.commit()
 cur.close()
 conn.close()
 
-for row in rows:
-    # logging.info("img_data : %s"%row[1])
-    img64 = row[1].replace('data:image/png;base64,', '')
-    data = img64.replace(" ", "+")
-    imgdata = base64.b64decode(data)
-    filename = '%s/%s_%s.jpg' % (
-    image_path, table_name, row[0])  # I assume you have a way of picking unique filenames
-    with open(filename, 'wb') as f:
-        f.write(imgdata)
 
-    conn = getConnection()
-    cur = conn.cursor()
+while True:
+    try:
+        row = rows.__next__()
+        # logging.info("img_data : %s"%row[1])
+        img64 = row[1].replace('data:image/png;base64,', '')
+        data = img64.replace(" ", "+")
+        imgdata = base64.b64decode(data)
+        filename = f'{image_path}/{table_name}_{row[0]}.jpg'  # I assume you have a way of picking unique filenames
+        with open(filename, 'wb') as f:
+            f.write(imgdata)
 
-    cur.execute("update %s set image ='http://172.16.23.7/images/%s_%s.jpg', img_data=null where id=%s " % (
-    table_name, table_name, row[0], row[0]))
-    conn.commit()
-    cur.close()
-    conn.close()
+        conn = getConnection()
+        cur = conn.cursor()
+
+        cur.execute(f"update {table_name} set image ='http://172.16.23.7/images/{table_name}_{row[0]}.jpg', img_data=null where id={row[0]} ")
+        conn.commit()
+        cur.close()
+        conn.close()
+    except StopIteration:
+        break
 
 
 
