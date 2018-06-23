@@ -58,7 +58,7 @@ gmail text,
 update_time timestamp default now());
 insert into user_report(agent) values('test');
 --create querysql table
-create table querysql
+create table if not exists querysql
 (id serial8 primary key,
 dowhat text,
 querysql text,
@@ -67,7 +67,7 @@ update_time timestamp default now());
 insert into querysql(dowhat) values('test');
 
 --create table list
-create table most_used_table(
+create table if not exists most_used_table(
 id serial8 primary key,
 tablename text,
 sqlcreated text,
@@ -75,7 +75,7 @@ update_time timestamp default now());
 insert into most_used_table(tablename) values('test');
 
 --create table settings
-create table settings(
+create table if not exists settings(
 id serial8 unique primary key,
 tablename text,
 dowhat text,
@@ -85,6 +85,11 @@ detail text,
 update_time timestamp default now());
 insert into settings(tablename) values('test');
 
-
+create table if not exists service_manager (
+id serial8 primary key,
+file text,
+service text,
+note text,
+update_time timestamp default now());
 
 

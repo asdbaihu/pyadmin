@@ -2,17 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="897b6eec-0177-403c-9ed8-b290c520ec9a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/auto_convert_image_not_ask_day.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/pool.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/convert_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/convert_image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/disagreement_without_images.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/disagreement_without_images.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/export_excel_without_images.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/export_excel_without_images.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/find_disagreement_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/find_disagreement_image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/find_duplicated_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/find_duplicated_image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/remove_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/remove_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/testcookie.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/testcookie.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/truy_xuat_mot_nguoi.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/truy_xuat_mot_nguoi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/handsontable.css" beforeDir="false" afterPath="$PROJECT_DIR$/js/handsontable.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/handsontable.full.css" beforeDir="false" afterPath="$PROJECT_DIR$/js/handsontable.full.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/handsontable.full.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/handsontable.full.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/handsontable.full.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/js/handsontable.full.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/handsontable.full.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/handsontable.full.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/handsontable.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/handsontable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/handsontable.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/handsontable.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/handsontable.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/js/handsontable.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/handsontable.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/handsontable.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/languages/all.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/languages/all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/languages/all.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/languages/all.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/languages/ja-JP.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/languages/ja-JP.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/languages/ja-JP.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/languages/ja-JP.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/languages/pl-PL.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/languages/pl-PL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/languages/pl-PL.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/languages/pl-PL.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/languages/pt-BR.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/languages/pt-BR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/languages/pt-BR.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/languages/pt-BR.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/setups/sql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/manager/setups/sql.sql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,12 +48,26 @@
     <SUITE FILE_PATH="coverage/pyadmin$find_disagreement_image.coverage" NAME="find_disagreement_image Coverage Results" MODIFIED="1524049029129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/pyadmin$con.coverage" NAME="con Coverage Results" MODIFIED="1522915955744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="remove_file.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/remove_file.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1076">
+            <state relative-caret-position="1100">
               <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
               <folding>
                 <element signature="e#28#64#0" expanded="true" />
@@ -54,10 +76,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="truy_xuat_mot_nguoi.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/control/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6000">
+              <caret line="302" column="28" selection-start-line="302" selection-start-column="28" selection-end-line="302" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="save_admin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/save/save_admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="truy_xuat_mot_nguoi.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/truy_xuat_mot_nguoi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
+            <state relative-caret-position="1260">
               <caret line="63" column="43" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
               <folding>
                 <element signature="e#15#34#0" expanded="true" />
@@ -66,29 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testcookie.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/testcookie.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="34" column="216" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="216" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auto_convert_image_not_ask_day.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/auto_convert_image_not_ask_day.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-780">
-              <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="convert_image.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="convert_image.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/convert_image.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="68" column="42" lean-forward="true" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
+            <state relative-caret-position="529">
+              <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
               <folding>
                 <element signature="e#22#41#0" expanded="true" />
               </folding>
@@ -96,19 +120,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cron_test.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/cron_test.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="disagreement_without_images.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/disagreement_without_images.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
+            <state relative-caret-position="1280">
               <caret line="66" column="43" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
             </state>
           </provider>
@@ -117,7 +132,7 @@
       <file leaf-file-name="export_excel_without_images.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/export_excel_without_images.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
+            <state relative-caret-position="1260">
               <caret line="67" column="43" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
             </state>
           </provider>
@@ -126,7 +141,7 @@
       <file leaf-file-name="find_disagreement_image.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/find_disagreement_image.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
+            <state relative-caret-position="1220">
               <caret line="65" column="43" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
             </state>
           </provider>
@@ -135,7 +150,7 @@
       <file leaf-file-name="find_duplicated_image.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/find_duplicated_image.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1569">
+            <state relative-caret-position="1300">
               <caret line="65" column="43" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -223,6 +238,7 @@
         <option value="$PROJECT_DIR$/scripts/remove_file.py" />
         <option value="$PROJECT_DIR$/scripts/find_disagreement_image.py" />
         <option value="$PROJECT_DIR$/scripts/find_duplicated_image.py" />
+        <option value="$PROJECT_DIR$/manager/setups/sql.sql" />
       </list>
     </option>
   </component>
@@ -232,7 +248,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/Chart/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="81" />
     <option name="y" value="123" />
     <option name="width" value="1524" />
@@ -243,7 +264,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -254,12 +274,24 @@
             <path>
               <item name="pyadmin" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyadmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyadmin" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+              <item name="setups" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyadmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyadmin" type="462c0819:PsiDirectoryNode" />
+              <item name="save" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -411,22 +443,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="81" y="123" width="1524" height="821" extended-state="0" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.21234019" side_tool="true" weight="0.27234638" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3265306" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32908162" />
       <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.7876598" weight="0.3972789" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3265306" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.5458588" weight="0.30546266" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4292517" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.5458588" visible="true" weight="0.3047831" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13952196" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8134747" weight="0.37605804" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Salesforce" order="11" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -446,14 +479,14 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1717621" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3278272" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Data View" order="5" weight="0.3298071" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32908162" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.7876598" weight="0.22899505" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" x="0" y="0" width="364" height="720" id="Documentation" order="6" side_tool="true" weight="0.4179663" />
       <window_info anchor="right" id="Database" order="3" />
@@ -461,12 +494,12 @@
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.5458588" weight="0.30546266" />
       <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.8134747" visible="true" weight="0.41824248" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32908162" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.21234019" side_tool="true" weight="0.27234638" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.7876598" weight="0.22899505" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -597,20 +630,6 @@ re.match (r'[0-9]',table[0])</expression-string>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scripts/console.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" selection-start-line="3" selection-end-line="21" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda2/envs/pyadmin/lib/python3.6/os.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="224" selection-start-line="224" selection-end-line="224" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/aa/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -727,13 +746,6 @@ re.match (r'[0-9]',table[0])</expression-string>
         <state relative-caret-position="-840" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/control/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14100">
-          <caret line="705" selection-start-line="705" selection-end-line="705" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/load/load_admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1080" />
@@ -825,7 +837,7 @@ re.match (r'[0-9]',table[0])</expression-string>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/auto_convert_image_not_ask_day.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-780">
+        <state relative-caret-position="1320">
           <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
         </state>
       </provider>
@@ -833,44 +845,34 @@ re.match (r'[0-9]',table[0])</expression-string>
     <entry file="file://$PROJECT_DIR$/scripts/cron_test.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/convert_image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="68" column="42" lean-forward="true" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
-          <folding>
-            <element signature="e#22#41#0" expanded="true" />
-          </folding>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/disagreement_without_images.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
+        <state relative-caret-position="1280">
           <caret line="66" column="43" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/export_excel_without_images.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
+        <state relative-caret-position="1260">
           <caret line="67" column="43" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/find_disagreement_image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
+        <state relative-caret-position="1220">
           <caret line="65" column="43" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/find_duplicated_image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1569">
+        <state relative-caret-position="1300">
           <caret line="65" column="43" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
@@ -880,7 +882,7 @@ re.match (r'[0-9]',table[0])</expression-string>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/remove_file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1076">
+        <state relative-caret-position="1100">
           <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
           <folding>
             <element signature="e#28#64#0" expanded="true" />
@@ -888,12 +890,45 @@ re.match (r'[0-9]',table[0])</expression-string>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/control/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6000">
+          <caret line="302" column="28" selection-start-line="302" selection-start-column="28" selection-end-line="302" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/save/save_admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/truy_xuat_mot_nguoi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
+        <state relative-caret-position="1260">
           <caret line="63" column="43" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
           <folding>
             <element signature="e#15#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/setups/sql.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="69" column="27" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/convert_image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
+          <folding>
+            <element signature="e#22#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
